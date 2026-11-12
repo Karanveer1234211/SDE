@@ -1,0 +1,1261 @@
+scan_date,setup,name,status,trade_id,engine,rank,symbol,signal_day,next_watch_day,close_tonight,rule_at_open,open_threshold,entered_day,entry_date,entry,mark_pct,atr_source,primary_exit
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-1,D,1,KPEL,2026-10-26,,168.7,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-1,ENS,1,SUYOG,2026-10-26,,501.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-2,D,2,SUYOG,2026-10-26,,501.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-2,ENS,2,KPEL,2026-10-26,,168.7,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-3,D,3,AGIIL,2026-10-26,,300.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-3,ENS,3,AGIIL,2026-10-26,,300.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-4,D,4,CREDITACC,2026-10-26,,1089.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-4,ENS,4,SMLMAH,2026-10-26,,5251.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-5,D,5,HEG,2026-10-26,,297.55,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-5,ENS,5,MUTHOOTMF,2026-10-26,,157.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-6,D,6,EMUDHRA,2026-10-26,,369.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-6,ENS,6,CREDITACC,2026-10-26,,1089.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-7,D,7,SMLMAH,2026-10-26,,5251.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-7,ENS,7,FCL,2026-10-26,,51.69,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-8,D,8,BAJAJCON,2026-10-26,,396.99999999999994,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-8,ENS,8,NACLIND,2026-10-26,,117.70999999999998,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-9,D,9,DYCL,2026-10-26,,373.1,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-9,ENS,9,AGARIND,2026-10-26,,394.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261026-10,D,10,FCL,2026-10-26,,51.69,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261026-10,ENS,10,RICOAUTO,2026-10-26,,98.49,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-1,D,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-1,ENS,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-2,D,2,CENTENKA,2026-10-27,,443.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-2,ENS,2,SUMICHEM,2026-10-27,,329.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-3,D,3,M&MFIN,2026-10-27,,281.85,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-3,ENS,3,SUYOG,2026-10-27,,501.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-4,D,4,SUMICHEM,2026-10-27,,329.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-4,ENS,4,M&MFIN,2026-10-27,,281.85,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-5,D,5,RGL,2026-10-27,,145.39,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-5,ENS,5,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-6,D,6,MSTCLTD,2026-10-27,,590.95,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-6,ENS,6,AWHCL,2026-10-27,,306.95,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-7,D,7,YESBANK,2026-10-27,,17.25,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-7,ENS,7,MSTCLTD,2026-10-27,,590.95,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-8,D,8,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-8,ENS,8,BAJAJCON,2026-10-27,,397.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-9,D,9,SUYOG,2026-10-27,,501.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-9,ENS,9,CAPACITE,2026-10-27,,181.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261027-10,D,10,KIRLPNU,2026-10-27,,609.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261027-10,ENS,10,NACLIND,2026-10-27,,117.71,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261029-1,D,1,SUMICHEM,2026-10-29,,329.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,ENTERED,ENS-20261029-1,ENS,1,CONFIPET,2026-10-29,,60.25,,,3,2026-11-03,60.61000000000001,-0.5939613925095011,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,ENTERED,D-20261029-2,D,2,CONFIPET,2026-10-29,,60.25,,,3,2026-11-03,60.61000000000001,-0.5939613925095011,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261029-2,ENS,2,SUMICHEM,2026-10-29,,329.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261029-3,D,3,MUTHOOTMF,2026-10-29,,157.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261029-3,ENS,3,SUYOG,2026-10-29,,501.90000000000003,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,ENTERED,D-20261029-4,D,4,RRKABEL,2026-10-29,,1919.0,,,3,2026-11-03,1969.9999999999998,-2.5888324873096336,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261029-4,ENS,4,APCOTEXIND,2026-10-29,,485.05,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261029-5,D,5,APCOTEXIND,2026-10-29,,485.05,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261029-5,ENS,5,DYCL,2026-10-29,,373.1,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261029-6,D,6,GENESYS,2026-10-29,,185.3,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261029-6,ENS,6,MVGJL,2026-10-29,,174.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261029-7,D,7,STYLAMIND,2026-10-29,,3147.9999999999995,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261029-7,ENS,7,MUTHOOTMF,2026-10-29,,157.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261029-8,D,8,YESBANK,2026-10-29,,17.25,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261029-8,ENS,8,GENESYS,2026-10-29,,185.3,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261029-9,D,9,OAL,2026-10-29,,497.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261029-9,ENS,9,NELCO,2026-10-29,,729.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261029-10,D,10,AWHCL,2026-10-29,,306.95,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261029-10,ENS,10,RAYMONDLSL,2026-10-29,,531.05,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-1,D,1,CONFIPET,2026-10-30,,60.25,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-1,ENS,1,CONFIPET,2026-10-30,,60.25,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-2,D,2,YATRA,2026-10-30,,77.55,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-2,ENS,2,GENESYS,2026-10-30,,185.3,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-3,D,3,GENESYS,2026-10-30,,185.3,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-3,ENS,3,YATRA,2026-10-30,,77.55,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-4,D,4,REDINGTON,2026-10-30,,328.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-4,ENS,4,SUYOG,2026-10-30,,501.90000000000003,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-5,D,5,AEGISLOG,2026-10-30,,1140.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-5,ENS,5,MUTHOOTMF,2026-10-30,,157.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-6,D,6,VISHNU,2026-10-30,,556.95,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-6,ENS,6,SUMICHEM,2026-10-30,,329.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-7,D,7,SUYOG,2026-10-30,,501.90000000000003,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-7,ENS,7,NELCO,2026-10-30,,729.8999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-8,D,8,IFCI,2026-10-30,,61.29999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-8,ENS,8,FUSION,2026-10-30,,154.99,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-9,D,9,MUTHOOTMF,2026-10-30,,157.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-9,ENS,9,MANINDS,2026-10-30,,800.35,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261030-10,D,10,FUSION,2026-10-30,,154.99,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261030-10,ENS,10,AEGISLOG,2026-10-30,,1140.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-1,D,1,POLICYBZR,2026-11-02,5,964.6999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-1,ENS,1,RRKABEL,2026-11-02,5,1919.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-2,D,2,RRKABEL,2026-11-02,5,1919.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-2,ENS,2,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-3,D,3,CENTENKA,2026-11-02,5,443.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-3,ENS,3,CONFIPET,2026-11-02,5,60.25,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-4,D,4,SSWL,2026-11-02,5,538.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-4,ENS,4,GENESYS,2026-11-02,5,185.30000000000004,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-5,D,5,HIRECT,2026-11-02,5,937.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-5,ENS,5,HIRECT,2026-11-02,5,937.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-6,D,6,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-6,ENS,6,RAYMONDLSL,2026-11-02,5,531.05,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-7,D,7,SILVERBETA,2026-11-02,5,176.50000000000003,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-7,ENS,7,SSWL,2026-11-02,5,538.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-8,D,8,AXISILVER,2026-11-02,5,182.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-8,ENS,8,SILVER1,2026-11-02,5,17.78,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-9,D,9,SILVER,2026-11-02,5,182.85,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-9,ENS,9,SILVER,2026-11-02,5,182.85,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,D-20261102-10,D,10,SILVER1,2026-11-02,5,17.78,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,EXPIRED,ENS-20261102-10,ENS,10,SUMICHEM,2026-11-02,5,329.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-1,D,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-1,ENS,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-2,D,2,POLICYBZR,2026-11-03,4,964.7,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-2,ENS,2,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-3,D,3,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-3,ENS,3,AXISILVER,2026-11-03,4,182.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-4,D,4,SILVER1,2026-11-03,4,17.78,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-4,ENS,4,SILVER1,2026-11-03,4,17.78,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-5,D,5,TBZ,2026-11-03,4,599.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-5,ENS,5,SILVER,2026-11-03,4,182.85,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-6,D,6,AXISILVER,2026-11-03,4,182.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-6,ENS,6,HDFCSILVER,2026-11-03,4,174.84,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-7,D,7,HDFCSILVER,2026-11-03,4,174.84,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-7,ENS,7,ESILVER,2026-11-03,4,183.43,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-8,D,8,SILVER,2026-11-03,4,182.85,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-8,ENS,8,POLICYBZR,2026-11-03,4,964.7,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-9,D,9,ESILVER,2026-11-03,4,183.43,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-9,ENS,9,SILVERBETA,2026-11-03,4,176.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261103-10,D,10,SILVERBETA,2026-11-03,4,176.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261103-10,ENS,10,SILVERCASE,2026-11-03,4,18.52,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-1,D,1,FIVESTAR,2026-11-04,3,423.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-1,ENS,1,MTARTECH,2026-11-04,3,5449.75,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-2,D,2,KEC,2026-11-04,3,332.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-2,ENS,2,POLICYBZR,2026-11-04,3,964.7,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-3,D,3,MTARTECH,2026-11-04,3,5449.75,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-3,ENS,3,AIAENG,2026-11-04,3,3112.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-4,D,4,PREMEXPLN,2026-11-04,3,510.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-4,ENS,4,SUMICHEM,2026-11-04,3,329.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-5,D,5,POLICYBZR,2026-11-04,3,964.7,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-5,ENS,5,WEL,2026-11-04,3,75.19999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-6,D,6,WEL,2026-11-04,3,75.19999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-6,ENS,6,NELCO,2026-11-04,3,729.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-7,D,7,WEBELSOLAR,2026-11-04,3,71.59,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-7,ENS,7,FIVESTAR,2026-11-04,3,423.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-8,D,8,SALASAR,2026-11-04,3,4.25,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-8,ENS,8,KPEL,2026-11-04,3,168.7,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-9,D,9,GNFC,2026-11-04,3,451.1,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-9,ENS,9,NIITLTD,2026-11-04,3,71.05,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261104-10,D,10,RRKABEL,2026-11-04,3,1919.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261104-10,ENS,10,JBMA,2026-11-04,3,496.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-1,D,1,SALASAR,2026-11-05,2,4.25,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-1,ENS,1,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-2,D,2,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-2,ENS,2,MTARTECH,2026-11-05,2,5449.75,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-3,D,3,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-3,ENS,3,ANTELOPUS,2026-11-05,2,888.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-4,D,4,MTARTECH,2026-11-05,2,5449.75,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-4,ENS,4,SUMICHEM,2026-11-05,2,329.6000000000001,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-5,D,5,ABFRL,2026-11-05,2,39.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-5,ENS,5,NIITMTS,2026-11-05,2,169.95,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-6,D,6,SHAKTIPUMP,2026-11-05,2,349.1,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-6,ENS,6,POLICYBZR,2026-11-05,2,964.7,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-7,D,7,KEC,2026-11-05,2,332.8999999999999,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-7,ENS,7,KPEL,2026-11-05,2,168.7,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-8,D,8,EPACK,2026-11-05,2,156.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-8,ENS,8,PNCINFRA,2026-11-05,2,130.1,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-9,D,9,FINOPB,2026-11-05,2,121.31,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-9,ENS,9,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261105-10,D,10,HIMATSEIDE,2026-11-05,2,58.1,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261105-10,ENS,10,SALASAR,2026-11-05,2,4.25,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-1,D,1,OAL,2026-11-06,1,497.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-1,ENS,1,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-2,D,2,RRKABEL,2026-11-06,1,1919.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-2,ENS,2,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-3,D,3,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-3,ENS,3,ANUP,2026-11-06,1,1352.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-4,D,4,GNFC,2026-11-06,1,451.1,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-4,ENS,4,WELSPUNLIV,2026-11-06,1,241.6,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-5,D,5,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-5,ENS,5,NELCAST,2026-11-06,1,158.35,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-6,D,6,NETWEB,2026-11-06,1,3777.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-6,ENS,6,SBC,2026-11-06,1,68.55,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-7,D,7,APARINDS,2026-11-06,1,14140.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-7,ENS,7,MAMATA,2026-11-06,1,323.9,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-8,D,8,NELCAST,2026-11-06,1,158.35,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-8,ENS,8,ORIENTHOT,2026-11-06,1,175.31,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-9,D,9,EMIL,2026-11-06,1,144.31,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-9,ENS,9,UNOMINDA,2026-11-06,1,1325.1,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,D-20261106-10,D,10,SAILIFE,2026-11-06,1,1768.0,,,,,,,panel,original_d5
+2026-11-06,S1,Bad week + WQ-16 rising + 1-ATR dip,WATCHING,ENS-20261106-10,ENS,10,NETWEB,2026-11-06,1,3777.9,,,,,,,panel,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261026-1,D,1,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,ENS-20261026-1,ENS,1,SUYOG,2026-10-26,,501.9,,,1,2026-10-27,468.0,7.24358974358974,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,D-20261026-2,D,2,SUYOG,2026-10-26,,501.9,,,1,2026-10-27,468.0,7.24358974358974,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261026-2,ENS,2,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261026-3,D,3,AGIIL,2026-10-26,,300.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261026-3,ENS,3,AGIIL,2026-10-26,,300.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261026-4,D,4,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261026-4,ENS,4,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261026-5,D,5,HEG,2026-10-26,,297.55,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,ENS-20261026-5,ENS,5,MUTHOOTMF,2026-10-26,,157.0,,,1,2026-10-27,144.4,8.725761772853179,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,D-20261026-6,D,6,EMUDHRA,2026-10-26,,369.5,,,1,2026-10-27,315.0,17.301587301587308,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261026-6,ENS,6,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261026-7,D,7,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261026-7,ENS,7,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261026-8,D,8,BAJAJCON,2026-10-26,,396.99999999999994,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261026-8,ENS,8,NACLIND,2026-10-26,,117.70999999999998,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261026-9,D,9,DYCL,2026-10-26,,373.1,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261026-9,ENS,9,AGARIND,2026-10-26,,394.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261026-10,D,10,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261026-10,ENS,10,RICOAUTO,2026-10-26,,98.49,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261027-1,D,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-1,ENS,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,D-20261027-2,D,2,CENTENKA,2026-10-27,,443.5,,,5,2026-11-03,438.65,1.1056651088567238,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-2,ENS,2,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261027-3,D,3,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-3,ENS,3,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261027-4,D,4,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-4,ENS,4,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261027-5,D,5,RGL,2026-10-27,,145.39,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-5,ENS,5,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261027-6,D,6,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-6,ENS,6,AWHCL,2026-10-27,,306.95,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261027-7,D,7,YESBANK,2026-10-27,,17.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-7,ENS,7,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261027-8,D,8,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-8,ENS,8,BAJAJCON,2026-10-27,,397.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261027-9,D,9,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-9,ENS,9,CAPACITE,2026-10-27,,181.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261027-10,D,10,KIRLPNU,2026-10-27,,609.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261027-10,ENS,10,NACLIND,2026-10-27,,117.71,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-1,D,1,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-1,ENS,1,CONFIPET,2026-10-29,,60.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-2,D,2,CONFIPET,2026-10-29,,60.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-2,ENS,2,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-3,D,3,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-3,ENS,3,SUYOG,2026-10-29,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-4,D,4,RRKABEL,2026-10-29,,1919.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-4,ENS,4,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-5,D,5,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-5,ENS,5,DYCL,2026-10-29,,373.1,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-6,D,6,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-6,ENS,6,MVGJL,2026-10-29,,174.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-7,D,7,STYLAMIND,2026-10-29,,3147.9999999999995,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-7,ENS,7,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-8,D,8,YESBANK,2026-10-29,,17.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-8,ENS,8,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-9,D,9,OAL,2026-10-29,,497.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-9,ENS,9,NELCO,2026-10-29,,729.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261029-10,D,10,AWHCL,2026-10-29,,306.95,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261029-10,ENS,10,RAYMONDLSL,2026-10-29,,531.05,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-1,D,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-1,ENS,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-2,D,2,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-2,ENS,2,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-3,D,3,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-3,ENS,3,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-4,D,4,REDINGTON,2026-10-30,,328.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-4,ENS,4,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-5,D,5,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-5,ENS,5,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-6,D,6,VISHNU,2026-10-30,,556.95,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-6,ENS,6,SUMICHEM,2026-10-30,,329.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-7,D,7,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-7,ENS,7,NELCO,2026-10-30,,729.8999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-8,D,8,IFCI,2026-10-30,,61.29999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-8,ENS,8,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-9,D,9,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-9,ENS,9,MANINDS,2026-10-30,,800.35,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261030-10,D,10,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261030-10,ENS,10,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261102-1,D,1,POLICYBZR,2026-11-02,5,964.6999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261102-1,ENS,1,RRKABEL,2026-11-02,5,1919.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261102-2,D,2,RRKABEL,2026-11-02,5,1919.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261102-2,ENS,2,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,D-20261102-3,D,3,CENTENKA,2026-11-02,5,443.5,,,1,2026-11-03,438.65,1.1056651088567238,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261102-3,ENS,3,CONFIPET,2026-11-02,5,60.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261102-4,D,4,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261102-4,ENS,4,GENESYS,2026-11-02,5,185.30000000000004,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261102-5,D,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261102-5,ENS,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,D-20261102-6,D,6,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261102-6,ENS,6,RAYMONDLSL,2026-11-02,5,531.05,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,D-20261102-7,D,7,SILVERBETA,2026-11-02,5,176.50000000000003,,,1,2026-11-03,171.5,2.9154518950437414,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261102-7,ENS,7,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,D-20261102-8,D,8,AXISILVER,2026-11-02,5,182.0,,,1,2026-11-03,177.75,2.390998593530247,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,ENS-20261102-8,ENS,8,SILVER1,2026-11-02,5,17.78,,,1,2026-11-03,17.27,2.9530978575564637,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,D-20261102-9,D,9,SILVER,2026-11-02,5,182.85,,,1,2026-11-03,177.8,2.8402699662542163,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,ENS-20261102-9,ENS,9,SILVER,2026-11-02,5,182.85,,,1,2026-11-03,177.8,2.8402699662542163,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,ENTERED,D-20261102-10,D,10,SILVER1,2026-11-02,5,17.78,,,1,2026-11-03,17.27,2.9530978575564637,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,EXPIRED,ENS-20261102-10,ENS,10,SUMICHEM,2026-11-02,5,329.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-1,D,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-1,ENS,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-2,D,2,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-2,ENS,2,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-3,D,3,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-3,ENS,3,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-4,D,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-4,ENS,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-5,D,5,TBZ,2026-11-03,4,599.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-5,ENS,5,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-6,D,6,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-6,ENS,6,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-7,D,7,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-7,ENS,7,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-8,D,8,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-8,ENS,8,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-9,D,9,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-9,ENS,9,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261103-10,D,10,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261103-10,ENS,10,SILVERCASE,2026-11-03,4,18.52,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-1,D,1,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-1,ENS,1,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-2,D,2,KEC,2026-11-04,3,332.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-2,ENS,2,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-3,D,3,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-3,ENS,3,AIAENG,2026-11-04,3,3112.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-4,D,4,PREMEXPLN,2026-11-04,3,510.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-4,ENS,4,SUMICHEM,2026-11-04,3,329.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-5,D,5,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-5,ENS,5,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-6,D,6,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-6,ENS,6,NELCO,2026-11-04,3,729.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-7,D,7,WEBELSOLAR,2026-11-04,3,71.59,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-7,ENS,7,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-8,D,8,SALASAR,2026-11-04,3,4.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-8,ENS,8,KPEL,2026-11-04,3,168.7,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-9,D,9,GNFC,2026-11-04,3,451.1,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-9,ENS,9,NIITLTD,2026-11-04,3,71.05,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261104-10,D,10,RRKABEL,2026-11-04,3,1919.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261104-10,ENS,10,JBMA,2026-11-04,3,496.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-1,D,1,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-1,ENS,1,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-2,D,2,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-2,ENS,2,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-3,D,3,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-3,ENS,3,ANTELOPUS,2026-11-05,2,888.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-4,D,4,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-4,ENS,4,SUMICHEM,2026-11-05,2,329.6000000000001,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-5,D,5,ABFRL,2026-11-05,2,39.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-5,ENS,5,NIITMTS,2026-11-05,2,169.95,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-6,D,6,SHAKTIPUMP,2026-11-05,2,349.1,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-6,ENS,6,POLICYBZR,2026-11-05,2,964.7,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-7,D,7,KEC,2026-11-05,2,332.8999999999999,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-7,ENS,7,KPEL,2026-11-05,2,168.7,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-8,D,8,EPACK,2026-11-05,2,156.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-8,ENS,8,PNCINFRA,2026-11-05,2,130.1,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-9,D,9,FINOPB,2026-11-05,2,121.31,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-9,ENS,9,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261105-10,D,10,HIMATSEIDE,2026-11-05,2,58.1,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261105-10,ENS,10,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-1,D,1,OAL,2026-11-06,1,497.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-1,ENS,1,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-2,D,2,RRKABEL,2026-11-06,1,1919.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-2,ENS,2,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-3,D,3,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-3,ENS,3,ANUP,2026-11-06,1,1352.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-4,D,4,GNFC,2026-11-06,1,451.1,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-4,ENS,4,WELSPUNLIV,2026-11-06,1,241.6,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-5,D,5,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-5,ENS,5,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-6,D,6,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-6,ENS,6,SBC,2026-11-06,1,68.55,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-7,D,7,APARINDS,2026-11-06,1,14140.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-7,ENS,7,MAMATA,2026-11-06,1,323.9,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-8,D,8,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-8,ENS,8,ORIENTHOT,2026-11-06,1,175.31,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-9,D,9,EMIL,2026-11-06,1,144.31,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-9,ENS,9,UNOMINDA,2026-11-06,1,1325.1,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,D-20261106-10,D,10,SAILIFE,2026-11-06,1,1768.0,,,,,,,,original_d5
+2026-11-06,S2,Bad week + minus-DI 5-day change rising + gap down,WATCHING,ENS-20261106-10,ENS,10,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-1,D,1,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-1,ENS,1,SUYOG,2026-10-26,,501.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-2,D,2,SUYOG,2026-10-26,,501.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-2,ENS,2,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-3,D,3,AGIIL,2026-10-26,,300.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-3,ENS,3,AGIIL,2026-10-26,,300.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-4,D,4,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-4,ENS,4,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-5,D,5,HEG,2026-10-26,,297.55,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-5,ENS,5,MUTHOOTMF,2026-10-26,,157.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-6,D,6,EMUDHRA,2026-10-26,,369.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-6,ENS,6,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-7,D,7,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-7,ENS,7,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-8,D,8,BAJAJCON,2026-10-26,,396.99999999999994,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-8,ENS,8,NACLIND,2026-10-26,,117.70999999999998,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-9,D,9,DYCL,2026-10-26,,373.1,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-9,ENS,9,AGARIND,2026-10-26,,394.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261026-10,D,10,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261026-10,ENS,10,RICOAUTO,2026-10-26,,98.49,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-1,D,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-1,ENS,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-2,D,2,CENTENKA,2026-10-27,,443.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-2,ENS,2,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-3,D,3,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-3,ENS,3,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-4,D,4,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-4,ENS,4,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-5,D,5,RGL,2026-10-27,,145.39,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-5,ENS,5,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-6,D,6,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-6,ENS,6,AWHCL,2026-10-27,,306.95,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-7,D,7,YESBANK,2026-10-27,,17.25,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-7,ENS,7,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-8,D,8,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-8,ENS,8,BAJAJCON,2026-10-27,,397.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-9,D,9,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-9,ENS,9,CAPACITE,2026-10-27,,181.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261027-10,D,10,KIRLPNU,2026-10-27,,609.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261027-10,ENS,10,NACLIND,2026-10-27,,117.71,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261029-1,D,1,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,ENTERED,ENS-20261029-1,ENS,1,CONFIPET,2026-10-29,,60.25,,,3,2026-11-03,60.61000000000001,-0.5939613925095011,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,ENTERED,D-20261029-2,D,2,CONFIPET,2026-10-29,,60.25,,,3,2026-11-03,60.61000000000001,-0.5939613925095011,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261029-2,ENS,2,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261029-3,D,3,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261029-3,ENS,3,SUYOG,2026-10-29,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,ENTERED,D-20261029-4,D,4,RRKABEL,2026-10-29,,1919.0,,,3,2026-11-03,1969.9999999999998,-2.5888324873096336,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261029-4,ENS,4,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261029-5,D,5,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261029-5,ENS,5,DYCL,2026-10-29,,373.1,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261029-6,D,6,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261029-6,ENS,6,MVGJL,2026-10-29,,174.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261029-7,D,7,STYLAMIND,2026-10-29,,3147.9999999999995,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261029-7,ENS,7,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261029-8,D,8,YESBANK,2026-10-29,,17.25,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261029-8,ENS,8,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261029-9,D,9,OAL,2026-10-29,,497.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261029-9,ENS,9,NELCO,2026-10-29,,729.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261029-10,D,10,AWHCL,2026-10-29,,306.95,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261029-10,ENS,10,RAYMONDLSL,2026-10-29,,531.05,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-1,D,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-1,ENS,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-2,D,2,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-2,ENS,2,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-3,D,3,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-3,ENS,3,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-4,D,4,REDINGTON,2026-10-30,,328.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-4,ENS,4,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-5,D,5,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-5,ENS,5,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-6,D,6,VISHNU,2026-10-30,,556.95,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-6,ENS,6,SUMICHEM,2026-10-30,,329.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-7,D,7,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-7,ENS,7,NELCO,2026-10-30,,729.8999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-8,D,8,IFCI,2026-10-30,,61.29999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-8,ENS,8,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-9,D,9,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-9,ENS,9,MANINDS,2026-10-30,,800.35,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261030-10,D,10,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261030-10,ENS,10,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-1,D,1,POLICYBZR,2026-11-02,5,964.6999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-1,ENS,1,RRKABEL,2026-11-02,5,1919.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-2,D,2,RRKABEL,2026-11-02,5,1919.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-2,ENS,2,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-3,D,3,CENTENKA,2026-11-02,5,443.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-3,ENS,3,CONFIPET,2026-11-02,5,60.25,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-4,D,4,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-4,ENS,4,GENESYS,2026-11-02,5,185.30000000000004,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-5,D,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-5,ENS,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-6,D,6,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-6,ENS,6,RAYMONDLSL,2026-11-02,5,531.05,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-7,D,7,SILVERBETA,2026-11-02,5,176.50000000000003,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-7,ENS,7,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-8,D,8,AXISILVER,2026-11-02,5,182.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-8,ENS,8,SILVER1,2026-11-02,5,17.78,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-9,D,9,SILVER,2026-11-02,5,182.85,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-9,ENS,9,SILVER,2026-11-02,5,182.85,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,D-20261102-10,D,10,SILVER1,2026-11-02,5,17.78,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,EXPIRED,ENS-20261102-10,ENS,10,SUMICHEM,2026-11-02,5,329.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-1,D,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-1,ENS,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-2,D,2,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-2,ENS,2,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-3,D,3,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-3,ENS,3,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-4,D,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-4,ENS,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-5,D,5,TBZ,2026-11-03,4,599.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-5,ENS,5,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-6,D,6,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-6,ENS,6,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-7,D,7,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-7,ENS,7,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-8,D,8,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-8,ENS,8,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-9,D,9,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-9,ENS,9,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261103-10,D,10,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261103-10,ENS,10,SILVERCASE,2026-11-03,4,18.52,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-1,D,1,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-1,ENS,1,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-2,D,2,KEC,2026-11-04,3,332.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-2,ENS,2,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-3,D,3,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-3,ENS,3,AIAENG,2026-11-04,3,3112.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-4,D,4,PREMEXPLN,2026-11-04,3,510.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-4,ENS,4,SUMICHEM,2026-11-04,3,329.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-5,D,5,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-5,ENS,5,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-6,D,6,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-6,ENS,6,NELCO,2026-11-04,3,729.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-7,D,7,WEBELSOLAR,2026-11-04,3,71.59,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-7,ENS,7,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-8,D,8,SALASAR,2026-11-04,3,4.25,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-8,ENS,8,KPEL,2026-11-04,3,168.7,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-9,D,9,GNFC,2026-11-04,3,451.1,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-9,ENS,9,NIITLTD,2026-11-04,3,71.05,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261104-10,D,10,RRKABEL,2026-11-04,3,1919.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261104-10,ENS,10,JBMA,2026-11-04,3,496.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-1,D,1,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-1,ENS,1,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-2,D,2,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-2,ENS,2,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-3,D,3,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-3,ENS,3,ANTELOPUS,2026-11-05,2,888.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-4,D,4,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-4,ENS,4,SUMICHEM,2026-11-05,2,329.6000000000001,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-5,D,5,ABFRL,2026-11-05,2,39.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-5,ENS,5,NIITMTS,2026-11-05,2,169.95,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-6,D,6,SHAKTIPUMP,2026-11-05,2,349.1,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-6,ENS,6,POLICYBZR,2026-11-05,2,964.7,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-7,D,7,KEC,2026-11-05,2,332.8999999999999,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-7,ENS,7,KPEL,2026-11-05,2,168.7,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-8,D,8,EPACK,2026-11-05,2,156.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-8,ENS,8,PNCINFRA,2026-11-05,2,130.1,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-9,D,9,FINOPB,2026-11-05,2,121.31,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-9,ENS,9,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261105-10,D,10,HIMATSEIDE,2026-11-05,2,58.1,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261105-10,ENS,10,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-1,D,1,OAL,2026-11-06,1,497.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-1,ENS,1,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-2,D,2,RRKABEL,2026-11-06,1,1919.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-2,ENS,2,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-3,D,3,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-3,ENS,3,ANUP,2026-11-06,1,1352.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-4,D,4,GNFC,2026-11-06,1,451.1,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-4,ENS,4,WELSPUNLIV,2026-11-06,1,241.6,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-5,D,5,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-5,ENS,5,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-6,D,6,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-6,ENS,6,SBC,2026-11-06,1,68.55,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-7,D,7,APARINDS,2026-11-06,1,14140.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-7,ENS,7,MAMATA,2026-11-06,1,323.9,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-8,D,8,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-8,ENS,8,ORIENTHOT,2026-11-06,1,175.31,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-9,D,9,EMIL,2026-11-06,1,144.31,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-9,ENS,9,UNOMINDA,2026-11-06,1,1325.1,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,D-20261106-10,D,10,SAILIFE,2026-11-06,1,1768.0,,,,,,,,original_d5
+2026-11-06,S3,Bad week + WQ-40 rising + 3% dip,WATCHING,ENS-20261106-10,ENS,10,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-1,D,1,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-1,ENS,1,SUYOG,2026-10-26,,501.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-2,D,2,SUYOG,2026-10-26,,501.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-2,ENS,2,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-3,D,3,AGIIL,2026-10-26,,300.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-3,ENS,3,AGIIL,2026-10-26,,300.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-4,D,4,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-4,ENS,4,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-5,D,5,HEG,2026-10-26,,297.55,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-5,ENS,5,MUTHOOTMF,2026-10-26,,157.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-6,D,6,EMUDHRA,2026-10-26,,369.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-6,ENS,6,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-7,D,7,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-7,ENS,7,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-8,D,8,BAJAJCON,2026-10-26,,396.99999999999994,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-8,ENS,8,NACLIND,2026-10-26,,117.70999999999998,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-9,D,9,DYCL,2026-10-26,,373.1,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-9,ENS,9,AGARIND,2026-10-26,,394.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261026-10,D,10,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261026-10,ENS,10,RICOAUTO,2026-10-26,,98.49,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261027-1,D,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-1,ENS,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,ENTERED,D-20261027-2,D,2,CENTENKA,2026-10-27,,443.5,,,5,2026-11-03,438.65,1.1056651088567238,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-2,ENS,2,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261027-3,D,3,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-3,ENS,3,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261027-4,D,4,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-4,ENS,4,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261027-5,D,5,RGL,2026-10-27,,145.39,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-5,ENS,5,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261027-6,D,6,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-6,ENS,6,AWHCL,2026-10-27,,306.95,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261027-7,D,7,YESBANK,2026-10-27,,17.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-7,ENS,7,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261027-8,D,8,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-8,ENS,8,BAJAJCON,2026-10-27,,397.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261027-9,D,9,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-9,ENS,9,CAPACITE,2026-10-27,,181.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261027-10,D,10,KIRLPNU,2026-10-27,,609.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261027-10,ENS,10,NACLIND,2026-10-27,,117.71,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261029-1,D,1,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261029-1,ENS,1,CONFIPET,2026-10-29,,60.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261029-2,D,2,CONFIPET,2026-10-29,,60.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261029-2,ENS,2,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261029-3,D,3,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261029-3,ENS,3,SUYOG,2026-10-29,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,ENTERED,D-20261029-4,D,4,RRKABEL,2026-10-29,,1919.0,,,3,2026-11-03,1969.9999999999998,-2.5888324873096336,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261029-4,ENS,4,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261029-5,D,5,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261029-5,ENS,5,DYCL,2026-10-29,,373.1,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261029-6,D,6,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,ENTERED,ENS-20261029-6,ENS,6,MVGJL,2026-10-29,,174.5,,,3,2026-11-03,176.16,-0.942325158946411,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261029-7,D,7,STYLAMIND,2026-10-29,,3147.9999999999995,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261029-7,ENS,7,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261029-8,D,8,YESBANK,2026-10-29,,17.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261029-8,ENS,8,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261029-9,D,9,OAL,2026-10-29,,497.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261029-9,ENS,9,NELCO,2026-10-29,,729.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261029-10,D,10,AWHCL,2026-10-29,,306.95,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261029-10,ENS,10,RAYMONDLSL,2026-10-29,,531.05,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-1,D,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-1,ENS,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-2,D,2,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-2,ENS,2,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-3,D,3,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-3,ENS,3,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-4,D,4,REDINGTON,2026-10-30,,328.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-4,ENS,4,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-5,D,5,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-5,ENS,5,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-6,D,6,VISHNU,2026-10-30,,556.95,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-6,ENS,6,SUMICHEM,2026-10-30,,329.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-7,D,7,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-7,ENS,7,NELCO,2026-10-30,,729.8999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-8,D,8,IFCI,2026-10-30,,61.29999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-8,ENS,8,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-9,D,9,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-9,ENS,9,MANINDS,2026-10-30,,800.35,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261030-10,D,10,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261030-10,ENS,10,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-1,D,1,POLICYBZR,2026-11-02,5,964.6999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-1,ENS,1,RRKABEL,2026-11-02,5,1919.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-2,D,2,RRKABEL,2026-11-02,5,1919.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-2,ENS,2,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-3,D,3,CENTENKA,2026-11-02,5,443.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-3,ENS,3,CONFIPET,2026-11-02,5,60.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-4,D,4,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-4,ENS,4,GENESYS,2026-11-02,5,185.30000000000004,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-5,D,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-5,ENS,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-6,D,6,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-6,ENS,6,RAYMONDLSL,2026-11-02,5,531.05,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-7,D,7,SILVERBETA,2026-11-02,5,176.50000000000003,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-7,ENS,7,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-8,D,8,AXISILVER,2026-11-02,5,182.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-8,ENS,8,SILVER1,2026-11-02,5,17.78,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-9,D,9,SILVER,2026-11-02,5,182.85,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-9,ENS,9,SILVER,2026-11-02,5,182.85,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,D-20261102-10,D,10,SILVER1,2026-11-02,5,17.78,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,EXPIRED,ENS-20261102-10,ENS,10,SUMICHEM,2026-11-02,5,329.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-1,D,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-1,ENS,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-2,D,2,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-2,ENS,2,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-3,D,3,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-3,ENS,3,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-4,D,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-4,ENS,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-5,D,5,TBZ,2026-11-03,4,599.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-5,ENS,5,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-6,D,6,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-6,ENS,6,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-7,D,7,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-7,ENS,7,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-8,D,8,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-8,ENS,8,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-9,D,9,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-9,ENS,9,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261103-10,D,10,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261103-10,ENS,10,SILVERCASE,2026-11-03,4,18.52,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-1,D,1,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-1,ENS,1,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-2,D,2,KEC,2026-11-04,3,332.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-2,ENS,2,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-3,D,3,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-3,ENS,3,AIAENG,2026-11-04,3,3112.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-4,D,4,PREMEXPLN,2026-11-04,3,510.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-4,ENS,4,SUMICHEM,2026-11-04,3,329.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-5,D,5,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-5,ENS,5,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-6,D,6,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-6,ENS,6,NELCO,2026-11-04,3,729.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-7,D,7,WEBELSOLAR,2026-11-04,3,71.59,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-7,ENS,7,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-8,D,8,SALASAR,2026-11-04,3,4.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-8,ENS,8,KPEL,2026-11-04,3,168.7,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-9,D,9,GNFC,2026-11-04,3,451.1,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-9,ENS,9,NIITLTD,2026-11-04,3,71.05,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261104-10,D,10,RRKABEL,2026-11-04,3,1919.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261104-10,ENS,10,JBMA,2026-11-04,3,496.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-1,D,1,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-1,ENS,1,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-2,D,2,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-2,ENS,2,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-3,D,3,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-3,ENS,3,ANTELOPUS,2026-11-05,2,888.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-4,D,4,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-4,ENS,4,SUMICHEM,2026-11-05,2,329.6000000000001,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-5,D,5,ABFRL,2026-11-05,2,39.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-5,ENS,5,NIITMTS,2026-11-05,2,169.95,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-6,D,6,SHAKTIPUMP,2026-11-05,2,349.1,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-6,ENS,6,POLICYBZR,2026-11-05,2,964.7,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-7,D,7,KEC,2026-11-05,2,332.8999999999999,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-7,ENS,7,KPEL,2026-11-05,2,168.7,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-8,D,8,EPACK,2026-11-05,2,156.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-8,ENS,8,PNCINFRA,2026-11-05,2,130.1,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-9,D,9,FINOPB,2026-11-05,2,121.31,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-9,ENS,9,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261105-10,D,10,HIMATSEIDE,2026-11-05,2,58.1,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261105-10,ENS,10,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-1,D,1,OAL,2026-11-06,1,497.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-1,ENS,1,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-2,D,2,RRKABEL,2026-11-06,1,1919.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-2,ENS,2,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-3,D,3,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-3,ENS,3,ANUP,2026-11-06,1,1352.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-4,D,4,GNFC,2026-11-06,1,451.1,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-4,ENS,4,WELSPUNLIV,2026-11-06,1,241.6,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-5,D,5,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-5,ENS,5,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-6,D,6,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-6,ENS,6,SBC,2026-11-06,1,68.55,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-7,D,7,APARINDS,2026-11-06,1,14140.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-7,ENS,7,MAMATA,2026-11-06,1,323.9,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-8,D,8,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-8,ENS,8,ORIENTHOT,2026-11-06,1,175.31,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-9,D,9,EMIL,2026-11-06,1,144.31,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-9,ENS,9,UNOMINDA,2026-11-06,1,1325.1,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,D-20261106-10,D,10,SAILIFE,2026-11-06,1,1768.0,,,,,,,,original_d5
+2026-11-06,C1,Bad week + minus-DI rising + 2% dip,WATCHING,ENS-20261106-10,ENS,10,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-1,D,1,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-1,ENS,1,SUYOG,2026-10-26,,501.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-2,D,2,SUYOG,2026-10-26,,501.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-2,ENS,2,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-3,D,3,AGIIL,2026-10-26,,300.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-3,ENS,3,AGIIL,2026-10-26,,300.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-4,D,4,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-4,ENS,4,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-5,D,5,HEG,2026-10-26,,297.55,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-5,ENS,5,MUTHOOTMF,2026-10-26,,157.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-6,D,6,EMUDHRA,2026-10-26,,369.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-6,ENS,6,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-7,D,7,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-7,ENS,7,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-8,D,8,BAJAJCON,2026-10-26,,396.99999999999994,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-8,ENS,8,NACLIND,2026-10-26,,117.70999999999998,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-9,D,9,DYCL,2026-10-26,,373.1,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-9,ENS,9,AGARIND,2026-10-26,,394.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261026-10,D,10,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261026-10,ENS,10,RICOAUTO,2026-10-26,,98.49,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-1,D,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-1,ENS,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-2,D,2,CENTENKA,2026-10-27,,443.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-2,ENS,2,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-3,D,3,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-3,ENS,3,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-4,D,4,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-4,ENS,4,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-5,D,5,RGL,2026-10-27,,145.39,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-5,ENS,5,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-6,D,6,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-6,ENS,6,AWHCL,2026-10-27,,306.95,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-7,D,7,YESBANK,2026-10-27,,17.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-7,ENS,7,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-8,D,8,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-8,ENS,8,BAJAJCON,2026-10-27,,397.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-9,D,9,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-9,ENS,9,CAPACITE,2026-10-27,,181.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261027-10,D,10,KIRLPNU,2026-10-27,,609.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261027-10,ENS,10,NACLIND,2026-10-27,,117.71,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261029-1,D,1,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-1,ENS,1,CONFIPET,2026-10-29,,60.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261029-2,D,2,CONFIPET,2026-10-29,,60.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-2,ENS,2,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261029-3,D,3,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-3,ENS,3,SUYOG,2026-10-29,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),ENTERED,D-20261029-4,D,4,RRKABEL,2026-10-29,,1919.0,,,3,2026-11-03,1969.9999999999998,-2.5888324873096336,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-4,ENS,4,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261029-5,D,5,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-5,ENS,5,DYCL,2026-10-29,,373.1,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261029-6,D,6,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-6,ENS,6,MVGJL,2026-10-29,,174.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261029-7,D,7,STYLAMIND,2026-10-29,,3147.9999999999995,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-7,ENS,7,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261029-8,D,8,YESBANK,2026-10-29,,17.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-8,ENS,8,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261029-9,D,9,OAL,2026-10-29,,497.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-9,ENS,9,NELCO,2026-10-29,,729.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261029-10,D,10,AWHCL,2026-10-29,,306.95,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261029-10,ENS,10,RAYMONDLSL,2026-10-29,,531.05,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-1,D,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-1,ENS,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-2,D,2,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-2,ENS,2,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-3,D,3,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-3,ENS,3,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-4,D,4,REDINGTON,2026-10-30,,328.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-4,ENS,4,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-5,D,5,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-5,ENS,5,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-6,D,6,VISHNU,2026-10-30,,556.95,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-6,ENS,6,SUMICHEM,2026-10-30,,329.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-7,D,7,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-7,ENS,7,NELCO,2026-10-30,,729.8999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-8,D,8,IFCI,2026-10-30,,61.29999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-8,ENS,8,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-9,D,9,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-9,ENS,9,MANINDS,2026-10-30,,800.35,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261030-10,D,10,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261030-10,ENS,10,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-1,D,1,POLICYBZR,2026-11-02,5,964.6999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-1,ENS,1,RRKABEL,2026-11-02,5,1919.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-2,D,2,RRKABEL,2026-11-02,5,1919.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-2,ENS,2,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-3,D,3,CENTENKA,2026-11-02,5,443.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-3,ENS,3,CONFIPET,2026-11-02,5,60.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-4,D,4,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-4,ENS,4,GENESYS,2026-11-02,5,185.30000000000004,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-5,D,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-5,ENS,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-6,D,6,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-6,ENS,6,RAYMONDLSL,2026-11-02,5,531.05,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-7,D,7,SILVERBETA,2026-11-02,5,176.50000000000003,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-7,ENS,7,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-8,D,8,AXISILVER,2026-11-02,5,182.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-8,ENS,8,SILVER1,2026-11-02,5,17.78,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-9,D,9,SILVER,2026-11-02,5,182.85,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-9,ENS,9,SILVER,2026-11-02,5,182.85,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,D-20261102-10,D,10,SILVER1,2026-11-02,5,17.78,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),EXPIRED,ENS-20261102-10,ENS,10,SUMICHEM,2026-11-02,5,329.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-1,D,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-1,ENS,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-2,D,2,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-2,ENS,2,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-3,D,3,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-3,ENS,3,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-4,D,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-4,ENS,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-5,D,5,TBZ,2026-11-03,4,599.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-5,ENS,5,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-6,D,6,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-6,ENS,6,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-7,D,7,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-7,ENS,7,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-8,D,8,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-8,ENS,8,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-9,D,9,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-9,ENS,9,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261103-10,D,10,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261103-10,ENS,10,SILVERCASE,2026-11-03,4,18.52,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-1,D,1,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-1,ENS,1,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-2,D,2,KEC,2026-11-04,3,332.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-2,ENS,2,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-3,D,3,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-3,ENS,3,AIAENG,2026-11-04,3,3112.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-4,D,4,PREMEXPLN,2026-11-04,3,510.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-4,ENS,4,SUMICHEM,2026-11-04,3,329.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-5,D,5,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-5,ENS,5,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-6,D,6,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-6,ENS,6,NELCO,2026-11-04,3,729.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-7,D,7,WEBELSOLAR,2026-11-04,3,71.59,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-7,ENS,7,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-8,D,8,SALASAR,2026-11-04,3,4.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-8,ENS,8,KPEL,2026-11-04,3,168.7,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-9,D,9,GNFC,2026-11-04,3,451.1,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-9,ENS,9,NIITLTD,2026-11-04,3,71.05,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261104-10,D,10,RRKABEL,2026-11-04,3,1919.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261104-10,ENS,10,JBMA,2026-11-04,3,496.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-1,D,1,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-1,ENS,1,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-2,D,2,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-2,ENS,2,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-3,D,3,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-3,ENS,3,ANTELOPUS,2026-11-05,2,888.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-4,D,4,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-4,ENS,4,SUMICHEM,2026-11-05,2,329.6000000000001,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-5,D,5,ABFRL,2026-11-05,2,39.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-5,ENS,5,NIITMTS,2026-11-05,2,169.95,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-6,D,6,SHAKTIPUMP,2026-11-05,2,349.1,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-6,ENS,6,POLICYBZR,2026-11-05,2,964.7,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-7,D,7,KEC,2026-11-05,2,332.8999999999999,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-7,ENS,7,KPEL,2026-11-05,2,168.7,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-8,D,8,EPACK,2026-11-05,2,156.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-8,ENS,8,PNCINFRA,2026-11-05,2,130.1,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-9,D,9,FINOPB,2026-11-05,2,121.31,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-9,ENS,9,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261105-10,D,10,HIMATSEIDE,2026-11-05,2,58.1,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261105-10,ENS,10,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-1,D,1,OAL,2026-11-06,1,497.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-1,ENS,1,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-2,D,2,RRKABEL,2026-11-06,1,1919.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-2,ENS,2,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-3,D,3,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-3,ENS,3,ANUP,2026-11-06,1,1352.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-4,D,4,GNFC,2026-11-06,1,451.1,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-4,ENS,4,WELSPUNLIV,2026-11-06,1,241.6,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-5,D,5,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-5,ENS,5,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-6,D,6,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-6,ENS,6,SBC,2026-11-06,1,68.55,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-7,D,7,APARINDS,2026-11-06,1,14140.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-7,ENS,7,MAMATA,2026-11-06,1,323.9,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-8,D,8,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-8,ENS,8,ORIENTHOT,2026-11-06,1,175.31,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-9,D,9,EMIL,2026-11-06,1,144.31,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-9,ENS,9,UNOMINDA,2026-11-06,1,1325.1,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,D-20261106-10,D,10,SAILIFE,2026-11-06,1,1768.0,,,,,,,,original_d5
+2026-11-06,C2,B + 3% dip (bad week + EMA20 angle falling + 3% dip),WATCHING,ENS-20261106-10,ENS,10,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261026-1,D,1,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,ENS-20261026-1,ENS,1,SUYOG,2026-10-26,,501.9,,,1,2026-10-27,468.0,7.24358974358974,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,D-20261026-2,D,2,SUYOG,2026-10-26,,501.9,,,1,2026-10-27,468.0,7.24358974358974,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261026-2,ENS,2,KPEL,2026-10-26,,168.7,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,D-20261026-3,D,3,AGIIL,2026-10-26,,300.0,,,1,2026-10-27,202.2,48.36795252225521,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,ENS-20261026-3,ENS,3,AGIIL,2026-10-26,,300.0,,,1,2026-10-27,202.2,48.36795252225521,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261026-4,D,4,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261026-4,ENS,4,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261026-5,D,5,HEG,2026-10-26,,297.55,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,ENS-20261026-5,ENS,5,MUTHOOTMF,2026-10-26,,157.0,,,1,2026-10-27,144.4,8.725761772853179,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261026-6,D,6,EMUDHRA,2026-10-26,,369.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261026-6,ENS,6,CREDITACC,2026-10-26,,1089.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261026-7,D,7,SMLMAH,2026-10-26,,5251.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261026-7,ENS,7,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,D-20261026-8,D,8,BAJAJCON,2026-10-26,,396.99999999999994,,,1,2026-10-27,389.9,1.820979738394457,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,ENS-20261026-8,ENS,8,NACLIND,2026-10-26,,117.70999999999998,,,1,2026-10-27,113.28,3.910663841807893,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261026-9,D,9,DYCL,2026-10-26,,373.1,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,ENS-20261026-9,ENS,9,AGARIND,2026-10-26,,394.0,,,1,2026-10-27,321.85,22.417275128165294,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261026-10,D,10,FCL,2026-10-26,,51.69,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261026-10,ENS,10,RICOAUTO,2026-10-26,,98.49,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-1,D,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-1,ENS,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-2,D,2,CENTENKA,2026-10-27,,443.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-2,ENS,2,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-3,D,3,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-3,ENS,3,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-4,D,4,SUMICHEM,2026-10-27,,329.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-4,ENS,4,M&MFIN,2026-10-27,,281.85,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-5,D,5,RGL,2026-10-27,,145.39,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-5,ENS,5,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-6,D,6,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-6,ENS,6,AWHCL,2026-10-27,,306.95,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-7,D,7,YESBANK,2026-10-27,,17.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-7,ENS,7,MSTCLTD,2026-10-27,,590.95,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-8,D,8,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-8,ENS,8,BAJAJCON,2026-10-27,,397.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-9,D,9,SUYOG,2026-10-27,,501.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-9,ENS,9,CAPACITE,2026-10-27,,181.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261027-10,D,10,KIRLPNU,2026-10-27,,609.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261027-10,ENS,10,NACLIND,2026-10-27,,117.71,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261029-1,D,1,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-1,ENS,1,CONFIPET,2026-10-29,,60.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261029-2,D,2,CONFIPET,2026-10-29,,60.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-2,ENS,2,SUMICHEM,2026-10-29,,329.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261029-3,D,3,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-3,ENS,3,SUYOG,2026-10-29,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,D-20261029-4,D,4,RRKABEL,2026-10-29,,1919.0,,,3,2026-11-03,1969.9999999999998,-2.5888324873096336,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-4,ENS,4,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261029-5,D,5,APCOTEXIND,2026-10-29,,485.05,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-5,ENS,5,DYCL,2026-10-29,,373.1,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261029-6,D,6,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-6,ENS,6,MVGJL,2026-10-29,,174.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261029-7,D,7,STYLAMIND,2026-10-29,,3147.9999999999995,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-7,ENS,7,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261029-8,D,8,YESBANK,2026-10-29,,17.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-8,ENS,8,GENESYS,2026-10-29,,185.3,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261029-9,D,9,OAL,2026-10-29,,497.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-9,ENS,9,NELCO,2026-10-29,,729.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261029-10,D,10,AWHCL,2026-10-29,,306.95,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261029-10,ENS,10,RAYMONDLSL,2026-10-29,,531.05,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261030-1,D,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-1,ENS,1,CONFIPET,2026-10-30,,60.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261030-2,D,2,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-2,ENS,2,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261030-3,D,3,GENESYS,2026-10-30,,185.3,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-3,ENS,3,YATRA,2026-10-30,,77.55,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261030-4,D,4,REDINGTON,2026-10-30,,328.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-4,ENS,4,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261030-5,D,5,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-5,ENS,5,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,D-20261030-6,D,6,VISHNU,2026-10-30,,556.95,,,2,2026-11-03,510.95,9.002837851061752,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-6,ENS,6,SUMICHEM,2026-10-30,,329.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261030-7,D,7,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-7,ENS,7,NELCO,2026-10-30,,729.8999999999999,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261030-8,D,8,IFCI,2026-10-30,,61.29999999999999,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-8,ENS,8,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261030-9,D,9,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-9,ENS,9,MANINDS,2026-10-30,,800.35,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261030-10,D,10,FUSION,2026-10-30,,154.99,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261030-10,ENS,10,AEGISLOG,2026-10-30,,1140.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,D-20261102-1,D,1,POLICYBZR,2026-11-02,5,964.6999999999999,,,1,2026-11-03,935.0,3.1764705882352917,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,ENS-20261102-1,ENS,1,RRKABEL,2026-11-02,5,1919.0,,,1,2026-11-03,1970.0,-2.5888324873096447,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,D-20261102-2,D,2,RRKABEL,2026-11-02,5,1919.0,,,1,2026-11-03,1970.0,-2.5888324873096447,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261102-2,ENS,2,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261102-3,D,3,CENTENKA,2026-11-02,5,443.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261102-3,ENS,3,CONFIPET,2026-11-02,5,60.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261102-4,D,4,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261102-4,ENS,4,GENESYS,2026-11-02,5,185.30000000000004,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261102-5,D,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261102-5,ENS,5,HIRECT,2026-11-02,5,937.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261102-6,D,6,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261102-6,ENS,6,RAYMONDLSL,2026-11-02,5,531.05,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261102-7,D,7,SILVERBETA,2026-11-02,5,176.50000000000003,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261102-7,ENS,7,SSWL,2026-11-02,5,538.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,D-20261102-8,D,8,AXISILVER,2026-11-02,5,182.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,ENS-20261102-8,ENS,8,SILVER1,2026-11-02,5,17.78,,,1,2026-11-03,17.27,2.9530978575564637,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,D-20261102-9,D,9,SILVER,2026-11-02,5,182.85,,,1,2026-11-03,177.8,2.8402699662542163,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,ENS-20261102-9,ENS,9,SILVER,2026-11-02,5,182.85,,,1,2026-11-03,177.8,2.8402699662542163,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",ENTERED,D-20261102-10,D,10,SILVER1,2026-11-02,5,17.78,,,1,2026-11-03,17.27,2.9530978575564637,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",EXPIRED,ENS-20261102-10,ENS,10,SUMICHEM,2026-11-02,5,329.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-1,D,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-1,ENS,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-2,D,2,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-2,ENS,2,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-3,D,3,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-3,ENS,3,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-4,D,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-4,ENS,4,SILVER1,2026-11-03,4,17.78,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-5,D,5,TBZ,2026-11-03,4,599.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-5,ENS,5,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-6,D,6,AXISILVER,2026-11-03,4,182.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-6,ENS,6,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-7,D,7,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-7,ENS,7,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-8,D,8,SILVER,2026-11-03,4,182.85,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-8,ENS,8,POLICYBZR,2026-11-03,4,964.7,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-9,D,9,ESILVER,2026-11-03,4,183.43,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-9,ENS,9,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261103-10,D,10,SILVERBETA,2026-11-03,4,176.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261103-10,ENS,10,SILVERCASE,2026-11-03,4,18.52,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-1,D,1,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-1,ENS,1,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-2,D,2,KEC,2026-11-04,3,332.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-2,ENS,2,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-3,D,3,MTARTECH,2026-11-04,3,5449.75,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-3,ENS,3,AIAENG,2026-11-04,3,3112.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-4,D,4,PREMEXPLN,2026-11-04,3,510.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-4,ENS,4,SUMICHEM,2026-11-04,3,329.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-5,D,5,POLICYBZR,2026-11-04,3,964.7,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-5,ENS,5,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-6,D,6,WEL,2026-11-04,3,75.19999999999999,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-6,ENS,6,NELCO,2026-11-04,3,729.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-7,D,7,WEBELSOLAR,2026-11-04,3,71.59,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-7,ENS,7,FIVESTAR,2026-11-04,3,423.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-8,D,8,SALASAR,2026-11-04,3,4.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-8,ENS,8,KPEL,2026-11-04,3,168.7,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-9,D,9,GNFC,2026-11-04,3,451.1,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-9,ENS,9,NIITLTD,2026-11-04,3,71.05,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261104-10,D,10,RRKABEL,2026-11-04,3,1919.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261104-10,ENS,10,JBMA,2026-11-04,3,496.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-1,D,1,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-1,ENS,1,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-2,D,2,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-2,ENS,2,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-3,D,3,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-3,ENS,3,ANTELOPUS,2026-11-05,2,888.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-4,D,4,MTARTECH,2026-11-05,2,5449.75,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-4,ENS,4,SUMICHEM,2026-11-05,2,329.6000000000001,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-5,D,5,ABFRL,2026-11-05,2,39.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-5,ENS,5,NIITMTS,2026-11-05,2,169.95,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-6,D,6,SHAKTIPUMP,2026-11-05,2,349.1,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-6,ENS,6,POLICYBZR,2026-11-05,2,964.7,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-7,D,7,KEC,2026-11-05,2,332.8999999999999,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-7,ENS,7,KPEL,2026-11-05,2,168.7,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-8,D,8,EPACK,2026-11-05,2,156.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-8,ENS,8,PNCINFRA,2026-11-05,2,130.1,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-9,D,9,FINOPB,2026-11-05,2,121.31,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-9,ENS,9,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261105-10,D,10,HIMATSEIDE,2026-11-05,2,58.1,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261105-10,ENS,10,SALASAR,2026-11-05,2,4.25,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-1,D,1,OAL,2026-11-06,1,497.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-1,ENS,1,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-2,D,2,RRKABEL,2026-11-06,1,1919.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-2,ENS,2,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-3,D,3,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-3,ENS,3,ANUP,2026-11-06,1,1352.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-4,D,4,GNFC,2026-11-06,1,451.1,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-4,ENS,4,WELSPUNLIV,2026-11-06,1,241.6,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-5,D,5,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-5,ENS,5,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-6,D,6,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-6,ENS,6,SBC,2026-11-06,1,68.55,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-7,D,7,APARINDS,2026-11-06,1,14140.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-7,ENS,7,MAMATA,2026-11-06,1,323.9,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-8,D,8,NELCAST,2026-11-06,1,158.35,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-8,ENS,8,ORIENTHOT,2026-11-06,1,175.31,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-9,D,9,EMIL,2026-11-06,1,144.31,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-9,ENS,9,UNOMINDA,2026-11-06,1,1325.1,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,D-20261106-10,D,10,SAILIFE,2026-11-06,1,1768.0,,,,,,,,original_d5
+2026-11-06,C3,"A+C, no dip (bad week + EMA20 angle falling + WQ-44 rising + Bollinger width rising)",WATCHING,ENS-20261106-10,ENS,10,NETWEB,2026-11-06,1,3777.9,,,,,,,,original_d5
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261026-1,D,1,KPEL,2026-10-26,,168.7,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,ENS-20261026-1,ENS,1,SUYOG,2026-10-26,,501.9,,,2,2026-10-28,435.0,15.37931034482758,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,D-20261026-2,D,2,SUYOG,2026-10-26,,501.9,,,2,2026-10-28,435.0,15.37931034482758,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261026-2,ENS,2,KPEL,2026-10-26,,168.7,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261026-3,D,3,AGIIL,2026-10-26,,300.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261026-3,ENS,3,AGIIL,2026-10-26,,300.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261026-4,D,4,CREDITACC,2026-10-26,,1089.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261026-4,ENS,4,SMLMAH,2026-10-26,,5251.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261026-5,D,5,HEG,2026-10-26,,297.55,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,ENS-20261026-5,ENS,5,MUTHOOTMF,2026-10-26,,157.0,,,3,2026-10-29,142.2,10.407876230661039,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261026-6,D,6,EMUDHRA,2026-10-26,,369.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261026-6,ENS,6,CREDITACC,2026-10-26,,1089.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261026-7,D,7,SMLMAH,2026-10-26,,5251.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261026-7,ENS,7,FCL,2026-10-26,,51.69,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261026-8,D,8,BAJAJCON,2026-10-26,,396.99999999999994,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261026-8,ENS,8,NACLIND,2026-10-26,,117.70999999999998,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,D-20261026-9,D,9,DYCL,2026-10-26,,373.1,,,2,2026-10-28,340.0,9.735294117647065,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261026-9,ENS,9,AGARIND,2026-10-26,,394.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261026-10,D,10,FCL,2026-10-26,,51.69,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261026-10,ENS,10,RICOAUTO,2026-10-26,,98.49,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261027-1,D,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261027-1,ENS,1,MUTHOOTMF,2026-10-27,,157.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261027-2,D,2,CENTENKA,2026-10-27,,443.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,ENS-20261027-2,ENS,2,SUMICHEM,2026-10-27,,329.6,,,2,2026-10-29,336.00000000000006,-1.904761904761909,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261027-3,D,3,M&MFIN,2026-10-27,,281.85,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261027-3,ENS,3,SUYOG,2026-10-27,,501.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,D-20261027-4,D,4,SUMICHEM,2026-10-27,,329.6,,,2,2026-10-29,336.00000000000006,-1.904761904761909,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261027-4,ENS,4,M&MFIN,2026-10-27,,281.85,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261027-5,D,5,RGL,2026-10-27,,145.39,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261027-5,ENS,5,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261027-6,D,6,MSTCLTD,2026-10-27,,590.95,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261027-6,ENS,6,AWHCL,2026-10-27,,306.95,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261027-7,D,7,YESBANK,2026-10-27,,17.25,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261027-7,ENS,7,MSTCLTD,2026-10-27,,590.95,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261027-8,D,8,TIRUMALCHM,2026-10-27,,117.39999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261027-8,ENS,8,BAJAJCON,2026-10-27,,397.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261027-9,D,9,SUYOG,2026-10-27,,501.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261027-9,ENS,9,CAPACITE,2026-10-27,,181.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261027-10,D,10,KIRLPNU,2026-10-27,,609.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261027-10,ENS,10,NACLIND,2026-10-27,,117.71,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,D-20261029-1,D,1,SUMICHEM,2026-10-29,,329.6,,,2,2026-11-02,315.1,4.601713741669311,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,ENS-20261029-1,ENS,1,CONFIPET,2026-10-29,,60.25,,,2,2026-11-02,59.57000000000001,1.1415141849924426,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,D-20261029-2,D,2,CONFIPET,2026-10-29,,60.25,,,2,2026-11-02,59.57000000000001,1.1415141849924426,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,ENS-20261029-2,ENS,2,SUMICHEM,2026-10-29,,329.6,,,2,2026-11-02,315.1,4.601713741669311,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261029-3,D,3,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261029-3,ENS,3,SUYOG,2026-10-29,,501.90000000000003,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261029-4,D,4,RRKABEL,2026-10-29,,1919.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261029-4,ENS,4,APCOTEXIND,2026-10-29,,485.05,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261029-5,D,5,APCOTEXIND,2026-10-29,,485.05,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261029-5,ENS,5,DYCL,2026-10-29,,373.1,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261029-6,D,6,GENESYS,2026-10-29,,185.3,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,ENS-20261029-6,ENS,6,MVGJL,2026-10-29,,174.5,,,2,2026-11-02,164.58999999999997,6.021021933288795,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,D-20261029-7,D,7,STYLAMIND,2026-10-29,,3147.9999999999995,,,2,2026-11-02,2712.8,16.042465349454417,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261029-7,ENS,7,MUTHOOTMF,2026-10-29,,157.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261029-8,D,8,YESBANK,2026-10-29,,17.25,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261029-8,ENS,8,GENESYS,2026-10-29,,185.3,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261029-9,D,9,OAL,2026-10-29,,497.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261029-9,ENS,9,NELCO,2026-10-29,,729.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261029-10,D,10,AWHCL,2026-10-29,,306.95,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261029-10,ENS,10,RAYMONDLSL,2026-10-29,,531.05,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-1,D,1,CONFIPET,2026-10-30,,60.25,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-1,ENS,1,CONFIPET,2026-10-30,,60.25,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-2,D,2,YATRA,2026-10-30,,77.55,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-2,ENS,2,GENESYS,2026-10-30,,185.3,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-3,D,3,GENESYS,2026-10-30,,185.3,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-3,ENS,3,YATRA,2026-10-30,,77.55,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-4,D,4,REDINGTON,2026-10-30,,328.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-4,ENS,4,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-5,D,5,AEGISLOG,2026-10-30,,1140.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-5,ENS,5,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-6,D,6,VISHNU,2026-10-30,,556.95,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-6,ENS,6,SUMICHEM,2026-10-30,,329.6,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-7,D,7,SUYOG,2026-10-30,,501.90000000000003,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-7,ENS,7,NELCO,2026-10-30,,729.8999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-8,D,8,IFCI,2026-10-30,,61.29999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-8,ENS,8,FUSION,2026-10-30,,154.99,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-9,D,9,MUTHOOTMF,2026-10-30,,157.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-9,ENS,9,MANINDS,2026-10-30,,800.35,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261030-10,D,10,FUSION,2026-10-30,,154.99,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261030-10,ENS,10,AEGISLOG,2026-10-30,,1140.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-1,D,1,POLICYBZR,2026-11-02,5,964.6999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-1,ENS,1,RRKABEL,2026-11-02,5,1919.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-2,D,2,RRKABEL,2026-11-02,5,1919.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-2,ENS,2,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-3,D,3,CENTENKA,2026-11-02,5,443.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-3,ENS,3,CONFIPET,2026-11-02,5,60.25,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-4,D,4,SSWL,2026-11-02,5,538.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-4,ENS,4,GENESYS,2026-11-02,5,185.30000000000004,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-5,D,5,HIRECT,2026-11-02,5,937.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-5,ENS,5,HIRECT,2026-11-02,5,937.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-6,D,6,KIRLOSENG,2026-11-02,5,1599.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-6,ENS,6,RAYMONDLSL,2026-11-02,5,531.05,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-7,D,7,SILVERBETA,2026-11-02,5,176.50000000000003,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-7,ENS,7,SSWL,2026-11-02,5,538.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-8,D,8,AXISILVER,2026-11-02,5,182.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-8,ENS,8,SILVER1,2026-11-02,5,17.78,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-9,D,9,SILVER,2026-11-02,5,182.85,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-9,ENS,9,SILVER,2026-11-02,5,182.85,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,D-20261102-10,D,10,SILVER1,2026-11-02,5,17.78,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),EXPIRED,ENS-20261102-10,ENS,10,SUMICHEM,2026-11-02,5,329.6,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-1,D,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-1,ENS,1,CONFIPET,2026-11-03,4,60.24999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-2,D,2,POLICYBZR,2026-11-03,4,964.7,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-2,ENS,2,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-3,D,3,KIRLOSENG,2026-11-03,4,1599.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-3,ENS,3,AXISILVER,2026-11-03,4,182.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-4,D,4,SILVER1,2026-11-03,4,17.78,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-4,ENS,4,SILVER1,2026-11-03,4,17.78,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-5,D,5,TBZ,2026-11-03,4,599.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-5,ENS,5,SILVER,2026-11-03,4,182.85,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-6,D,6,AXISILVER,2026-11-03,4,182.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-6,ENS,6,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-7,D,7,HDFCSILVER,2026-11-03,4,174.84,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-7,ENS,7,ESILVER,2026-11-03,4,183.43,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-8,D,8,SILVER,2026-11-03,4,182.85,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-8,ENS,8,POLICYBZR,2026-11-03,4,964.7,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-9,D,9,ESILVER,2026-11-03,4,183.43,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-9,ENS,9,SILVERBETA,2026-11-03,4,176.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261103-10,D,10,SILVERBETA,2026-11-03,4,176.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261103-10,ENS,10,SILVERCASE,2026-11-03,4,18.52,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261104-1,D,1,FIVESTAR,2026-11-04,3,423.6,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,ENS-20261104-1,ENS,1,MTARTECH,2026-11-04,3,5449.75,,,2,2026-11-06,5449.75,0.0,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261104-2,D,2,KEC,2026-11-04,3,332.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261104-2,ENS,2,POLICYBZR,2026-11-04,3,964.7,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),ENTERED,D-20261104-3,D,3,MTARTECH,2026-11-04,3,5449.75,,,2,2026-11-06,5449.75,0.0,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),FIRES,ENS-20261104-3,ENS,3,AIAENG,2026-11-04,3,3112.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261104-4,D,4,PREMEXPLN,2026-11-04,3,510.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261104-4,ENS,4,SUMICHEM,2026-11-04,3,329.6,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261104-5,D,5,POLICYBZR,2026-11-04,3,964.7,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261104-5,ENS,5,WEL,2026-11-04,3,75.19999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261104-6,D,6,WEL,2026-11-04,3,75.19999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261104-6,ENS,6,NELCO,2026-11-04,3,729.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261104-7,D,7,WEBELSOLAR,2026-11-04,3,71.59,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261104-7,ENS,7,FIVESTAR,2026-11-04,3,423.6,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261104-8,D,8,SALASAR,2026-11-04,3,4.25,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261104-8,ENS,8,KPEL,2026-11-04,3,168.7,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261104-9,D,9,GNFC,2026-11-04,3,451.1,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261104-9,ENS,9,NIITLTD,2026-11-04,3,71.05,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261104-10,D,10,RRKABEL,2026-11-04,3,1919.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261104-10,ENS,10,JBMA,2026-11-04,3,496.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-1,D,1,SALASAR,2026-11-05,2,4.25,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-1,ENS,1,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-2,D,2,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-2,ENS,2,MTARTECH,2026-11-05,2,5449.75,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-3,D,3,KIRLOSENG,2026-11-05,2,1599.4999999999998,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-3,ENS,3,ANTELOPUS,2026-11-05,2,888.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-4,D,4,MTARTECH,2026-11-05,2,5449.75,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-4,ENS,4,SUMICHEM,2026-11-05,2,329.6000000000001,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-5,D,5,ABFRL,2026-11-05,2,39.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-5,ENS,5,NIITMTS,2026-11-05,2,169.95,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-6,D,6,SHAKTIPUMP,2026-11-05,2,349.1,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-6,ENS,6,POLICYBZR,2026-11-05,2,964.7,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-7,D,7,KEC,2026-11-05,2,332.8999999999999,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-7,ENS,7,KPEL,2026-11-05,2,168.7,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-8,D,8,EPACK,2026-11-05,2,156.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-8,ENS,8,PNCINFRA,2026-11-05,2,130.1,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-9,D,9,FINOPB,2026-11-05,2,121.31,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-9,ENS,9,ASHAPURMIN,2026-11-05,2,415.99999999999994,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261105-10,D,10,HIMATSEIDE,2026-11-05,2,58.1,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261105-10,ENS,10,SALASAR,2026-11-05,2,4.25,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-1,D,1,OAL,2026-11-06,1,497.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-1,ENS,1,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-2,D,2,RRKABEL,2026-11-06,1,1919.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-2,ENS,2,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-3,D,3,KIRLOSENG,2026-11-06,1,1599.5,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-3,ENS,3,ANUP,2026-11-06,1,1352.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-4,D,4,GNFC,2026-11-06,1,451.1,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-4,ENS,4,WELSPUNLIV,2026-11-06,1,241.6,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-5,D,5,ASHAPURMIN,2026-11-06,1,416.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-5,ENS,5,NELCAST,2026-11-06,1,158.35,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-6,D,6,NETWEB,2026-11-06,1,3777.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-6,ENS,6,SBC,2026-11-06,1,68.55,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-7,D,7,APARINDS,2026-11-06,1,14140.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-7,ENS,7,MAMATA,2026-11-06,1,323.9,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-8,D,8,NELCAST,2026-11-06,1,158.35,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-8,ENS,8,ORIENTHOT,2026-11-06,1,175.31,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-9,D,9,EMIL,2026-11-06,1,144.31,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-9,ENS,9,UNOMINDA,2026-11-06,1,1325.1,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,D-20261106-10,D,10,SAILIFE,2026-11-06,1,1768.0,,,,,,,,fresh
+2026-11-06,N1,Below the lower Bollinger band + 2% dip (any weekday),WATCHING,ENS-20261106-10,ENS,10,NETWEB,2026-11-06,1,3777.9,,,,,,,,fresh

@@ -1,0 +1,4 @@
+tar -xf "%USERPROFILE%\Downloads\clashlab_cl2_addon_13nov.zip" -C C:\Users\karanvsi\PyCharmMiscProject
+call C:\Users\karanvsi\PyCharmMiscProject\clashlab\env_clashlab.bat
+python cl2.py selftest
+python cl2.py run --root %CACHE_DAILY_ROOT%

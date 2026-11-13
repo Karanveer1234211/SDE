@@ -1,0 +1,26 @@
+key,text,n,mean,sessions,mean_2020,mean_2021,mean_2022,chosen
+RSI14:0:0 + NIFTY20:2:2,RSI14 (RSI 14) below 30 AND NIFTY20 (NIFTY 50 20-session return %) 3 and above,91,4.20982529,24,1.368913952,5.052184391,3.662234263,True
+RET20:3:3 + D_WQ_38:3:3,RET20 (20-session return %) 10 and above AND D_WQ_38 -0.005788 and above (Q4),104,4.056337765,28,4.696072924,2.81797537,3.71707204,True
+D_adx14:3:3 + D_intraday_ret_pct:0:0,D_adx14 32.46 and above (Q4) AND D_intraday_ret_pct below -3.943 (Q1),344,3.954878255,65,4.54915875,3.992280828,2.271653526,True
+D_ema20_angle_z252:0:0 + D_mdi14_rrank10:0:0,D_ema20_angle_z252 below -1.521 (Q1) AND D_mdi14_rrank10 below 0.8 (Q1),97,3.948316842,36,4.791589372,3.457939811,3.446534371,True
+NIFTY20:2:2 + D_ema20_angle_deg:0:0,NIFTY20 (NIFTY 50 20-session return %) 3 and above AND D_ema20_angle_deg below -0.4254 (Q1),212,3.914070684,32,3.703055277,3.755899565,4.751939172,True
+D_adx14:3:3 + D_WQ_38:3:3,D_adx14 32.46 and above (Q4) AND D_WQ_38 -0.005788 and above (Q4),336,3.906533762,62,4.625696753,3.653394638,2.391905813,False
+NIFTY20:2:2 + D_range_pct:3:3,NIFTY20 (NIFTY 50 20-session return %) 3 and above AND D_range_pct 6.572 and above (Q4),413,3.887348261,35,4.025541838,4.001563333,2.179020906,False
+NIFTY20:2:2 + D_WQ_38:3:3,NIFTY20 (NIFTY 50 20-session return %) 3 and above AND D_WQ_38 -0.005788 and above (Q4),376,3.8748166,37,4.197139415,4.73848414,1.062243072,False
+D_WQ_33:3:3 + D_adx14:3:3,D_WQ_33 0.9476 and above (Q4) AND D_adx14 32.46 and above (Q4),346,3.832198594,67,4.591602918,3.514161582,2.106066154,False
+D_intraday_ret_pct:0:0 + X_relvol_20:0:0,D_intraday_ret_pct below -3.943 (Q1) AND X_relvol_20 below 1.76 (Q1),117,3.789615036,33,4.949396002,1.794090617,2.811407147,False
+IDX:1:2 + D_WQ_29:3:3,"IDX (NIFTY 50, Midcap 150, Smallcap 250 closing at or above their 50-session mean (how many)) 1 to 2 AND D_WQ_29 0.9605 and above (Q4)",157,3.767789699,21,0.5893180909,4.730991676,2.744288727,False
+RSI14:0:0 + D_vol_yz_50:3:3,RSI14 (RSI 14) below 30 AND D_vol_yz_50 0.03869 and above (Q4),130,3.737949495,35,3.496693323,7.801824561,1.460677678,False
+NIFTY20:2:2 + D_intraday_ret_pct:0:0,NIFTY20 (NIFTY 50 20-session return %) 3 and above AND D_intraday_ret_pct below -3.943 (Q1),416,3.732930296,36,4.286644432,4.087980893,0.2161343765,False
+D_adx14:3:3 + D_range_pct:3:3,D_adx14 32.46 and above (Q4) AND D_range_pct 6.572 and above (Q4),394,3.679327158,66,4.070945631,3.919317725,2.117706136,False
+X_relvol_20:3:3 + D_WQ_38:3:3,X_relvol_20 3.365 and above (Q4) AND D_WQ_38 -0.005788 and above (Q4),324,3.647021679,48,3.183920614,4.261804121,2.520011592,False
+X_relvol_20:0:0 + D_range_pct:3:3,X_relvol_20 below 1.76 (Q1) AND D_range_pct 6.572 and above (Q4),155,3.617580506,34,4.54726307,2.531680619,1.870734747,False
+D_ema20_angle_deg:0:0 + D_mdi14_rrank10:0:0,D_ema20_angle_deg below -0.4254 (Q1) AND D_mdi14_rrank10 below 0.8 (Q1),105,3.61379974,38,3.517821404,3.699576531,3.688257699,False
+D_ema20_angle_deg:0:0 + W_ret_13w:3:3,D_ema20_angle_deg below -0.4254 (Q1) AND W_ret_13w 22.79 and above (Q4),170,3.611989628,42,0.84888406,4.650772603,3.153443117,False
+D_n_5pct_up_252:0:0 + D_vol_yz_20:3:3,D_n_5pct_up_252 below 7 (Q1) AND D_vol_yz_20 0.0383 and above (Q4),110,3.581229362,37,3.985910225,5.124430916,1.658824495,False
+NIFTY20:2:2 + D_mdi14_diff5:3:3,NIFTY20 (NIFTY 50 20-session return %) 3 and above AND D_mdi14_diff5 9.432 and above (Q4),351,3.569414695,40,4.693986307,2.717400469,2.488110592,False
+RSI14:0:0 + VIXP:0:0,RSI14 (RSI 14) below 30 AND VIXP (India VIX percentile in its last 250 sessions) below 33.3333,106,3.568932932,23,1.822106202,4.33418799,2.55489549,False
+NIFTY20:2:2 + D_rsi7:0:0,NIFTY20 (NIFTY 50 20-session return %) 3 and above AND D_rsi7 below 24.3 (Q1),210,3.515004315,36,3.529679798,4.093287777,2.336182761,False
+NIFTY20:2:2 + D_ema20_angle_z252:0:0,NIFTY20 (NIFTY 50 20-session return %) 3 and above AND D_ema20_angle_z252 below -1.521 (Q1),186,3.465033667,30,0.5867948415,4.063908662,1.704473274,False
+NIFTY20:2:2 + D_WQ_33:3:3,NIFTY20 (NIFTY 50 20-session return %) 3 and above AND D_WQ_33 0.9476 and above (Q4),425,3.464222688,41,3.87578286,4.067298048,0.2637654761,False
+RSI14:0:0 + D_ret_5d_roll_std:3:3,RSI14 (RSI 14) below 30 AND D_ret_5d_roll_std 7.769 and above (Q4),112,3.459585219,35,2.445933439,8.793646875,2.210014907,False

@@ -1,0 +1,5 @@
+tar -xf "%USERPROFILE%\Downloads\clashlab_v1_0_13nov.zip" -C C:\Users\karanvsi\PyCharmMiscProject
+call C:\Users\karanvsi\PyCharmMiscProject\clashlab\env_clashlab.bat
+python tests\test_clashlab.py
+python clashlab.py check
+python clashlab.py run --root %CACHE_DAILY_ROOT%

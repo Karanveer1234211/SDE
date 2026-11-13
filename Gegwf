@@ -1,0 +1,11 @@
+cd /d C:\Users\karanvsi\PyCharmMiscProject
+tar -xf "%USERPROFILE%\Downloads\tradelab_addon_v1_7_branchlab_13nov.zip"
+tar -xf "%USERPROFILE%\Downloads\branchlab_v1_0_13nov.zip"
+
+call C:\Users\karanvsi\PyCharmMiscProject\tradelab\env_tradelab.bat
+python tests\test_tradelab.py
+
+call C:\Users\karanvsi\PyCharmMiscProject\branchlab\env_branchlab.bat
+python tests\test_branchlab.py
+python branchlab.py check
+python branchlab.py run --root %CACHE_DAILY_ROOT%

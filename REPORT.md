@@ -1,100 +1,116 @@
-# jumplab - Jumpy meta model and swing targets JL1 (jumplab v1.0)
+# clashlab - CL1 - do bars where 3 or more frozen setups clash continue well? (the universe and BigMove's picks) (clashlab v1.0)
 
-Declaration sha256 `ac9b731c8df75078` (declared 2026-11-12, before any run). pick_meta run C:\QuantData\cache_daily\research2\pick_meta\PM_20261017_001\predictions.parquet (sha256 a74f843eaaa9d8eb): 33,100 picks (D and ENS, ranks 1-10), 10,534 JUMPY (31.8%). ETFs: the tree's names + the name rule (NSE's list not found). Intraday: 3-minute bars from C:\QuantData\cache_daily\intraday_3m. 218 s.
+Declaration sha256 `8279f96553aaabc6` (declared 2026-11-13, before any run). Panel `C:\QuantData\cache_daily\panel_oc\panel.parquet`; TAGS run TAGS_20261108_001; universe 1,430 stocks, 124,767 setup entry bars from 2020-01-01; picks: 8,403 pick-days with a setup entry. 90 s.
 
-## Verdict first (Stage 1, descriptive - Stage 2 decides)
+## Verdict first
 
-- **NO NET SKILL**: the meta's expected net ranks the day's jumpy picks with a mean daily rank correlation of -0.0246 [-0.0650, +0.0153] (927 days; pooled -0.0173).
-- Top 30% by the meta minus the rest, same day: -27.3 [-105.9, +53.3] bp (top +138.0 bp, rest +118.8 bp; 28.5% of the jumpy picks scored top).
-- **NO DIP SKILL**: AUC 0.518 [0.499, 0.539] for a dip to -8% (rate 29.1%); pick_meta's prob_deep on the same rows from 2022: 0.524 [0.497, 0.553] (the meta 0.518).
+**FINAL PASS: universe same_bar 3 sessions; universe within_3 3 sessions; universe within_3 5 sessions; picks same_bar 3 sessions.** A forward candidate only (the declaration's rule) - nothing changes in the frozen tree, setups or paper ledger.
 
-## Stage 2 - run all 32 backtests
+Excess = the entry's net minus the mean net of buying EVERY stock at the same open with the same hold (both after 35 bp). A = the clash entries' mean excess; B = A minus the 1-2-setup entries' mean excess. Intervals: 95% circular block bootstrap, 10-day blocks of entry days. Holm across all 12 on the larger p.
 
-Double-click `C:\QuantData\jumplab\runs\JL_20261112_001\run_stage2.bat` (it calls env_tradelab.bat, runs these from the tradelab folder, then Holm). Or paste them from stage2_commands.txt:
+| place | clash | hold | clash entries | comparison | net % | A excess % | 95% | B vs 1-2 % | 95% | p | Holm limit | rule | FINAL |
+|---|---|---:|---:|---:|---:|---:|---|---:|---|---:|---:|---|---|
+| universe | same bar | 3 | 41,804 | 82,963 | +0.42 | +0.22 | [+0.15, +0.30] | +0.15 | [+0.06, +0.25] | 0.0005 | 0.00208 | PASS | **PASS** |
+| universe | same bar | 5 | 41,804 | 82,963 | +0.45 | +0.19 | [+0.10, +0.30] | +0.13 | [+0.02, +0.25] | 0.0145 | 0.00357 | PASS | **FAIL** |
+| universe | same bar | 10 | 41,803 | 82,963 | +0.95 | +0.13 | [+0.00, +0.27] | +0.15 | [+0.01, +0.31] | 0.0195 | 0.00500 | PASS | **FAIL** |
+| universe | within 3 | 3 | 44,188 | 71,834 | +0.39 | +0.21 | [+0.14, +0.28] | +0.18 | [+0.10, +0.27] | 0.0005 | 0.00227 | PASS | **PASS** |
+| universe | within 3 | 5 | 44,188 | 71,834 | +0.44 | +0.19 | [+0.09, +0.29] | +0.17 | [+0.07, +0.28] | 0.0015 | 0.00250 | PASS | **PASS** |
+| universe | within 3 | 10 | 44,187 | 71,834 | +0.91 | +0.12 | [-0.01, +0.26] | +0.18 | [+0.04, +0.33] | 0.0330 | 0.00625 | FAIL | **FAIL** |
+| picks | same bar | 3 | 2,248 | 6,155 | +1.64 | +1.39 | [+0.97, +1.80] | +0.51 | [+0.17, +0.87] | 0.0025 | 0.00278 | PASS | **PASS** |
+| picks | same bar | 5 | 2,248 | 6,155 | +1.94 | +1.63 | [+1.05, +2.17] | +0.51 | [+0.03, +1.00] | 0.0150 | 0.00417 | PASS | **FAIL** |
+| picks | same bar | 10 | 2,248 | 6,155 | +2.55 | +1.75 | [+0.89, +2.59] | +0.38 | [-0.34, +1.13] | 0.1644 | 0.01250 | FAIL | **FAIL** |
+| picks | within 3 | 3 | 2,435 | 5,894 | +1.53 | +1.31 | [+0.89, +1.73] | +0.43 | [+0.07, +0.79] | 0.0090 | 0.00313 | PASS | **FAIL** |
+| picks | within 3 | 5 | 2,435 | 5,894 | +1.84 | +1.55 | [+0.99, +2.09] | +0.42 | [-0.03, +0.88] | 0.0375 | 0.00833 | FAIL | **FAIL** |
+| picks | within 3 | 10 | 2,435 | 5,894 | +2.45 | +1.69 | [+0.83, +2.51] | +0.34 | [-0.35, +1.06] | 0.1729 | 0.02500 | FAIL | **FAIL** |
 
-```
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T1 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T1 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T2 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T2 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T3 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T3 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T4 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T4 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T5 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T5 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T6 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T6 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T7 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T7 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T8 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T8 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J0 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J0 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J1 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J1 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J2 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J2 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J3 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J3 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J4 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J4 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J5 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J5 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J6 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J6 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J7 --compare strategies\tree.py --engines D --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J7 D"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T1 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T1 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T2 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T2 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T3 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T3 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T4 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T4 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T5 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T5 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T6 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T6 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T7 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T7 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#T8 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 T8 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J0 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J0 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J1 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J1 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J2 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J2 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J3 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J3 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J4 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J4 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J5 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J5 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J6 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J6 ENS"
-python tl_backtest.py --root %CACHE_DAILY_ROOT% --pm-run PM_20261017_001 --strategy strategies\jumplab.py#J7 --compare strategies\tree.py --engines ENS --jumplab "C:\QuantData\jumplab\runs\JL_20261112_001" --declare "jumplab JL1 J7 ENS"
-cd /d "C:\Users\karanvsi\PyCharmMiscProject\jumplab"
-python jumplab.py holm --scan "%TRADELAB_OUT%\backtest"
-```
+## How many setups on the bar (descriptive)
 
-## The meta model, year by year (walk-forward)
+| place | setups entering | entries | net 3 | excess 3 | net 5 | excess 5 | net 10 | excess 10 |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| universe | 1 | 65,312 | -0.17 | +0.09 | -0.06 | +0.09 | +0.25 | +0.01 |
+| universe | 2 | 17,651 | -0.28 | +0.00 | -0.34 | -0.03 | +0.05 | -0.15 |
+| universe | 3 | 15,021 | +0.01 | +0.11 | -0.03 | +0.05 | +0.55 | -0.03 |
+| universe | 4 | 11,558 | +0.30 | +0.21 | +0.36 | +0.18 | +1.00 | +0.13 |
+| universe | 5+ | 15,225 | +0.91 | +0.35 | +1.00 | +0.34 | +1.29 | +0.29 |
+| picks | 1 | 4,902 | +0.73 | +0.87 | +1.06 | +1.11 | +1.71 | +1.38 |
+| picks | 2 | 1,253 | +0.86 | +0.88 | +0.83 | +1.12 | +1.32 | +1.28 |
+| picks | 3 | 870 | +1.12 | +1.05 | +1.27 | +1.26 | +2.09 | +1.61 |
+| picks | 4 | 626 | +1.54 | +1.33 | +1.93 | +1.58 | +2.43 | +1.49 |
+| picks | 5+ | 752 | +2.33 | +1.82 | +2.71 | +2.10 | +3.18 | +2.11 |
 
-| test year | trained on (jumpy picks) | scored | Spearman (pooled) | top 30% bp | rest bp | dip AUC |
-|---|---|---|---|---|---|---|
-| 2021 | 1,576 | 1,433 | -0.064 | +224.0 | +181.7 | 0.527 |
-| 2022 | 2,944 | 1,964 | -0.097 | -79.3 | +55.9 | 0.515 |
-| 2023 | 4,902 | 375 | +0.001 | +317.1 | +256.9 | 0.671 |
-| 2024 | 5,367 | 2,303 | +0.058 | +347.0 | +174.1 | 0.534 |
-| 2025 | 7,584 | 1,704 | +0.097 | +91.6 | -45.0 | 0.487 |
-| 2026 | 9,364 | 1,159 | +0.053 | +128.7 | +130.5 | 0.562 |
+## With and without S2 (descriptive)
 
-### Jumpy picks by the meta's expected net (deciles, out of sample, after 35 bp)
+S2 is the only frozen setup that reads the entry bar's own open (a gap down). In a synthetic world where gap-down opens bounce back, these tests passed with no clash effect at all, through S2 alone - an edge that lives only in the 'with S2' rows is the gap, not the clash.
 
-| decile | picks | mean net bp | win | dip to -8% |
-|---|---|---|---|---|
-| 1 | 894 | +179.0 | 57.0% | 30.1% |
-| 2 | 894 | +156.5 | 54.1% | 29.8% |
-| 3 | 893 | +155.2 | 56.1% | 24.7% |
-| 4 | 894 | +119.0 | 51.5% | 26.4% |
-| 5 | 893 | +93.7 | 52.2% | 28.9% |
-| 6 | 894 | +86.0 | 52.2% | 28.7% |
-| 7 | 893 | +97.7 | 50.1% | 28.4% |
-| 8 | 894 | +89.6 | 53.0% | 29.3% |
-| 9 | 893 | +82.9 | 53.8% | 32.4% |
-| 10 | 894 | +182.9 | 54.4% | 31.9% |
+| place | clash | group | S2 | entries | excess 3 % | excess 5 % | excess 10 % |
+|---|---|---|---|---:|---:|---:|---:|
+| universe | same bar | clash | with S2 | 12,021 | +0.58 | +0.57 | +0.43 |
+| universe | same bar | clash | without S2 | 29,783 | +0.08 | +0.04 | +0.01 |
+| universe | same bar | comparison | with S2 | 8,999 | +0.25 | +0.27 | +0.28 |
+| universe | same bar | comparison | without S2 | 73,964 | +0.05 | +0.04 | -0.06 |
+| universe | within 3 | clash | with S2 | 12,092 | +0.58 | +0.57 | +0.43 |
+| universe | within 3 | clash | without S2 | 32,096 | +0.08 | +0.05 | +0.01 |
+| universe | within 3 | comparison | with S2 | 8,845 | +0.24 | +0.26 | +0.27 |
+| universe | within 3 | comparison | without S2 | 62,989 | +0.00 | -0.01 | -0.10 |
+| picks | same bar | clash | with S2 | 819 | +2.01 | +2.58 | +2.62 |
+| picks | same bar | clash | without S2 | 1,429 | +1.03 | +1.08 | +1.25 |
+| picks | same bar | comparison | with S2 | 1,508 | +1.09 | +1.59 | +1.64 |
+| picks | same bar | comparison | without S2 | 4,647 | +0.81 | +0.96 | +1.27 |
+| picks | within 3 | clash | with S2 | 820 | +2.01 | +2.57 | +2.60 |
+| picks | within 3 | clash | without S2 | 1,615 | +0.96 | +1.03 | +1.23 |
+| picks | within 3 | comparison | with S2 | 1,507 | +1.09 | +1.59 | +1.65 |
+| picks | within 3 | comparison | without S2 | 4,387 | +0.81 | +0.96 | +1.25 |
 
-### What the last year's model leans on (permutation importance, descriptive)
+## By year, 5-session hold (descriptive)
 
-| feature | importance (R2 drop) |
-|---|---|
-| ret60 | +0.05637 |
-| rv_i5 | +0.01893 |
-| rsj10 | +0.01773 |
-| lds10 | +0.01688 |
-| rsj_i5 | +0.01486 |
-| vol_ratio1 | +0.01360 |
-| gap1 | +0.01198 |
-| atrp | +0.01186 |
-| sde3 | +0.01128 |
-| ret20 | +0.00936 |
-| semi_share | +0.00902 |
-| ret1 | +0.00899 |
+| place | clash | year | clash entries | clash excess % | 1-2 excess % |
+|---|---|---:|---:|---:|---:|
+| universe | same bar | 2020 | 3,773 | +0.03 | -0.03 |
+| universe | same bar | 2021 | 5,907 | +0.16 | -0.06 |
+| universe | same bar | 2022 | 6,123 | +0.21 | +0.30 |
+| universe | same bar | 2023 | 4,261 | +0.16 | +0.01 |
+| universe | same bar | 2024 | 7,605 | +0.17 | +0.10 |
+| universe | same bar | 2025 | 7,662 | +0.27 | +0.02 |
+| universe | same bar | 2026 | 6,473 | +0.25 | +0.03 |
+| universe | within 3 | 2020 | 3,925 | +0.09 | -0.06 |
+| universe | within 3 | 2021 | 6,130 | +0.13 | -0.09 |
+| universe | within 3 | 2022 | 6,531 | +0.22 | +0.24 |
+| universe | within 3 | 2023 | 4,555 | +0.15 | +0.02 |
+| universe | within 3 | 2024 | 8,057 | +0.17 | +0.03 |
+| universe | within 3 | 2025 | 8,152 | +0.25 | -0.02 |
+| universe | within 3 | 2026 | 6,838 | +0.25 | -0.01 |
+| picks | same bar | 2020 | 308 | +0.99 | +1.19 |
+| picks | same bar | 2021 | 305 | +3.07 | +1.74 |
+| picks | same bar | 2022 | 385 | +0.76 | +1.23 |
+| picks | same bar | 2023 | 199 | +0.86 | +0.78 |
+| picks | same bar | 2024 | 402 | +1.34 | +1.13 |
+| picks | same bar | 2025 | 396 | +2.20 | +0.80 |
+| picks | same bar | 2026 | 253 | +2.16 | +0.93 |
+| picks | within 3 | 2020 | 340 | +0.71 | +1.29 |
+| picks | within 3 | 2021 | 322 | +3.02 | +1.72 |
+| picks | within 3 | 2022 | 417 | +0.74 | +1.22 |
+| picks | within 3 | 2023 | 228 | +0.52 | +0.88 |
+| picks | within 3 | 2024 | 426 | +1.42 | +1.13 |
+| picks | within 3 | 2025 | 420 | +2.10 | +0.76 |
+| picks | within 3 | 2026 | 282 | +2.26 | +0.84 |
 
-## How to read it
+## Picks: clash entries against the D1 open on the same picks (descriptive)
 
-- Lane: the frozen tree's (setuplab TREE.json, 9 Nov 2026): s_atr14 (pick_meta's simple 14-session ATR / close; from the stock's bars when blank) above the year's cut-off = JUMPY; no ATR = JUMPY; ETFs are never jumpy; cut-offs {'2021': 0.05765407554671968, '2022': 0.05641745604231174, '2023': 0.05751632249834517, '2024': 0.053513261982317366, '2025': 0.05492950265998241, '2026': 0.05521984442292925}.
-- Model: test years 2021 to the last year in the file; a year's model trains on the jumpy picks that exited at least 5 sessions before its first session (2021 learns from 2020 alone); a feature blank in every training row sits that year out. Scores: every JUMPY pick of the test year (whatever its status): jm_net, jm_dip; jm_net_q / jm_dip_q = the share of the model's own predictions on its training rows at or below the score; calm picks and ETFs get no score.
-- Stage 2: the money view's daily-return difference against the frozen tree on the same picks has a 95% interval above 0, the CAGR is higher and the worst drawdown no deeper. the 16 strategies run on one engine are one family: one-sided bootstrap p-values Holm-corrected at 0.025 ('python jumplab.py holm'); a strategy PASSES only if its own rule passes AND Holm keeps it. 2021-2026 is where the tree was found and the jumpy picks were studied (tree, SDE, VD1), so a PASS is a forward candidate only (a new tree with its own freeze date); the frozen tree keeps running.
-- Prior evidence: low; the most plausible gain is from dip risk, not direction.
+| clash | hold | entries | clash net % | D1 open net % | difference % | of which ranks 1-3 |
+|---|---:|---:|---:|---:|---:|---:|
+| same bar | 3 | 2,248 | +1.64 | -5.66 | +7.30 | 713 |
+| same bar | 5 | 2,248 | +1.94 | -5.72 | +7.66 | 713 |
+| same bar | 10 | 2,248 | +2.55 | -4.77 | +7.32 | 713 |
+| within 3 | 3 | 2,435 | +1.53 | -5.74 | +7.27 | 776 |
+| within 3 | 5 | 2,435 | +1.84 | -5.81 | +7.65 | 776 |
+| within 3 | 10 | 2,435 | +2.45 | -4.85 | +7.30 | 776 |
+
+## Reconciliation with setuplab's whole-market study
+
+The newest ZONES run's setup trades (to 2026-09-23): 276,631 of 276,631 matched here with the same 5-session net (100.00%); of these marks in that window, 100.00% are in it. 
+
+## What this is not
+
+History already seen (2020-2026). The setups were found on BigMove's picks; the universe is new ground for them, but the clash idea came from looking at charts. A FINAL PASS is a forward candidate; adoption needs forward evidence. Nothing here changes the frozen tree, the setups or the paper ledger.
+
+Not proof that the clash itself matters: a 3+ clash is a deeper dip in a bad week, so a pass may be the dip bouncing (or a high-beta stock in a rising market) rather than the clash, and it includes S2's gap-down open more often. The dose and S2 tables are the first look; separating these is a follow-up study.

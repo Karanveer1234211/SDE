@@ -1,0 +1,26 @@
+place,filter,picks,sessions,mean_net,n_2021,n_2022,n_2023,net_2021,net_2022,net_2023,chosen
+1,sde10 below -0.591 (Q1) AND D_range_pct 8.333 and above (Q4),92,57,8.14822,12,54,26,5.75703,7.27985,11.0554,True
+2,D_WQ_38 -0.0105 and above (Q4) AND D_WQ_20 -0.0008517 and above (Q4),92,53,8.02436,17,64,11,4.4155,8.16519,12.7824,True
+3,Tm1_eff below -0.1391 (Q1) AND D_cpr_width_pct below -1.541 (Q1),100,63,7.96565,15,65,20,4.84399,7.68332,11.2245,True
+4,D_range_pct 8.333 and above (Q4) AND D_ema20_angle_z252 below -1.865 (Q1),118,68,7.95183,13,79,26,4.15743,7.54852,11.0744,False
+5,Tm1_range 1.169 and above (Q4) AND D_donch_pos_20 below 0.02837 (Q1),98,57,7.9466,10,71,17,4.20537,8.15087,9.2942,True
+6,D_ema20_angle_deg below -0.7765 (Q1) AND D_WQ_33 0.9296 and above (Q4),116,57,7.94377,10,80,26,6.43832,7.29282,10.5257,True
+7,x_hi below -0.564 (Q1) AND D_range_pct 8.333 and above (Q4),91,52,7.93004,11,58,22,2.44368,7.85811,10.8629,False
+8,rsj10 below -0.7264 (Q1) AND D_WQ_20 -0.0008517 and above (Q4),124,69,7.89863,14,89,21,2.79921,8.61321,8.26978,False
+9,clv5 below -0.4724 (Q1) AND D_ema20_angle_deg below -0.7765 (Q1),148,85,7.82757,13,108,27,7.20286,6.91295,11.7868,False
+10,D_ema20_angle_z252 below -1.865 (Q1) AND D_WQ_20 -0.0008517 and above (Q4),127,69,7.79664,15,96,16,0.441994,8.51208,10.399,False
+11,ret5 below -0.1363 (Q1) AND rsj10 below -0.7264 (Q1),181,94,7.76748,16,124,41,4.87499,7.95924,8.31631,False
+12,Tm1_eff below -0.1391 (Q1) AND D_WQ_16 -0.1707 and above (Q4),118,74,7.75319,22,71,25,1.97501,8.27028,11.3694,False
+13,D_WQ_16 -0.1707 and above (Q4) AND D_range_pct 8.333 and above (Q4),107,66,7.73931,13,70,24,3.68103,7.38439,10.9727,False
+14,Tm1_vwap below -0.2454 (Q1) AND T0_oc below -0.6144 (Q1),90,63,7.71739,11,60,19,9.609,7.6568,6.81358,False
+15,D_ema20_angle_deg below -0.7765 (Q1) AND D_intraday_ret_pct below -4.339 (Q1),125,60,7.71237,11,86,28,8.22601,6.7696,10.4062,False
+16,rsj10 below -0.7264 (Q1) AND D_range_pct 8.333 and above (Q4),97,61,7.71214,11,59,27,4.57061,7.00121,10.5455,False
+17,Tm1_uwick below 0.2626 (Q1-Q2) AND D_n_5pct_up_60 below 3 (Q1),108,78,7.67924,12,68,28,6.46475,6.45084,11.183,False
+18,sde3 below -1 (Q1) AND D_ema20_angle_deg below -0.7765 (Q1),151,80,7.66304,12,115,24,4.21298,7.41903,10.5573,False
+19,Tm1_eff below -0.1391 (Q1) AND D_ema20_angle_deg below -0.7765 (Q1),126,72,7.66293,12,91,23,0.931098,7.36135,12.3684,False
+20,D_rsi7 below 23.03 (Q1) AND D_WQ_20 -0.0008517 and above (Q4),128,70,7.65949,10,95,23,0.597177,8.18311,8.56732,False
+21,ret5 below -0.1363 (Q1) AND D_WQ_20 -0.0008517 and above (Q4),156,85,7.64769,14,124,18,7.94432,7.15614,10.8032,False
+22,upvol20 0.02583 and above (Q2-Q4) AND D_rsi7 below 23.03 (Q1),104,75,7.63279,14,77,13,2.76053,7.88266,11.3998,False
+23,sde10 below -0.591 (Q1) AND x_lo below -0.6585 (Q1),112,69,7.60592,19,66,27,6.39125,8.30667,6.74774,False
+24,sde10 below -0.591 (Q1) AND ret5 below -0.1363 (Q1),180,92,7.60463,19,123,38,6.28008,7.46507,8.71866,False
+25,sde10 below -0.591 (Q1) AND D_cpr_width_pct below -1.541 (Q1),110,65,7.60261,18,67,25,7.0826,6.85544,9.97942,False

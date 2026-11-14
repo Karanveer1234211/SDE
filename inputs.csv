@@ -1,0 +1,206 @@
+input,family,day_constant
+D_macd,raw price levels,False
+D_macd_signal,raw price levels,False
+D_macd_hist,raw price levels,False
+D_obv,raw price levels,False
+D_breakout_high_20,raw price levels,False
+D_breakout_low_20,raw price levels,False
+D_breakout_high_50,raw price levels,False
+D_breakout_low_50,raw price levels,False
+D_midpoint_slope,raw price levels,False
+D_dow,calendar,True
+DOW_0,calendar,True
+DOW_1,calendar,True
+DOW_2,calendar,True
+DOW_3,calendar,True
+DOW_4,calendar,False
+DOW_5,calendar,False
+DOW_6,calendar,True
+X_universe_size,market and outside series,True
+MKT_D_realvol_20,market and outside series,True
+MKT_D_rsi14,market and outside series,True
+MKT_D_adx14,market and outside series,True
+MKT_D_dist_from_52wh,market and outside series,True
+MKT_D_drawdown_252,market and outside series,True
+NIFTYBANK_ret_1d,market and outside series,True
+NIFTY500_ret_1d,market and outside series,True
+NIFTYMIDCAP150_ret_1d,market and outside series,True
+NIFTYSMLCAP250_ret_1d,market and outside series,True
+INDIAVIX_ret_1d,market and outside series,True
+NIFTYAUTO_ret_1d,market and outside series,True
+NIFTYFMCG_ret_1d,market and outside series,True
+NIFTYIT_ret_1d,market and outside series,True
+NIFTYMETAL_ret_1d,market and outside series,True
+NIFTYPHARMA_ret_1d,market and outside series,True
+NIFTYREALTY_ret_1d,market and outside series,True
+NIFTYENERGY_ret_1d,market and outside series,True
+NIFTYPSUBANK_ret_1d,market and outside series,True
+NIFTYFINSERVICE_ret_1d,market and outside series,True
+NIFTYMEDIA_ret_1d,market and outside series,True
+NIFTYCONSUMPTION_ret_1d,market and outside series,True
+NIFTYINFRA_ret_1d,market and outside series,True
+USDINR_ret_1d,market and outside series,True
+CRUDEOIL_ret_1d,market and outside series,True
+GOLD_ret_1d,market and outside series,True
+Comb_RSIslopePos__ADX_15_25,combined flags,False
+Comb_GapUp__CPR_Tmr_Above,combined flags,False
+Comb_GapDown__CPR_Tmr_Below,combined flags,False
+Comb_ATRlow__EMA20pos,combined flags,False
+Comb_ATRhigh__EMA20neg,combined flags,False
+D_cmf20,volume and liquidity,False
+D_obv_slope,volume and liquidity,False
+D_dollar_vol,volume and liquidity,False
+D_dvol_z20,volume and liquidity,False
+D_dvol_z50,volume and liquidity,False
+D_dvol_z252,volume and liquidity,False
+D_vol_surge_20,volume and liquidity,False
+D_vol_surge_50,volume and liquidity,False
+D_vol_z252,volume and liquidity,False
+D_rsi14_obv_x,volume and liquidity,False
+D_rsi7_obv_x,volume and liquidity,False
+W_vol_vs_4w,volume and liquidity,False
+D_cmf20_rmean50,volume and liquidity,False
+D_amihud_20,volume and liquidity,False
+D_amihud_60,volume and liquidity,False
+X_turnover_med,volume and liquidity,False
+X_rank_D_dvol_z20,volume and liquidity,False
+X_z_D_dvol_z20,volume and liquidity,False
+X_rank_D_dvol_z252,volume and liquidity,False
+X_z_D_dvol_z252,volume and liquidity,False
+X_rank_D_amihud_20,volume and liquidity,False
+X_z_D_amihud_20,volume and liquidity,False
+D_atr_ratio_14_30,volatility and jumpiness,False
+D_cpr_width_pct,volatility and jumpiness,False
+D_range_to_atr14,volatility and jumpiness,False
+D_bb_bw_20,volatility and jumpiness,False
+D_vol_yz_20,volatility and jumpiness,False
+D_vol_yz_50,volatility and jumpiness,False
+D_atr_pct,volatility and jumpiness,False
+D_range_pct,volatility and jumpiness,False
+D_atr_pct_z252,volatility and jumpiness,False
+D_ret_5d_roll_std,volatility and jumpiness,False
+D_compress_state,volatility and jumpiness,False
+D_slope_stability_rstd10,volatility and jumpiness,False
+D_slope_stability_rstd20,volatility and jumpiness,False
+D_close_roll_slope_20_rstd20,volatility and jumpiness,False
+D_close_roll_slope_20_rstd10,volatility and jumpiness,False
+D_macd_hist_rstd10,volatility and jumpiness,False
+D_realvol_20,volatility and jumpiness,False
+D_realvol_60,volatility and jumpiness,False
+D_realvol_ratio_20_60,volatility and jumpiness,False
+D_ret_skew_60,volatility and jumpiness,False
+D_ret_kurt_60,volatility and jumpiness,False
+D_downside_dev_60,volatility and jumpiness,False
+D_upside_vol_ratio,volatility and jumpiness,False
+D_n_5pct_up_60,volatility and jumpiness,False
+D_n_5pct_up_252,volatility and jumpiness,False
+X_rank_D_range_pct,volatility and jumpiness,False
+X_z_D_range_pct,volatility and jumpiness,False
+X_rank_D_atr_pct,volatility and jumpiness,False
+X_z_D_atr_pct,volatility and jumpiness,False
+X_rank_D_realvol_20,volatility and jumpiness,False
+X_z_D_realvol_20,volatility and jumpiness,False
+X_rank_D_realvol_ratio_20_60,volatility and jumpiness,False
+X_z_D_realvol_ratio_20_60,volatility and jumpiness,False
+X_rank_D_ret_skew_60,volatility and jumpiness,False
+X_z_D_ret_skew_60,volatility and jumpiness,False
+X_rank_D_downside_dev_60,volatility and jumpiness,False
+X_z_D_downside_dev_60,volatility and jumpiness,False
+X_relvol_20,volatility and jumpiness,False
+D_bb_pctB_20,"position in range (52-week, 20-day, bands)",False
+D_donch_pos_20,"position in range (52-week, 20-day, bands)",False
+D_donch_pos_50,"position in range (52-week, 20-day, bands)",False
+D_dist_from_20h,"position in range (52-week, 20-day, bands)",False
+D_dist_from_20l,"position in range (52-week, 20-day, bands)",False
+D_dist_from_52wh,"position in range (52-week, 20-day, bands)",False
+W_close_pos,"position in range (52-week, 20-day, bands)",False
+D_donch_pos_50_rmean50,"position in range (52-week, 20-day, bands)",False
+D_donch_pos_50_lag5,"position in range (52-week, 20-day, bands)",False
+D_donch_pos_20_rmean50,"position in range (52-week, 20-day, bands)",False
+D_donch_pos_20_lag5,"position in range (52-week, 20-day, bands)",False
+D_dist_from_52wl,"position in range (52-week, 20-day, bands)",False
+D_pos_in_52w_range,"position in range (52-week, 20-day, bands)",False
+D_drawdown_252,"position in range (52-week, 20-day, bands)",False
+X_rank_D_dist_from_52wh,"position in range (52-week, 20-day, bands)",False
+X_z_D_dist_from_52wh,"position in range (52-week, 20-day, bands)",False
+X_rank_D_dist_from_52wl,"position in range (52-week, 20-day, bands)",False
+X_z_D_dist_from_52wl,"position in range (52-week, 20-day, bands)",False
+X_rank_D_pos_in_52w_range,"position in range (52-week, 20-day, bands)",False
+X_z_D_pos_in_52w_range,"position in range (52-week, 20-day, bands)",False
+X_rank_D_drawdown_252,"position in range (52-week, 20-day, bands)",False
+X_z_D_drawdown_252,"position in range (52-week, 20-day, bands)",False
+X_rank_D_bb_pctB_20,"position in range (52-week, 20-day, bands)",False
+X_z_D_bb_pctB_20,"position in range (52-week, 20-day, bands)",False
+X_rank_D_donch_pos_20,"position in range (52-week, 20-day, bands)",False
+X_z_D_donch_pos_20,"position in range (52-week, 20-day, bands)",False
+D_adx14,trend,False
+D_pdi14,trend,False
+D_mdi14,trend,False
+D_daily_trend,trend,False
+D_weekly_trend,trend,False
+D_monthly_trend,trend,False
+D_ema_stack_20_50_100,trend,False
+D_ema20_angle_deg,trend,False
+D_structure_trend_code,trend,False
+D_ema20_angle_z252,trend,False
+D_close_roll_slope_20,trend,False
+D_close_roll_slope_50,trend,False
+D_hh_run,trend,False
+D_hl_run,trend,False
+D_lh_run,trend,False
+D_ll_run,trend,False
+D_slope_stability,trend,False
+D_slope_stability_rmean50,trend,False
+D_mdi14_diff1,trend,False
+D_mdi14_diff5,trend,False
+D_mdi14_rrank10,trend,False
+D_mdi14_rrank20,trend,False
+X_rank_D_adx14,trend,False
+X_z_D_adx14,trend,False
+X_rank_D_ema20_angle_deg,trend,False
+X_z_D_ema20_angle_deg,trend,False
+D_rsi7,"returns, reversal and oscillators",False
+D_rsi14,"returns, reversal and oscillators",False
+D_rsi7_gt_rsi14,"returns, reversal and oscillators",False
+D_gap_pct,"returns, reversal and oscillators",False
+D_rsi14_z252,"returns, reversal and oscillators",False
+D_body_ratio,"returns, reversal and oscillators",False
+D_wick_skew,"returns, reversal and oscillators",False
+W_ret_4w,"returns, reversal and oscillators",False
+W_ret_13w,"returns, reversal and oscillators",False
+D_WQ_3,"returns, reversal and oscillators",False
+D_WQ_6,"returns, reversal and oscillators",False
+D_WQ_12,"returns, reversal and oscillators",False
+D_WQ_13,"returns, reversal and oscillators",False
+D_WQ_16,"returns, reversal and oscillators",False
+D_WQ_19,"returns, reversal and oscillators",False
+D_WQ_20,"returns, reversal and oscillators",False
+D_WQ_23,"returns, reversal and oscillators",False
+D_WQ_26,"returns, reversal and oscillators",False
+D_WQ_29,"returns, reversal and oscillators",False
+D_WQ_33,"returns, reversal and oscillators",False
+D_WQ_35,"returns, reversal and oscillators",False
+D_WQ_38,"returns, reversal and oscillators",False
+D_WQ_40,"returns, reversal and oscillators",False
+D_WQ_41,"returns, reversal and oscillators",False
+D_WQ_44,"returns, reversal and oscillators",False
+D_body_ratio_rmean50,"returns, reversal and oscillators",False
+D_body_ratio_rmean20,"returns, reversal and oscillators",False
+D_intraday_ret_pct,"returns, reversal and oscillators",False
+X_rank_D_rsi14,"returns, reversal and oscillators",False
+X_z_D_rsi14,"returns, reversal and oscillators",False
+X_rank_D_gap_pct,"returns, reversal and oscillators",False
+X_z_D_gap_pct,"returns, reversal and oscillators",False
+X_rank_D_intraday_ret_pct,"returns, reversal and oscillators",False
+X_z_D_intraday_ret_pct,"returns, reversal and oscillators",False
+D_inside_day,other,False
+D_prev_inside_day,other,False
+D_nr_length,other,False
+D_nr_day,other,False
+D_oli,other,False
+D_cpr_vs_yday_code,other,False
+D_days_since_boh_20,other,False
+D_days_since_bol_20,other,False
+D_nr_expand,other,False
+D_overnight_share,other,False
+D_days_since_5pct_up,other,False

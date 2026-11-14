@@ -1,85 +1,105 @@
-# skiplab - SK2: SK1's filters bought at the D1 open, 2024 onward (skiplab v1.1)
+# skiplab - SK3: bullish divergence and the VWAP reclaim as buy triggers (skiplab v1.2)
 
-Declaration sha256 `2444726dbe5b3310` (declared 2026-11-14, before any run). SK1 run SK_20261114_001; tree run TREE_20261109_001 (TAGS TAGS_20261108_001); window 2024-01-01 .. 2026-09-22; 3 s.
+Declaration sha256 `00bd6f331bd98c76` (declared 2026-11-14, before any run). Watchlist C:\QuantData\setuplab\WL_R1_10 (sha256 6d6d408c5a5273b9); picks D 15,818, ENS 16,256 (VWAP: D1 from 2021-10-01: D 11,593, ENS 12,025); 261 s.
 
 ## Verdict first
 
-- **A. Separate pocket (the tree untouched): 0 of 8 FINAL PASS** - no filter's pocket made money and beat buying every jumpy pick.
-- **B. Inside the tree's own 3 places: 0 of 8 FINAL PASS** - no branch beat the frozen tree's own book.
-- Every book: value 1.0 on the first session of 2024, 3 places, each buy 1/3 of the closed value, full = skip (the tree's own book rules). PASS = the daily difference has a 95% interval above 0 AND a higher a-year return (A: also above 0) AND a worst fall no deeper; FINAL PASS = PASS and kept by Holm per part and engine (0.025).
+- **0 of 5 triggers PASS** - none earns a place beside the frozen setups.
+- Judged exactly like the setups: each trigger's own trades against buying the same picks at the D1 open, both engines, both exits, setuplab's rule (300+ trades; buys better than D1 with a 95% interval above 0; beats its twin; positive in all but one year and in both halves).
 
-## A. Separate pocket: the filter's picks with their own money and 3 places
+| trigger | what | engine | trades | net a trade | D1 open, same trades | better than D1 [95%] | net a trade [95%] | over the twin [95%] |
+|---|---|---|---:|---:|---:|---|---|---|
+| DIV_ON | bullish RSI divergence on at the close -> buy the next open | D | 545 | +1.15% | +2.42% | -1.27 [-1.84, -0.79] | +1.15 [-0.09, +2.42] | - |
+|  |  | ENS | 518 | +1.63% | +2.71% | -1.08 [-1.61, -0.57] | +1.63 [+0.57, +2.75] | - |
+| DIV_NEW | bullish RSI divergence appears at the close -> buy the next open | D | 185 | -0.24% | +3.51% | -3.75 [-5.29, -2.44] | -0.24 [-1.67, +1.23] | - |
+|  |  | ENS | 169 | +0.39% | +3.69% | -3.30 [-4.62, -1.96] | +0.39 [-1.00, +1.85] | - |
+| DIV_DIP2 | divergence on and the close 2%+ under the D1 open -> buy the next open (twin: the same dip alone) | D | 210 | +0.30% | -3.36% | +3.65 [+3.25, +4.15] | +0.30 [-1.05, +1.71] | [-0.06, +0.01] |
+|  |  | ENS | 174 | +1.41% | -2.39% | +3.80 [+3.02, +4.79] | +1.41 [+0.23, +2.74] | [-0.03, +0.04] |
+| VW_D1 | on D1, a close under the VWAP and then back over it -> buy the next 3-minute bar (twin: buy right after the first close under it) | D | 10,196 | +0.54% | +0.80% | -0.26 [-0.32, -0.21] | +0.54 [+0.10, +0.97] | [-0.27, -0.21] |
+|  |  | ENS | 10,589 | +0.50% | +0.76% | -0.26 [-0.30, -0.21] | +0.50 [+0.08, +0.91] | [-0.26, -0.21] |
+| VW_D15 | the same on the first of D1-D5 where it happens (twin: the first close under the VWAP) | D | 11,169 | +0.51% | +0.70% | -0.19 [-0.27, -0.12] | +0.51 [+0.08, +0.93] | [-0.06, +0.04] |
+|  |  | ENS | 11,589 | +0.44% | +0.67% | -0.24 [-0.31, -0.15] | +0.44 [+0.02, +0.84] | [-0.07, +0.02] |
 
-Against an 'everything' pocket that buys every jumpy pick of ranks 1-3 the same way (D: +34.4% a year, worst fall 62.8%; ENS: +4.7% a year, worst fall 58.3%). A pocket with few picks sits in cash a lot, and cash can beat a losing everything-pocket; that is why the pocket must also make money (a year above 0).
+Numbers above: the original_d5 exit (sell at the pick's D5 close), in % a trade after 0.35 pp costs.
 
-| filter | engine | picks | taken | a year (everything) | worst fall (everything) | daily difference, bp [95%] | p | Holm limit | verdict |
-|---|---|---:|---:|---|---|---|---:|---:|---|
-| #1 | D | 118 | 98 | +31.5% (+34.4%) | 36.6% (62.8%) | -3.27 [-25.58, +19.71] | 0.6182 | 0.0125 | **FAIL** |
-| #1 | ENS | 116 | 98 | +17.0% (+4.7%) | 41.1% (58.3%) | +2.32 [-14.29, +18.71] | 0.4028 | 0.0125 | **FAIL** |
-| #3 | D | 124 | 101 | +48.8% (+34.4%) | 14.9% (62.8%) | +1.23 [-20.31, +23.66] | 0.4503 | 0.0083 | **FAIL** |
-| #3 | ENS | 132 | 106 | +37.0% (+4.7%) | 14.8% (58.3%) | +8.25 [-11.24, +27.91] | 0.2069 | 0.0083 | **FAIL** |
-| #4 | D | 108 | 96 | +50.5% (+34.4%) | 16.2% (62.8%) | +2.13 [-19.33, +24.20] | 0.4218 | 0.0063 | **FAIL** |
-| #4 | ENS | 117 | 106 | +40.1% (+4.7%) | 22.9% (58.3%) | +9.61 [-8.75, +27.47] | 0.1589 | 0.0063 | **FAIL** |
-| #5 | D | 186 | 120 | +20.3% (+34.4%) | 47.9% (62.8%) | -6.45 [-25.71, +12.22] | 0.7546 | 0.0250 | **FAIL** |
-| #5 | ENS | 175 | 119 | +15.2% (+4.7%) | 42.6% (58.3%) | +1.90 [-15.20, +19.10] | 0.4298 | 0.0250 | **FAIL** |
+## The rule, trigger by trigger
 
-| filter | engine | mean net of all picks | win share | mean net of those taken | skipped (pocket full) | taken that the tree also bought | a year, 5 start days (everything) | worst fall, 5 start days (everything) |
-|---|---|---:|---:|---:|---:|---:|---|---|
-| #1 | D | +2.91% | 60.2% | +2.74% | 20 | 23 | +31.5% (+34.5%) | 36.6% (62.8%) |
-| #1 | ENS | +2.27% | 56.9% | +1.77% | 18 | 17 | +17.1% (+5.2%) | 41.1% (58.3%) |
-| #3 | D | +4.09% | 63.7% | +3.40% | 23 | 19 | +48.9% (+34.5%) | 14.9% (62.8%) |
-| #3 | ENS | +2.64% | 57.6% | +2.55% | 26 | 11 | +37.1% (+5.2%) | 14.8% (58.3%) |
-| #4 | D | +4.59% | 69.4% | +3.77% | 12 | 16 | +50.7% (+34.5%) | 16.2% (62.8%) |
-| #4 | ENS | +3.17% | 61.5% | +2.91% | 11 | 12 | +40.2% (+5.2%) | 22.9% (58.3%) |
-| #5 | D | +2.80% | 60.2% | +1.59% | 66 | 25 | +20.3% (+34.5%) | 47.9% (62.8%) |
-| #5 | ENS | +2.08% | 56.0% | +1.20% | 56 | 18 | +15.3% (+5.2%) | 42.6% (58.3%) |
+| trigger | original_d5 | fresh | PASS | why not |
+|---|---|---|---|---|
+| DIV_ON | no | no | **FAIL** | D: lift over D1 not clearly above 0; D: net <= 0 in more than one year; ENS: lift over D1 not clearly above 0; D: lift over D1 not clearly above 0; D: net <= 0 in more than one year; ENS: lift over D1 not clearly above 0 |
+| DIV_NEW | no | no | **FAIL** | D: fewer than 300 trades; D: lift over D1 not clearly above 0; D: net <= 0 in more than one year; D: net <= 0 in one half of the period; ENS: fewer than 300 trades; ENS: lift over D1 not clearly above 0; ENS: net <= 0 in more than one year; ENS: net <= 0 in one half of the period; D: fewer than 300 trades; D: lift over D1 not clearly above 0; D: net <= 0 in more than one year; ENS: fewer than 300 trades; ENS: lift over D1 not clearly above 0; ENS: net <= 0 in more than one year; ENS: net <= 0 in one half of the period |
+| DIV_DIP2 | no | no | **FAIL** | D: fewer than 300 trades; D: the indicators add nothing clear over the same entry without them; D: net <= 0 in more than one year; ENS: fewer than 300 trades; ENS: the indicators add nothing clear over the same entry without them; D: fewer than 300 trades; D: the indicators add nothing clear over the same entry without them; ENS: fewer than 300 trades; ENS: net <= 0 in more than one year |
+| VW_D1 | no | no | **FAIL** | D: lift over D1 not clearly above 0; D: the indicators add nothing clear over the same entry without them; ENS: lift over D1 not clearly above 0; ENS: the indicators add nothing clear over the same entry without them; D: lift over D1 not clearly above 0; D: the indicators add nothing clear over the same entry without them; ENS: lift over D1 not clearly above 0; ENS: the indicators add nothing clear over the same entry without them |
+| VW_D15 | no | no | **FAIL** | D: lift over D1 not clearly above 0; D: the indicators add nothing clear over the same entry without them; ENS: lift over D1 not clearly above 0; ENS: the indicators add nothing clear over the same entry without them; D: lift over D1 not clearly above 0; D: the indicators add nothing clear over the same entry without them; ENS: lift over D1 not clearly above 0; ENS: the indicators add nothing clear over the same entry without them |
 
-## B. Inside the tree's own 3 places (the branch SK1 declared)
+## Where it works and where not (descriptive, original_d5)
 
-The frozen tree alone: D +138.1% a year, worst fall 20.1%, all 3 places busy on 71% of the days; ENS +96.1% a year, worst fall 20.5%, all 3 busy on 86%.
+| trigger | engine | group | trades | net a trade | D1 open, same trades | better than D1 [95%] |
+|---|---|---|---:|---:|---:|---|
+| DIV_ON | D | jumpy | 176 | +1.90% | +3.62% | -1.72 [-2.86, -0.83] |
+| DIV_ON | D | calm | 278 | +0.56% | +1.55% | -0.99 [-1.62, -0.49] |
+| DIV_ON | D | ranks 1-3 | 191 | +1.69% | +2.61% | -0.92 [-1.57, -0.38] |
+| DIV_ON | D | ranks 4-10 | 354 | +0.85% | +2.32% | -1.47 [-2.22, -0.81] |
+| DIV_NEW | D | jumpy | 77 | -0.28% | +3.66% | -3.94 [-6.76, -1.91] |
+| DIV_NEW | D | calm | 75 | -0.82% | +2.85% | -3.67 [-5.70, -2.01] |
+| DIV_NEW | D | ranks 1-3 | 61 | -0.19% | +2.68% | -2.87 [-4.82, -1.19] |
+| DIV_NEW | D | ranks 4-10 | 124 | -0.26% | +3.92% | -4.18 [-6.02, -2.48] |
+| DIV_DIP2 | D | jumpy | 65 | +1.95% | -2.41% | +4.36 [+3.59, +5.21] |
+| DIV_DIP2 | D | calm | 102 | -0.43% | -4.02% | +3.59 [+3.10, +4.17] |
+| DIV_DIP2 | D | ranks 1-3 | 74 | +1.48% | -2.02% | +3.50 [+2.97, +4.19] |
+| DIV_DIP2 | D | ranks 4-10 | 136 | -0.35% | -4.09% | +3.74 [+3.20, +4.33] |
+| VW_D1 | D | jumpy | 3,589 | +0.92% | +1.32% | -0.39 [-0.50, -0.30] |
+| VW_D1 | D | calm | 6,607 | +0.33% | +0.52% | -0.19 [-0.24, -0.14] |
+| VW_D1 | D | ranks 1-3 | 2,961 | +0.99% | +1.26% | -0.27 [-0.34, -0.20] |
+| VW_D1 | D | ranks 4-10 | 7,235 | +0.36% | +0.61% | -0.26 [-0.32, -0.20] |
+| VW_D15 | D | jumpy | 4,020 | +0.81% | +1.12% | -0.31 [-0.46, -0.17] |
+| VW_D15 | D | calm | 7,149 | +0.34% | +0.46% | -0.13 [-0.21, -0.05] |
+| VW_D15 | D | ranks 1-3 | 3,295 | +0.93% | +1.12% | -0.19 [-0.32, -0.07] |
+| VW_D15 | D | ranks 4-10 | 7,874 | +0.33% | +0.53% | -0.19 [-0.28, -0.12] |
+| DIV_ON | ENS | jumpy | 137 | +1.57% | +3.28% | -1.71 [-2.80, -0.73] |
+| DIV_ON | ENS | calm | 296 | +1.24% | +1.70% | -0.46 [-0.86, +0.05] |
+| DIV_ON | ENS | ranks 1-3 | 156 | +3.02% | +4.33% | -1.31 [-2.35, -0.44] |
+| DIV_ON | ENS | ranks 4-10 | 362 | +1.04% | +2.01% | -0.97 [-1.48, -0.48] |
+| DIV_NEW | ENS | jumpy | 54 | -1.46% | +2.87% | -4.33 [-6.80, -2.05] |
+| DIV_NEW | ENS | calm | 77 | +0.23% | +1.99% | -1.76 [-3.32, +0.19] |
+| DIV_NEW | ENS | ranks 1-3 | 52 | +0.61% | +4.53% | -3.93 [-6.60, -1.47] |
+| DIV_NEW | ENS | ranks 4-10 | 117 | +0.30% | +3.31% | -3.01 [-4.42, -1.59] |
+| DIV_DIP2 | ENS | jumpy | 49 | +2.26% | -2.10% | +4.36 [+3.45, +5.37] |
+| DIV_DIP2 | ENS | calm | 96 | +0.48% | -3.00% | +3.48 [+2.68, +4.65] |
+| DIV_DIP2 | ENS | ranks 1-3 | 53 | +1.88% | -1.29% | +3.17 [+2.62, +3.89] |
+| DIV_DIP2 | ENS | ranks 4-10 | 121 | +1.20% | -2.87% | +4.07 [+3.07, +5.23] |
+| VW_D1 | ENS | jumpy | 3,185 | +1.02% | +1.44% | -0.42 [-0.52, -0.31] |
+| VW_D1 | ENS | calm | 7,404 | +0.28% | +0.47% | -0.19 [-0.23, -0.15] |
+| VW_D1 | ENS | ranks 1-3 | 3,122 | +0.80% | +1.09% | -0.29 [-0.36, -0.23] |
+| VW_D1 | ENS | ranks 4-10 | 7,467 | +0.38% | +0.62% | -0.24 [-0.29, -0.19] |
+| VW_D15 | ENS | jumpy | 3,589 | +0.86% | +1.28% | -0.42 [-0.61, -0.24] |
+| VW_D15 | ENS | calm | 8,000 | +0.25% | +0.40% | -0.15 [-0.22, -0.08] |
+| VW_D15 | ENS | ranks 1-3 | 3,457 | +0.69% | +0.94% | -0.26 [-0.37, -0.13] |
+| VW_D15 | ENS | ranks 4-10 | 8,132 | +0.33% | +0.56% | -0.23 [-0.30, -0.15] |
 
-| filter | engine | a year (tree alone) | worst fall (tree alone) | daily difference, bp [95%] | p | Holm limit | verdict |
-|---|---|---|---|---|---:|---:|---|
-| #1 | D | +104.8% (+138.1%) | 43.7% (20.1%) | -6.07 [-17.01, +2.14] | 0.9125 | 0.0250 | **FAIL** |
-| #1 | ENS | +85.4% (+96.1%) | 43.6% (20.5%) | -1.79 [-11.03, +6.82] | 0.6742 | 0.0125 | **FAIL** |
-| #3 | D | +134.0% (+138.1%) | 20.0% (20.1%) | -0.90 [-7.96, +6.14] | 0.5892 | 0.0063 | **FAIL** |
-| #3 | ENS | +117.9% (+96.1%) | 29.1% (20.5%) | +4.69 [-5.16, +14.43] | 0.1794 | 0.0063 | **FAIL** |
-| #4 | D | +131.5% (+138.1%) | 22.3% (20.1%) | -1.19 [-9.09, +6.07] | 0.6242 | 0.0083 | **FAIL** |
-| #4 | ENS | +106.7% (+96.1%) | 25.2% (20.5%) | +2.59 [-5.75, +11.45] | 0.3018 | 0.0083 | **FAIL** |
-| #5 | D | +127.0% (+138.1%) | 32.8% (20.1%) | -1.95 [-12.30, +7.86] | 0.6537 | 0.0125 | **FAIL** |
-| #5 | ENS | +60.5% (+96.1%) | 54.4% (20.5%) | -7.36 [-20.74, +4.86] | 0.8676 | 0.0250 | **FAIL** |
+Net a trade, year by year (original_d5):
 
-## Does it disturb the tree's other trades?
-
-- A (separate pocket): no. The tree's book is the frozen one, trade for trade; the pocket only adds its own trades with its own money (some on the same stock the tree also bought - the column above).
-- B (same 3 places): yes, whenever the places are full. Only the marked jumpy picks are handled differently, but a D1 buy holding a place changes which of the tree's later trades fit:
-
-| filter | engine | marked picks | added (tree skipped) | moved to D1 (setup later) | left to the tree (setup on D1) | D1 buys taken / full | tree trades | pushed out (mean net) | gained (mean net) |
-|---|---|---:|---:|---:|---:|---|---:|---|---|
-| #1 | D | 118 | 61 | 38 | 19 | 47 / 52 | 391 | 38 (+4.14%) | 13 (+0.83%) |
-| #1 | ENS | 116 | 60 | 39 | 17 | 42 / 57 | 398 | 45 (+1.43%) | 21 (+2.21%) |
-| #3 | D | 124 | 75 | 33 | 16 | 50 / 58 | 391 | 50 (+3.46%) | 17 (+1.12%) |
-| #3 | ENS | 132 | 70 | 43 | 19 | 45 / 68 | 398 | 91 (+0.80%) | 62 (+1.98%) |
-| #4 | D | 108 | 64 | 32 | 12 | 47 / 49 | 391 | 38 (+0.76%) | 10 (+2.52%) |
-| #4 | ENS | 117 | 61 | 39 | 17 | 40 / 60 | 398 | 68 (+0.81%) | 41 (+0.35%) |
-| #5 | D | 186 | 92 | 60 | 34 | 67 / 85 | 391 | 63 (+1.38%) | 22 (-0.05%) |
-| #5 | ENS | 175 | 88 | 59 | 28 | 56 / 91 | 398 | 97 (+1.27%) | 62 (+0.59%) |
-
-## Filters
-
-- #1: sde10 below -0.591 (Q1) AND D_range_pct 8.333 and above (Q4)
-- #3: Tm1_eff below -0.1391 (Q1) AND D_cpr_width_pct below -1.541 (Q1)
-- #4: Tm1_range 1.169 and above (Q4) AND D_donch_pos_20 below 0.02837 (Q1)
-- #5: D_ema20_angle_deg below -0.7765 (Q1) AND D_WQ_33 0.9296 and above (Q4)
+| trigger | engine | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| DIV_ON | D | +1.49% (91) | -1.57% (51) | +4.69% (80) | +2.21% (80) | -0.35% (59) | +0.54% (113) | -0.33% (71) |
+| DIV_NEW | D | +1.17% (33) | -1.39% (19) | +2.49% (29) | -0.40% (27) | -2.17% (29) | -1.23% (30) | -1.01% (18) |
+| DIV_DIP2 | D | -0.49% (43) | -4.04% (22) | +4.54% (27) | +0.45% (25) | -0.21% (22) | +0.08% (42) | +1.36% (29) |
+| VW_D1 | D | - | +0.79% (546) | +0.22% (2102) | +0.54% (2187) | +1.23% (2123) | +0.24% (1953) | +0.27% (1285) |
+| VW_D15 | D | - | +0.78% (590) | +0.19% (2313) | +0.53% (2348) | +1.25% (2341) | +0.10% (2164) | +0.27% (1413) |
+| DIV_ON | ENS | +3.09% (85) | +0.82% (37) | +3.88% (63) | +2.70% (77) | +0.58% (51) | -0.01% (134) | +1.02% (71) |
+| DIV_NEW | ENS | +3.35% (38) | -0.25% (12) | +0.45% (22) | -0.20% (25) | -2.93% (16) | -0.63% (34) | +0.25% (22) |
+| DIV_DIP2 | ENS | +3.04% (29) | -1.67% (10) | +3.30% (16) | +1.50% (19) | +2.18% (23) | +0.21% (52) | +1.27% (25) |
+| VW_D1 | ENS | - | -0.15% (550) | +0.18% (2163) | +0.83% (2171) | +0.89% (2153) | +0.32% (2125) | +0.44% (1427) |
+| VW_D15 | ENS | - | -0.08% (593) | +0.11% (2342) | +0.83% (2342) | +0.83% (2395) | +0.17% (2348) | +0.34% (1569) |
 
 ## Checks
 
-- picks (lane, ETF, complete, D1 net, setup net) rebuilt with setuplab's own functions: 32,076 against the tree run's 32,076 - the same.
-- D tree trades (from its first start day) rebuilt with setuplab's own functions: 835 against the tree run's 835 - the same.
-- ENS tree trades (from its first start day) rebuilt with setuplab's own functions: 841 against the tree run's 841 - the same.
+- Divergence: tradelab tl_state (settings 9b991e86863591c7) on 1,239 of 1,239 stocks' daily bars; 2,957,734 sessions, the divergence on in 101,387.
+- VWAP: 54,090 usable of 55,895 3-minute sessions asked (tradelab's check: 54090 usable of 55448 with bars); picks with a missing or unusable session before an entry (not traded): D 810, ENS 832 (both VWAP triggers together).
+- Lanes for the jumpy / calm rows: TREE_20261109_001.
 
 ## What this is not
 
-- 2024 onward already judged SK1's filters and was looked at; a pass here makes a candidate, not a rule - the forward paper test decides.
-- Lower-circuit (honest) exits are not applied, as in the tree's own history.
-- Production, the frozen tree, its setups and the paper ledger are only read.
+- History (2020-2026) the setups were also found on: a pass makes a candidate, the forward paper test decides.
+- Per trade on the trades a trigger takes (Karan's comparison); the picks it skips are not counted - the money view is parked, as for the setups.
+- The cache's bars, not TradingView's: TradingView's RSI and VWAP can differ slightly at the edges.

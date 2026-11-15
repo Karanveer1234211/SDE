@@ -1,0 +1,87 @@
+//@version=6
+// D relies on v2 (16 Nov 2026) - the four input groups D's top-3 picks rely on (whylab part K, K_20261115_001):
+// trend, position in range, volatility and jumpiness, returns / reversal.
+// Standard versions of each group, NOT the model's own 205 inputs. All values are daily, whatever the chart timeframe.
+// Information only - it explains a pick; it is not a signal to override the tree, change a size or exit early.
+// v2: pinned to the price scale (the lines sit on the candles); a compact table (hover a row for its meaning) on its
+//     own background, clear of TradingView's legend and its high / low price labels; RSI no longer coloured.
+indicator("BigMove - what D relies on", shorttitle = "D relies on", overlay = true, scale = scale.right)
+
+showEMA = input.bool(true, "Chart: trend line (EMA 50)")
+showBB  = input.bool(true, "Chart: Bollinger band (20, 2)")
+showTbl = input.bool(true, "Table")
+posOpt  = input.string("Top right", "Table position", options = ["Top right", "Middle right", "Bottom right", "Bottom left"])
+txtOpt  = input.string("Small", "Table text", options = ["Tiny", "Small", "Normal"])
+
+f() =>
+    ema50  = ta.ema(close, 50)
+    ret20  = (close / close[20] - 1) * 100
+    ret13w = (close / close[65] - 1) * 100
+    hi52   = ta.highest(high, 252)
+    lo52   = ta.lowest(low, 252)
+    inRng  = hi52 > lo52 ? (close - lo52) / (hi52 - lo52) * 100 : na
+    basis  = ta.sma(close, 20)
+    dev    = 2 * ta.stdev(close, 20)
+    upper  = basis + dev
+    lower  = basis - dev
+    pctB   = upper > lower ? (close - lower) / (upper - lower) * 100 : na
+    bw     = basis > 0 ? (upper - lower) / basis * 100 : na
+    atrp   = ta.atr(14) / close * 100
+    rsi7   = ta.rsi(close, 7)
+    oc     = (close / open - 1) * 100
+    [ema50, ret20, ret13w, inRng, upper, lower, pctB, bw, atrp, rsi7, oc, close]
+
+[ema50, ret20, ret13w, inRng, upper, lower, pctB, bw, atrp, rsi7, oc, dClose] = request.security(syminfo.tickerid, "D", f())
+
+// ---- chart: one trend line and one faint band, nothing else
+up = dClose >= ema50
+plot(showEMA ? ema50 : na, "EMA 50 (trend)", color = up ? color.teal : color.red, linewidth = 2)
+pU = plot(showBB ? upper : na, "BB upper", color = color.new(color.gray, 60))
+pL = plot(showBB ? lower : na, "BB lower", color = color.new(color.gray, 60))
+fill(pU, pL, color = color.new(color.gray, 93), title = "BB fill")
+
+// ---- table: 9 readings in 4 groups; the full meaning of each row shows when you hover it
+isTop   = posOpt == "Top right"
+isRight = str.contains(posOpt, "right")
+tpos = posOpt == "Top right" ? position.top_right : posOpt == "Middle right" ? position.middle_right : posOpt == "Bottom right" ? position.bottom_right : position.bottom_left
+tsz  = txtOpt == "Tiny" ? size.tiny : txtOpt == "Normal" ? size.normal : size.small
+r0   = isTop ? 1 : 0
+var table t = table.new(tpos, 4, 12, frame_width = 0, border_width = 0)
+
+bgC = color.new(chart.bg_color, 8)
+bgH = color.new(chart.fg_color, 85)
+cTx = chart.fg_color
+cMu = color.new(chart.fg_color, 45)
+
+cell(int c, int r, string s, color tc, string al, color bg, string tip) =>
+    table.cell(t, c, r, s, text_color = tc, text_size = tsz, text_halign = al, bgcolor = bg, tooltip = tip)
+
+row(int r, string grp, string name, string val, color vc, string tip) =>
+    cell(0, r0 + r, grp,  cMu, text.align_left,  bgC, tip)
+    cell(1, r0 + r, name, cTx, text.align_left,  bgC, tip)
+    cell(2, r0 + r, val,  vc,  text.align_right, bgC, tip)
+
+pct(float x)  => na(x) ? "n/a" : (x >= 0 ? "+" : "") + str.tostring(x, "0.0") + "%"
+of100(float x) => na(x) ? "n/a" : str.tostring(x, "0") + "/100"
+per(float x)  => na(x) ? "n/a" : str.tostring(x, "0.0") + "%"
+sgn(float x)  => na(x) ? cTx : x >= 0 ? color.teal : color.red
+
+if barstate.islast
+    table.clear(t, 0, 0, 3, 11)
+    if showTbl
+        if isTop        // a blank first row: clears TradingView's legend line
+            table.cell(t, 0, 0, "", height = 5)
+        if isRight      // a blank last column: clears TradingView's high / low price labels
+            table.cell(t, 3, r0, "", width = 3)
+        cell(0, r0, "D relies on", cTx, text.align_left, bgH, "What D's top-3 picks rely on (whylab part K). Daily values. Information only.")
+        cell(1, r0, "daily", cMu, text.align_left, bgH, "Daily values, whatever the chart timeframe")
+        cell(2, r0, "now", cMu, text.align_right, bgH, "The last daily bar")
+        row(1, "TREND",      "20-day return",     pct(ret20),  sgn(ret20),  "Close vs the close 20 sessions ago")
+        row(2, "",           "13-week return",    pct(ret13w), sgn(ret13w), "Close vs the close 65 sessions (13 weeks) ago")
+        row(3, "",           "vs EMA 50",         up ? "above" : "below", up ? color.teal : color.red, "Close above or below the 50-day exponential average - the line on the chart")
+        row(4, "POSITION",   "52-week range",     of100(inRng), cTx, "Where the close sits between the 52-week low (0) and high (100)")
+        row(5, "",           "in Bollinger band", of100(pctB),  cTx, "Where the close sits between the lower (0) and upper (100) Bollinger band (20 days, 2 deviations) - the shaded band")
+        row(6, "VOLATILITY", "ATR 14",            per(atrp),    cTx, "Average true range over 14 days, as % of the close")
+        row(7, "",           "band width",        per(bw),      cTx, "Distance between the Bollinger bands, as % of their middle line")
+        row(8, "REVERSAL",   "RSI 7",             na(rsi7) ? "n/a" : str.tostring(rsi7, "0.0"), cTx, "Relative strength index over 7 days (0-100)")
+        row(9, "",           "open to close",     pct(oc),      sgn(oc),    "Today's close vs today's open")

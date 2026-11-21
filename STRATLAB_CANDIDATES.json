@@ -1,0 +1,3269 @@
+{
+  "tool": "stratlab v1.0.1",
+  "declaration_sha256": "c5c7d162d462315777516419be5bb5779698b5435fd92cc9ce2d311cb499eedf",
+  "run": "STRATLAB_20261122_001",
+  "lists": {
+    "market buy 2": {
+      "top": [
+        {
+          "rule": "d_donch_pos_20_rmean50:dndn & dow_5:updn & d_pos_in_52w_range:dn1",
+          "text": "d_donch_pos_20_rmean50 fell twice (the session before and that session) AND dow_5 turned down (rose the session before, fell that session) AND d_pos_in_52w_range fell the session before",
+          "verdict": "CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_donch_pos_20_rmean50:dndn",
+              "f": "d_donch_pos_20_rmean50",
+              "kind": "mv",
+              "code": "dndn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "dow_5:updn",
+              "f": "dow_5",
+              "kind": "mv",
+              "code": "updn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_pos_in_52w_range:dn1",
+              "f": "d_pos_in_52w_range",
+              "kind": "mv",
+              "code": "dn1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [],
+      "union": {
+        "stocks": {
+          "n": 221,
+          "mean": 0.6033893804128018,
+          "lo": 0.5665286492232604,
+          "hi": 0.8798448643343638,
+          "p": 2.0785534934806243e-06,
+          "verdict": "HOLDS",
+          "net": 0.5755981294021209
+        },
+        "years": {
+          "n": 23,
+          "mean": 0.5714212090487478,
+          "lo": 0.5714212090487479,
+          "hi": 0.5714212090487479,
+          "p": 0.0,
+          "verdict": "HOLDS",
+          "net": 1.3136488356646183
+        }
+      },
+      "judged": 1,
+      "confirmed": 1
+    },
+    "market avoid 2": {
+      "top": [
+        {
+          "rule": "d_wq_38:up1 & d_realvol_ratio_20_60:HI & d_n_5pct_up_60:upup",
+          "text": "d_wq_38 rose the session before AND d_realvol_ratio_20_60 in its upper half (> 0.959125) AND d_n_5pct_up_60 rose twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wq_38:up1",
+              "f": "d_wq_38",
+              "kind": "mv",
+              "code": "up1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_realvol_ratio_20_60:HI",
+              "f": "d_realvol_ratio_20_60",
+              "kind": "lvl",
+              "code": "HI",
+              "lo": 0.9591249227523804,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_dvol_z20:dn1 & d_n_5pct_up_60:upup & soul_m_cross_tp:dn1",
+          "text": "d_dvol_z20 fell the session before AND d_n_5pct_up_60 rose twice (the session before and that session) AND soul_m_cross_tp fell the session before",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_dvol_z20:dn1",
+              "f": "d_dvol_z20",
+              "kind": "mv",
+              "code": "dn1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_cross_tp:dn1",
+              "f": "soul_m_cross_tp",
+              "kind": "mv",
+              "code": "dn1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_atr_pct:up1 & d_wq_44:upup & d_n_5pct_up_60:upup",
+          "text": "d_atr_pct rose the session before AND d_wq_44 rose twice (the session before and that session) AND d_n_5pct_up_60 rose twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_atr_pct:up1",
+              "f": "d_atr_pct",
+              "kind": "mv",
+              "code": "up1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_wq_44:upup",
+              "f": "d_wq_44",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_wq_44:upup & d_n_5pct_up_60:upup & x_turnover_med:LO",
+          "text": "d_wq_44 rose twice (the session before and that session) AND d_n_5pct_up_60 rose twice (the session before and that session) AND x_turnover_med in its lower half (<= 1.0588e+08)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wq_44:upup",
+              "f": "d_wq_44",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_turnover_med:LO",
+              "f": "x_turnover_med",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 105880264.0,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_n_5pct_up_252:upup & x_rank_d_range_pct:dn0 & soul_m_self_ret:upup",
+          "text": "d_n_5pct_up_252 rose twice (the session before and that session) AND x_rank_d_range_pct fell that session AND soul_m_self_ret rose twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_n_5pct_up_252:upup",
+              "f": "d_n_5pct_up_252",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_rank_d_range_pct:dn0",
+              "f": "x_rank_d_range_pct",
+              "kind": "mv",
+              "code": "dn0",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_self_ret:upup",
+              "f": "soul_m_self_ret",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "d_dvol_z20:dn1 & d_n_5pct_up_60:upup & soul_m_cross_tp:dn1",
+          "text": "d_dvol_z20 fell the session before AND d_n_5pct_up_60 rose twice (the session before and that session) AND soul_m_cross_tp fell the session before",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_dvol_z20:dn1",
+              "f": "d_dvol_z20",
+              "kind": "mv",
+              "code": "dn1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_cross_tp:dn1",
+              "f": "soul_m_cross_tp",
+              "kind": "mv",
+              "code": "dn1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_n_5pct_up_252:upup & x_rank_d_range_pct:dn0 & soul_m_self_ret:upup",
+          "text": "d_n_5pct_up_252 rose twice (the session before and that session) AND x_rank_d_range_pct fell that session AND soul_m_self_ret rose twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_n_5pct_up_252:upup",
+              "f": "d_n_5pct_up_252",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_rank_d_range_pct:dn0",
+              "f": "x_rank_d_range_pct",
+              "kind": "mv",
+              "code": "dn0",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_self_ret:upup",
+              "f": "soul_m_self_ret",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 726,
+          "mean": -1.26331182600523,
+          "lo": -1.714812386813787,
+          "hi": -0.7641430813040924,
+          "p": 8.840275901856567e-08,
+          "verdict": "HOLDS",
+          "net": -1.506727447392012
+        },
+        "years": {
+          "n": 315,
+          "mean": -0.2877497123586852,
+          "lo": -0.9594464027711767,
+          "hi": 0.492722630195397,
+          "p": 0.2206473983667133,
+          "verdict": "NOT SHOWN",
+          "net": -0.6669820643569558
+        }
+      },
+      "judged": 5,
+      "confirmed": 0
+    },
+    "market buy 3": {
+      "top": [
+        {
+          "rule": "d_donch_pos_20_lag5:LO & d_days_since_5pct_up:dn1 & x_z_d_pos_in_52w_range:dnup",
+          "text": "d_donch_pos_20_lag5 in its lower half (<= 0.493712) AND d_days_since_5pct_up fell the session before AND x_z_d_pos_in_52w_range turned up (fell the session before, rose that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_donch_pos_20_lag5:LO",
+              "f": "d_donch_pos_20_lag5",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.4937124252319336,
+              "value": null
+            },
+            {
+              "id": "d_days_since_5pct_up:dn1",
+              "f": "d_days_since_5pct_up",
+              "kind": "mv",
+              "code": "dn1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_z_d_pos_in_52w_range:dnup",
+              "f": "x_z_d_pos_in_52w_range",
+              "kind": "mv",
+              "code": "dnup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "d_days_since_5pct_up:dn1 & x_z_d_pos_in_52w_range:dnup & soul_m_cross_mfe:HI",
+          "text": "d_days_since_5pct_up fell the session before AND x_z_d_pos_in_52w_range turned up (fell the session before, rose that session) AND soul_m_cross_mfe in its upper half (> 0.0496479)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_days_since_5pct_up:dn1",
+              "f": "d_days_since_5pct_up",
+              "kind": "mv",
+              "code": "dn1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_z_d_pos_in_52w_range:dnup",
+              "f": "x_z_d_pos_in_52w_range",
+              "kind": "mv",
+              "code": "dnup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_cross_mfe:HI",
+              "f": "soul_m_cross_mfe",
+              "kind": "lvl",
+              "code": "HI",
+              "lo": 0.04964790493249893,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 204,
+          "mean": 1.4425870811178658,
+          "lo": 0.21134573131098447,
+          "hi": 2.3338836758520194,
+          "p": 0.0036006652046244253,
+          "verdict": "HOLDS",
+          "net": 3.246518745781901
+        },
+        "years": {
+          "n": 101,
+          "mean": 0.13183807083946694,
+          "lo": -2.531123947589656,
+          "hi": 1.4290569219908968,
+          "p": 0.44735435413587116,
+          "verdict": "NOT SHOWN",
+          "net": 1.2701361797394162
+        }
+      },
+      "judged": 2,
+      "confirmed": 0
+    },
+    "market avoid 3": {
+      "top": [
+        {
+          "rule": "d_wq_38:up1 & d_realvol_ratio_20_60:HI & d_n_5pct_up_60:upup",
+          "text": "d_wq_38 rose the session before AND d_realvol_ratio_20_60 in its upper half (> 0.959125) AND d_n_5pct_up_60 rose twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wq_38:up1",
+              "f": "d_wq_38",
+              "kind": "mv",
+              "code": "up1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_realvol_ratio_20_60:HI",
+              "f": "d_realvol_ratio_20_60",
+              "kind": "lvl",
+              "code": "HI",
+              "lo": 0.9591249227523804,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_wq_44:upup & d_n_5pct_up_60:upup & x_z_d_atr_pct:up1",
+          "text": "d_wq_44 rose twice (the session before and that session) AND d_n_5pct_up_60 rose twice (the session before and that session) AND x_z_d_atr_pct rose the session before",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wq_44:upup",
+              "f": "d_wq_44",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_z_d_atr_pct:up1",
+              "f": "x_z_d_atr_pct",
+              "kind": "mv",
+              "code": "up1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_n_5pct_up_252:upup & x_z_d_donch_pos_20:dn0 & soul_p_ret_vs_market:L3",
+          "text": "d_n_5pct_up_252 rose twice (the session before and that session) AND x_z_d_donch_pos_20 fell that session AND soul_p_ret_vs_market in its low third (<= -0.0010153)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_n_5pct_up_252:upup",
+              "f": "d_n_5pct_up_252",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_z_d_donch_pos_20:dn0",
+              "f": "x_z_d_donch_pos_20",
+              "kind": "mv",
+              "code": "dn0",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret_vs_market:L3",
+              "f": "soul_p_ret_vs_market",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.001015300746075809,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_donch_pos_20:dn0 & d_slope_stability:L3 & d_n_5pct_up_60:upup",
+          "text": "d_donch_pos_20 fell that session AND d_slope_stability in its low third (<= 2.20421) AND d_n_5pct_up_60 rose twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_donch_pos_20:dn0",
+              "f": "d_donch_pos_20",
+              "kind": "mv",
+              "code": "dn0",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_slope_stability:L3",
+              "f": "d_slope_stability",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 2.204206943511963,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_wq_44:upup & d_n_5pct_up_60:upup & x_turnover_med:LO",
+          "text": "d_wq_44 rose twice (the session before and that session) AND d_n_5pct_up_60 rose twice (the session before and that session) AND x_turnover_med in its lower half (<= 1.0588e+08)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wq_44:upup",
+              "f": "d_wq_44",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_turnover_med:LO",
+              "f": "x_turnover_med",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 105880264.0,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "d_n_5pct_up_252:upup & x_z_d_donch_pos_20:dn0 & soul_p_ret_vs_market:L3",
+          "text": "d_n_5pct_up_252 rose twice (the session before and that session) AND x_z_d_donch_pos_20 fell that session AND soul_p_ret_vs_market in its low third (<= -0.0010153)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_n_5pct_up_252:upup",
+              "f": "d_n_5pct_up_252",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_z_d_donch_pos_20:dn0",
+              "f": "x_z_d_donch_pos_20",
+              "kind": "mv",
+              "code": "dn0",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret_vs_market:L3",
+              "f": "soul_p_ret_vs_market",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.001015300746075809,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_n_5pct_up_60:upup & x_z_d_intraday_ret_pct:updn & soul_m_self_ret:upup",
+          "text": "d_n_5pct_up_60 rose twice (the session before and that session) AND x_z_d_intraday_ret_pct turned down (rose the session before, fell that session) AND soul_m_self_ret rose twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_z_d_intraday_ret_pct:updn",
+              "f": "x_z_d_intraday_ret_pct",
+              "kind": "mv",
+              "code": "updn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_self_ret:upup",
+              "f": "soul_m_self_ret",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_wq_20:updn & d_n_5pct_up_60:upup & soul_m_tp_se:dndn",
+          "text": "d_wq_20 turned down (rose the session before, fell that session) AND d_n_5pct_up_60 rose twice (the session before and that session) AND soul_m_tp_se fell twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wq_20:updn",
+              "f": "d_wq_20",
+              "kind": "mv",
+              "code": "updn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_tp_se:dndn",
+              "f": "soul_m_tp_se",
+              "kind": "mv",
+              "code": "dndn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 674,
+          "mean": -1.3195639864466346,
+          "lo": -1.9286469290710264,
+          "hi": -0.682397251286371,
+          "p": 2.5023051749254236e-05,
+          "verdict": "HOLDS",
+          "net": -1.301179636131442
+        },
+        "years": {
+          "n": 303,
+          "mean": -0.3203078207493906,
+          "lo": -1.206091256915683,
+          "hi": 0.5679779849671662,
+          "p": 0.24377526446049186,
+          "verdict": "NOT SHOWN",
+          "net": -0.8129443178597096
+        }
+      },
+      "judged": 7,
+      "confirmed": 0
+    },
+    "market buy 5": {
+      "top": [
+        {
+          "rule": "d_n_5pct_up_252:dnup & niftyit_ret_1d:dn1 & crudeoil_ret_1d:updn",
+          "text": "d_n_5pct_up_252 turned up (fell the session before, rose that session) AND niftyit_ret_1d fell the session before AND crudeoil_ret_1d turned down (rose the session before, fell that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_n_5pct_up_252:dnup",
+              "f": "d_n_5pct_up_252",
+              "kind": "mv",
+              "code": "dnup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "niftyit_ret_1d:dn1",
+              "f": "niftyit_ret_1d",
+              "kind": "mv",
+              "code": "dn1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "crudeoil_ret_1d:updn",
+              "f": "crudeoil_ret_1d",
+              "kind": "mv",
+              "code": "updn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_wick_skew:H3 & d_n_5pct_up_252:upup & soul_m_gap_tp:dndn",
+          "text": "d_wick_skew in its high third (> 0.164027) AND d_n_5pct_up_252 rose twice (the session before and that session) AND soul_m_gap_tp fell twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wick_skew:H3",
+              "f": "d_wick_skew",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.1640271544456482,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_252:upup",
+              "f": "d_n_5pct_up_252",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_gap_tp:dndn",
+              "f": "soul_m_gap_tp",
+              "kind": "mv",
+              "code": "dndn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_n_5pct_up_252:dnup & x_turnover_med:upup & mkt_d_realvol_20:HI",
+          "text": "d_n_5pct_up_252 turned up (fell the session before, rose that session) AND x_turnover_med rose twice (the session before and that session) AND mkt_d_realvol_20 in its upper half (> 11.9598)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_n_5pct_up_252:dnup",
+              "f": "d_n_5pct_up_252",
+              "kind": "mv",
+              "code": "dnup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_turnover_med:upup",
+              "f": "x_turnover_med",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "mkt_d_realvol_20:HI",
+              "f": "mkt_d_realvol_20",
+              "kind": "lvl",
+              "code": "HI",
+              "lo": 11.959790826625559,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "d_wick_skew:H3 & d_n_5pct_up_252:upup & soul_m_gap_tp:dndn",
+          "text": "d_wick_skew in its high third (> 0.164027) AND d_n_5pct_up_252 rose twice (the session before and that session) AND soul_m_gap_tp fell twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wick_skew:H3",
+              "f": "d_wick_skew",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.1640271544456482,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_252:upup",
+              "f": "d_n_5pct_up_252",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_gap_tp:dndn",
+              "f": "soul_m_gap_tp",
+              "kind": "mv",
+              "code": "dndn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 534,
+          "mean": 0.3368413336927436,
+          "lo": -0.4659129658815218,
+          "hi": 1.1106282470086177,
+          "p": 0.20262834126448592,
+          "verdict": "NOT SHOWN",
+          "net": 0.7802260988953714
+        },
+        "years": {
+          "n": 184,
+          "mean": -0.33912399956748784,
+          "lo": -1.7011251003767538,
+          "hi": 1.223095186573288,
+          "p": 0.6781060015359162,
+          "verdict": "NOT SHOWN",
+          "net": -0.47457158888621365
+        }
+      },
+      "judged": 3,
+      "confirmed": 0
+    },
+    "market avoid 5": {
+      "top": [
+        {
+          "rule": "d_bb_pctb_20:dn0 & d_slope_stability:LO & d_n_5pct_up_60:upup",
+          "text": "d_bb_pctb_20 fell that session AND d_slope_stability in its lower half (<= 3.9478) AND d_n_5pct_up_60 rose twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_bb_pctb_20:dn0",
+              "f": "d_bb_pctb_20",
+              "kind": "mv",
+              "code": "dn0",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_slope_stability:LO",
+              "f": "d_slope_stability",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 3.9477972984313965,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_wq_6:up1 & d_n_5pct_up_252:upup & niftyfinservice_ret_1d:upup",
+          "text": "d_wq_6 rose the session before AND d_n_5pct_up_252 rose twice (the session before and that session) AND niftyfinservice_ret_1d rose twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wq_6:up1",
+              "f": "d_wq_6",
+              "kind": "mv",
+              "code": "up1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "d_n_5pct_up_252:upup",
+              "f": "d_n_5pct_up_252",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "niftyfinservice_ret_1d:upup",
+              "f": "niftyfinservice_ret_1d",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_n_5pct_up_60:upup & niftypsubank_ret_1d:H3 & soul_m_tp:dndn",
+          "text": "d_n_5pct_up_60 rose twice (the session before and that session) AND niftypsubank_ret_1d in its high third (> 0.0067907) AND soul_m_tp fell twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "niftypsubank_ret_1d:H3",
+              "f": "niftypsubank_ret_1d",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.00679069566904511,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_m_tp:dndn",
+              "f": "soul_m_tp",
+              "kind": "mv",
+              "code": "dndn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "d_n_5pct_up_60:upup & niftypsubank_ret_1d:H3 & soul_m_tp:dndn",
+          "text": "d_n_5pct_up_60 rose twice (the session before and that session) AND niftypsubank_ret_1d in its high third (> 0.0067907) AND soul_m_tp fell twice (the session before and that session)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_n_5pct_up_60:upup",
+              "f": "d_n_5pct_up_60",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "niftypsubank_ret_1d:H3",
+              "f": "niftypsubank_ret_1d",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.00679069566904511,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_m_tp:dndn",
+              "f": "soul_m_tp",
+              "kind": "mv",
+              "code": "dndn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 561,
+          "mean": -1.008847978373431,
+          "lo": -1.8503219060806033,
+          "hi": -0.14623904142522287,
+          "p": 0.010524569843802994,
+          "verdict": "HOLDS",
+          "net": -0.7148595632869292
+        },
+        "years": {
+          "n": 318,
+          "mean": -0.6868611078994666,
+          "lo": -1.6020031973545639,
+          "hi": 0.3335352628909325,
+          "p": 0.08089011062014399,
+          "verdict": "NOT SHOWN",
+          "net": -0.7149752618844979
+        }
+      },
+      "judged": 3,
+      "confirmed": 0
+    },
+    "picks buy d5_close": {
+      "top": [
+        {
+          "rule": "ctx_nifty_minus_mid_20:HI & ctx_state_support:H3 & ctx_state_atr_rank:H3",
+          "text": "ctx_nifty_minus_mid_20 in its upper half (> -0.00871194) AND ctx_state_support in its high third (> 0.9) AND ctx_state_atr_rank in its high third (> 0.78)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "ctx_nifty_minus_mid_20:HI",
+              "f": "ctx_nifty_minus_mid_20",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -0.008711943837364622,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_atr_rank:H3",
+              "f": "ctx_state_atr_rank",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.78,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "soul_p_mae:LO & ctx_state_support:H3 & ctx_state_vol_elevated=1",
+          "text": "soul_p_mae in its lower half (<= -0.0434973) AND ctx_state_support in its high third (> 0.9) AND ctx_state_vol_elevated is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_p_mae:LO",
+              "f": "soul_p_mae",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": -0.04349725879728794,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_vol_elevated=1",
+              "f": "ctx_state_vol_elevated",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_state_support:H3 & ctx_state_vol_elevated=1",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9) AND ctx_state_vol_elevated is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_vol_elevated=1",
+              "f": "ctx_state_vol_elevated",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "d_vol_yz_50:H3 & d_body_ratio_rmean50:LO & ctx_state_support:H3",
+          "text": "d_vol_yz_50 in its high third (> 0.0383275) AND d_body_ratio_rmean50 in its lower half (<= -0.0725536) AND ctx_state_support in its high third (> 0.9)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_vol_yz_50:H3",
+              "f": "d_vol_yz_50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.03832746297121048,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_body_ratio_rmean50:LO",
+              "f": "d_body_ratio_rmean50",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": -0.07255358248949051,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_downside_dev_60:H3 & soul_m_self_mae:L3 & ctx_state_support:H3",
+          "text": "d_downside_dev_60 in its high third (> 33.0532) AND soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_downside_dev_60:H3",
+              "f": "d_downside_dev_60",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 33.05324172973633,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "soul_p_mae:LO & ctx_state_support:H3 & ctx_state_vol_elevated=1",
+          "text": "soul_p_mae in its lower half (<= -0.0434973) AND ctx_state_support in its high third (> 0.9) AND ctx_state_vol_elevated is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_p_mae:LO",
+              "f": "soul_p_mae",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": -0.04349725879728794,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_vol_elevated=1",
+              "f": "ctx_state_vol_elevated",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_state_support:H3 & ctx_state_vol_elevated=1",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9) AND ctx_state_vol_elevated is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_vol_elevated=1",
+              "f": "ctx_state_vol_elevated",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "d_downside_dev_60:H3 & soul_m_self_mae:L3 & ctx_state_support:H3",
+          "text": "d_downside_dev_60 in its high third (> 33.0532) AND soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_downside_dev_60:H3",
+              "f": "d_downside_dev_60",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 33.05324172973633,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_nifty_ret20:L3 & ctx_state_support:H3",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_nifty_ret20 in its low third (<= -0.00380031) AND ctx_state_support in its high third (> 0.9)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_nifty_ret20:L3",
+              "f": "ctx_nifty_ret20",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": -0.0038003051886223993,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_state_support:H3 & ctx_both_engines=1",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9) AND ctx_both_engines is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_both_engines=1",
+              "f": "ctx_both_engines",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 568,
+          "mean": 0.24969745315652633,
+          "lo": -0.49951064727292616,
+          "hi": 1.0263532560617092,
+          "p": 0.26796573296146803,
+          "verdict": "NOT SHOWN",
+          "net": 1.3845119340498655
+        }
+      },
+      "judged": 7,
+      "confirmed": 0
+    },
+    "picks skip d5_close": {
+      "top": [
+        {
+          "rule": "d_cmf20_rmean50:H3 & d_amihud_60:H3 & d_upside_vol_ratio:L3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND d_amihud_60 in its high third (> 0.00394288) AND d_upside_vol_ratio in its low third (<= 1.10921)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_amihud_60:H3",
+              "f": "d_amihud_60",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.00394287658855319,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_upside_vol_ratio:L3",
+              "f": "d_upside_vol_ratio",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 1.1092101335525513,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_donch_pos_50_lag5:L3 & d_cmf20_rmean50:H3 & d_amihud_60:H3",
+          "text": "d_donch_pos_50_lag5 in its low third (<= 0.424537) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND d_amihud_60 in its high third (> 0.00394288)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_donch_pos_50_lag5:L3",
+              "f": "d_donch_pos_50_lag5",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.4245374798774719,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_amihud_60:H3",
+              "f": "d_amihud_60",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.00394287658855319,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_rsi14_obv_x:HI & d_cmf20_rmean50:H3 & d_drawdown_252:L3",
+          "text": "d_rsi14_obv_x in its upper half (> -4.70663e+06) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND d_drawdown_252 in its low third (<= -0.267957)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_rsi14_obv_x:HI",
+              "f": "d_rsi14_obv_x",
+              "kind": "lvl",
+              "code": "HI",
+              "lo": -4706630.0,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_drawdown_252:L3",
+              "f": "d_drawdown_252",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.2679567337036133,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_cmf20_rmean50:H3 & soul_p_ret:L3 & ctx_state_ema50_slope_atr:L3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its low third (<= 0.00182336) AND ctx_state_ema50_slope_atr in its low third (<= -0.0572457)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:L3",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.0018233625451102853,
+              "value": null
+            },
+            {
+              "id": "ctx_state_ema50_slope_atr:L3",
+              "f": "ctx_state_ema50_slope_atr",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": -0.05724570307747797,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_dist_from_52wh:L3 & d_cmf20_rmean50:H3 & d_realvol_60:H3",
+          "text": "d_dist_from_52wh in its low third (<= -7.7016) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND d_realvol_60 in its high third (> 55.1885)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_dist_from_52wh:L3",
+              "f": "d_dist_from_52wh",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -7.70159912109375,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_realvol_60:H3",
+              "f": "d_realvol_60",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 55.18846893310547,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "d_cmf20_rmean50:H3 & soul_p_ret:L3 & ctx_state_ema50_slope_atr:L3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its low third (<= 0.00182336) AND ctx_state_ema50_slope_atr in its low third (<= -0.0572457)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:L3",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.0018233625451102853,
+              "value": null
+            },
+            {
+              "id": "ctx_state_ema50_slope_atr:L3",
+              "f": "ctx_state_ema50_slope_atr",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": -0.05724570307747797,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "w_ret_13w:L3 & d_cmf20_rmean50:H3 & soul_p_ret:LO",
+          "text": "w_ret_13w in its low third (<= 2.3812) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its lower half (<= 0.0033653)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "w_ret_13w:L3",
+              "f": "w_ret_13w",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 2.3811967372894287,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:LO",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.0033653026912361383,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_cmf20_rmean50:H3 & d_upside_vol_ratio:L3 & soul_p_sl:H3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND d_upside_vol_ratio in its low third (<= 1.10921) AND soul_p_sl in its high third (> 0.41309)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_upside_vol_ratio:L3",
+              "f": "d_upside_vol_ratio",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 1.1092101335525513,
+              "value": null
+            },
+            {
+              "id": "soul_p_sl:H3",
+              "f": "soul_p_sl",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.4130900502204895,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_dist_from_52wh:L3 & d_cmf20_rmean50:H3 & soul_p_mfe:LO",
+          "text": "d_dist_from_52wh in its low third (<= -7.7016) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_mfe in its lower half (<= 0.0583733)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_dist_from_52wh:L3",
+              "f": "d_dist_from_52wh",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -7.70159912109375,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_mfe:LO",
+              "f": "soul_p_mfe",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.05837333761155605,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_donch_pos_50_lag5:L3 & d_cmf20_rmean50:H3 & soul_p_mae:L3",
+          "text": "d_donch_pos_50_lag5 in its low third (<= 0.424537) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_mae in its low third (<= -0.0471797)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_donch_pos_50_lag5:L3",
+              "f": "d_donch_pos_50_lag5",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.4245374798774719,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_mae:L3",
+              "f": "soul_p_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0471796989440918,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 361,
+          "mean": -0.7818646082953251,
+          "lo": -1.7787092999882579,
+          "hi": 0.3702371773881318,
+          "p": 0.07736364140293892,
+          "verdict": "NOT SHOWN",
+          "net": 0.3758672696393689
+        }
+      },
+      "judged": 9,
+      "confirmed": 0
+    },
+    "picks buy d6_open": {
+      "top": [
+        {
+          "rule": "soul_p_mae:LO & ctx_state_support:H3 & ctx_state_vol_elevated=1",
+          "text": "soul_p_mae in its lower half (<= -0.0434973) AND ctx_state_support in its high third (> 0.9) AND ctx_state_vol_elevated is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_p_mae:LO",
+              "f": "soul_p_mae",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": -0.04349725879728794,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_vol_elevated=1",
+              "f": "ctx_state_vol_elevated",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "d_vol_yz_50:H3 & d_body_ratio_rmean50:LO & ctx_state_support:H3",
+          "text": "d_vol_yz_50 in its high third (> 0.0383275) AND d_body_ratio_rmean50 in its lower half (<= -0.0725536) AND ctx_state_support in its high third (> 0.9)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_vol_yz_50:H3",
+              "f": "d_vol_yz_50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.03832746297121048,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_body_ratio_rmean50:LO",
+              "f": "d_body_ratio_rmean50",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": -0.07255358248949051,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_state_support:H3 & ctx_state_vol_elevated=1",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9) AND ctx_state_vol_elevated is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_vol_elevated=1",
+              "f": "ctx_state_vol_elevated",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "d_vol_yz_50:HI & d_donch_pos_20_rmean50:L3 & ctx_state_support:H3",
+          "text": "d_vol_yz_50 in its upper half (> 0.0335688) AND d_donch_pos_20_rmean50 in its low third (<= 0.476026) AND ctx_state_support in its high third (> 0.9)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_vol_yz_50:HI",
+              "f": "d_vol_yz_50",
+              "kind": "lvl",
+              "code": "HI",
+              "lo": 0.03356883302330971,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_donch_pos_20_rmean50:L3",
+              "f": "d_donch_pos_20_rmean50",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.47602608799934387,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "ctx_nifty_minus_mid_20:HI & ctx_state_support:H3 & ctx_state_atr_rank:H3",
+          "text": "ctx_nifty_minus_mid_20 in its upper half (> -0.00871194) AND ctx_state_support in its high third (> 0.9) AND ctx_state_atr_rank in its high third (> 0.78)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "ctx_nifty_minus_mid_20:HI",
+              "f": "ctx_nifty_minus_mid_20",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -0.008711943837364622,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_atr_rank:H3",
+              "f": "ctx_state_atr_rank",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.78,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "soul_p_mae:LO & ctx_state_support:H3 & ctx_state_vol_elevated=1",
+          "text": "soul_p_mae in its lower half (<= -0.0434973) AND ctx_state_support in its high third (> 0.9) AND ctx_state_vol_elevated is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_p_mae:LO",
+              "f": "soul_p_mae",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": -0.04349725879728794,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_vol_elevated=1",
+              "f": "ctx_state_vol_elevated",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_state_support:H3 & ctx_state_vol_elevated=1",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9) AND ctx_state_vol_elevated is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_vol_elevated=1",
+              "f": "ctx_state_vol_elevated",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "d_downside_dev_60:H3 & soul_m_self_mae:L3 & ctx_state_support:H3",
+          "text": "d_downside_dev_60 in its high third (> 33.0532) AND soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_downside_dev_60:H3",
+              "f": "d_downside_dev_60",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 33.05324172973633,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_state_support:H3 & ctx_both_engines=1",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9) AND ctx_both_engines is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_both_engines=1",
+              "f": "ctx_both_engines",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "d_close_roll_slope_20_rstd20:upup & soul_m_self_mae:L3 & ctx_state_num=8",
+          "text": "d_close_roll_slope_20_rstd20 rose twice (the session before and that session) AND soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_num is 8",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_close_roll_slope_20_rstd20:upup",
+              "f": "d_close_roll_slope_20_rstd20",
+              "kind": "mv",
+              "code": "upup",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_num=8",
+              "f": "ctx_state_num",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 8.0
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 545,
+          "mean": 0.04338876049871803,
+          "lo": -0.7913435925901983,
+          "hi": 0.8917119308768411,
+          "p": 0.46039613001988333,
+          "verdict": "NOT SHOWN",
+          "net": 1.7324946895335867
+        }
+      },
+      "judged": 8,
+      "confirmed": 0
+    },
+    "picks skip d6_open": {
+      "top": [
+        {
+          "rule": "d_cmf20_rmean50:H3 & d_amihud_60:H3 & d_upside_vol_ratio:L3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND d_amihud_60 in its high third (> 0.00394288) AND d_upside_vol_ratio in its low third (<= 1.10921)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_amihud_60:H3",
+              "f": "d_amihud_60",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.00394287658855319,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_upside_vol_ratio:L3",
+              "f": "d_upside_vol_ratio",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 1.1092101335525513,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_donch_pos_50_lag5:L3 & d_cmf20_rmean50:H3 & d_amihud_60:H3",
+          "text": "d_donch_pos_50_lag5 in its low third (<= 0.424537) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND d_amihud_60 in its high third (> 0.00394288)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_donch_pos_50_lag5:L3",
+              "f": "d_donch_pos_50_lag5",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.4245374798774719,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_amihud_60:H3",
+              "f": "d_amihud_60",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.00394287658855319,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_dist_from_52wh:L3 & d_cmf20_rmean50:H3 & d_realvol_60:H3",
+          "text": "d_dist_from_52wh in its low third (<= -7.7016) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND d_realvol_60 in its high third (> 55.1885)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_dist_from_52wh:L3",
+              "f": "d_dist_from_52wh",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -7.70159912109375,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_realvol_60:H3",
+              "f": "d_realvol_60",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 55.18846893310547,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "w_ret_13w:L3 & d_cmf20_rmean50:H3 & soul_p_ret:LO",
+          "text": "w_ret_13w in its low third (<= 2.3812) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its lower half (<= 0.0033653)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "w_ret_13w:L3",
+              "f": "w_ret_13w",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 2.3811967372894287,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:LO",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.0033653026912361383,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_cmf20_rmean50:H3 & soul_p_ret:L3 & ctx_state_ema50_slope_atr:L3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its low third (<= 0.00182336) AND ctx_state_ema50_slope_atr in its low third (<= -0.0572457)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:L3",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.0018233625451102853,
+              "value": null
+            },
+            {
+              "id": "ctx_state_ema50_slope_atr:L3",
+              "f": "ctx_state_ema50_slope_atr",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": -0.05724570307747797,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "w_ret_13w:L3 & d_cmf20_rmean50:H3 & soul_p_ret:LO",
+          "text": "w_ret_13w in its low third (<= 2.3812) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its lower half (<= 0.0033653)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "w_ret_13w:L3",
+              "f": "w_ret_13w",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 2.3811967372894287,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:LO",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.0033653026912361383,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_cmf20_rmean50:H3 & soul_p_ret:L3 & ctx_state_ema50_slope_atr:L3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its low third (<= 0.00182336) AND ctx_state_ema50_slope_atr in its low third (<= -0.0572457)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:L3",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.0018233625451102853,
+              "value": null
+            },
+            {
+              "id": "ctx_state_ema50_slope_atr:L3",
+              "f": "ctx_state_ema50_slope_atr",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": -0.05724570307747797,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_cmf20_rmean50:H3 & d_upside_vol_ratio:L3 & soul_p_sl:H3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND d_upside_vol_ratio in its low third (<= 1.10921) AND soul_p_sl in its high third (> 0.41309)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_upside_vol_ratio:L3",
+              "f": "d_upside_vol_ratio",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 1.1092101335525513,
+              "value": null
+            },
+            {
+              "id": "soul_p_sl:H3",
+              "f": "soul_p_sl",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.4130900502204895,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_dist_from_52wh:L3 & d_cmf20_rmean50:H3 & soul_p_mfe:LO",
+          "text": "d_dist_from_52wh in its low third (<= -7.7016) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_mfe in its lower half (<= 0.0583733)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_dist_from_52wh:L3",
+              "f": "d_dist_from_52wh",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -7.70159912109375,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_mfe:LO",
+              "f": "soul_p_mfe",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.05837333761155605,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 360,
+          "mean": -0.8406711183375347,
+          "lo": -1.932809632196729,
+          "hi": 0.3409325185622026,
+          "p": 0.07252835994647003,
+          "verdict": "NOT SHOWN",
+          "net": 0.7576973146524353
+        }
+      },
+      "judged": 7,
+      "confirmed": 0
+    },
+    "picks buy d10_close": {
+      "top": [
+        {
+          "rule": "d_vol_yz_20:H3 & x_rank_d_downside_dev_60:L3 & ctx_beta_nifty:L3",
+          "text": "d_vol_yz_20 in its high third (> 0.0375121) AND x_rank_d_downside_dev_60 in its low third (<= 0.447619) AND ctx_beta_nifty in its low third (<= 0.697226)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_vol_yz_20:H3",
+              "f": "d_vol_yz_20",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.037512097507715225,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "x_rank_d_downside_dev_60:L3",
+              "f": "x_rank_d_downside_dev_60",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.4476190507411957,
+              "value": null
+            },
+            {
+              "id": "ctx_beta_nifty:L3",
+              "f": "ctx_beta_nifty",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": 0.6972257317992427,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_state_support:H3 & ctx_state_atr_rank:H3",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9) AND ctx_state_atr_rank in its high third (> 0.78)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_atr_rank:H3",
+              "f": "ctx_state_atr_rank",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.78,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_mae:L3 & ctx_state_support:H3 & ctx_rank_1_3=1",
+          "text": "soul_m_mae in its low third (<= -0.0515755) AND ctx_state_support in its high third (> 0.9) AND ctx_rank_1_3 is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_mae:L3",
+              "f": "soul_m_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.051575545221567154,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_rank_1_3=1",
+              "f": "ctx_rank_1_3",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_nifty_ret20:L3 & ctx_state_support:H3",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_nifty_ret20 in its low third (<= -0.00380031) AND ctx_state_support in its high third (> 0.9)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_nifty_ret20:L3",
+              "f": "ctx_nifty_ret20",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": -0.0038003051886223993,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_ret_5d_roll_std:H3 & x_turnover_med:up1 & x_rank_d_downside_dev_60:L3",
+          "text": "d_ret_5d_roll_std in its high third (> 7.89591) AND x_turnover_med rose the session before AND x_rank_d_downside_dev_60 in its low third (<= 0.447619)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_ret_5d_roll_std:H3",
+              "f": "d_ret_5d_roll_std",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 7.895905494689941,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "x_turnover_med:up1",
+              "f": "x_turnover_med",
+              "kind": "mv",
+              "code": "up1",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_rank_d_downside_dev_60:L3",
+              "f": "x_rank_d_downside_dev_60",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.4476190507411957,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_state_support:H3 & ctx_state_atr_rank:H3",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_state_support in its high third (> 0.9) AND ctx_state_atr_rank in its high third (> 0.78)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_state_atr_rank:H3",
+              "f": "ctx_state_atr_rank",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.78,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_mae:L3 & ctx_state_support:H3 & ctx_rank_1_3=1",
+          "text": "soul_m_mae in its low third (<= -0.0515755) AND ctx_state_support in its high third (> 0.9) AND ctx_rank_1_3 is 1",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_mae:L3",
+              "f": "soul_m_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.051575545221567154,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "ctx_rank_1_3=1",
+              "f": "ctx_rank_1_3",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "rule": "soul_m_self_mae:L3 & ctx_nifty_ret20:L3 & ctx_state_support:H3",
+          "text": "soul_m_self_mae in its low third (<= -0.051603) AND ctx_nifty_ret20 in its low third (<= -0.00380031) AND ctx_state_support in its high third (> 0.9)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_m_self_mae:L3",
+              "f": "soul_m_self_mae",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.0516029807428519,
+              "value": null
+            },
+            {
+              "id": "ctx_nifty_ret20:L3",
+              "f": "ctx_nifty_ret20",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": -0.0038003051886223993,
+              "value": null
+            },
+            {
+              "id": "ctx_state_support:H3",
+              "f": "ctx_state_support",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": 0.9,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_ret_5d_roll_std:H3 & x_rank_d_downside_dev_60:L3 & soul_m_cross_mfe:H3",
+          "text": "d_ret_5d_roll_std in its high third (> 7.89591) AND x_rank_d_downside_dev_60 in its low third (<= 0.447619) AND soul_m_cross_mfe in its high third (> 0.064179)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_ret_5d_roll_std:H3",
+              "f": "d_ret_5d_roll_std",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 7.895905494689941,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "x_rank_d_downside_dev_60:L3",
+              "f": "x_rank_d_downside_dev_60",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.4476190507411957,
+              "value": null
+            },
+            {
+              "id": "soul_m_cross_mfe:H3",
+              "f": "soul_m_cross_mfe",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.06417904049158096,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_bb_bw_20:H3 & x_rank_d_downside_dev_60:L3 & soul_m_tp_se:H3",
+          "text": "d_bb_bw_20 in its high third (> 0.27806) AND x_rank_d_downside_dev_60 in its low third (<= 0.447619) AND soul_m_tp_se in its high third (> 0.0367877)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_bb_bw_20:H3",
+              "f": "d_bb_bw_20",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.2780603766441345,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "x_rank_d_downside_dev_60:L3",
+              "f": "x_rank_d_downside_dev_60",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.4476190507411957,
+              "value": null
+            },
+            {
+              "id": "soul_m_tp_se:H3",
+              "f": "soul_m_tp_se",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.036787714809179306,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 756,
+          "mean": 0.76606156860133,
+          "lo": -0.2515417305202585,
+          "hi": 1.8758860089071498,
+          "p": 0.0773147940302212,
+          "verdict": "NOT SHOWN",
+          "net": 2.393728625263323
+        }
+      },
+      "judged": 7,
+      "confirmed": 0
+    },
+    "picks skip d10_close": {
+      "top": [
+        {
+          "rule": "d_wq_19:LO & d_cmf20_rmean50:H3 & x_z_d_drawdown_252:L3",
+          "text": "d_wq_19 in its lower half (<= 1.31003) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND x_z_d_drawdown_252 in its low third (<= -0.528715)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_wq_19:LO",
+              "f": "d_wq_19",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 1.3100252151489258,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "x_z_d_drawdown_252:L3",
+              "f": "x_z_d_drawdown_252",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.5287145972251892,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_vol_yz_50:H3 & d_cmf20_rmean50:H3 & d_upside_vol_ratio:L3",
+          "text": "d_vol_yz_50 in its high third (> 0.0383275) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND d_upside_vol_ratio in its low third (<= 1.10921)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_vol_yz_50:H3",
+              "f": "d_vol_yz_50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.03832746297121048,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_upside_vol_ratio:L3",
+              "f": "d_upside_vol_ratio",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 1.1092101335525513,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "ctx_corr_nifty:LO & ctx_state_event_num=6 & ctx_state_rvol:L3",
+          "text": "ctx_corr_nifty in its lower half (<= 0.307759) AND ctx_state_event_num is 6 AND ctx_state_rvol in its low third (<= 0.76392)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "ctx_corr_nifty:LO",
+              "f": "ctx_corr_nifty",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": 0.30775855586928863,
+              "value": null
+            },
+            {
+              "id": "ctx_state_event_num=6",
+              "f": "ctx_state_event_num",
+              "kind": "snap_eq",
+              "code": null,
+              "lo": null,
+              "hi": null,
+              "value": 6.0
+            },
+            {
+              "id": "ctx_state_rvol:L3",
+              "f": "ctx_state_rvol",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": 0.7639197133342817,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_ema20_angle_z252:L3 & d_wq_19:LO & ctx_state_rvol:L3",
+          "text": "d_ema20_angle_z252 in its low third (<= -0.797611) AND d_wq_19 in its lower half (<= 1.31003) AND ctx_state_rvol in its low third (<= 0.76392)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_ema20_angle_z252:L3",
+              "f": "d_ema20_angle_z252",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": -0.7976113557815552,
+              "value": null
+            },
+            {
+              "id": "d_wq_19:LO",
+              "f": "d_wq_19",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 1.3100252151489258,
+              "value": null
+            },
+            {
+              "id": "ctx_state_rvol:L3",
+              "f": "ctx_state_rvol",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": 0.7639197133342817,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "w_ret_13w:L3 & d_cmf20_rmean50:H3 & soul_p_ret:LO",
+          "text": "w_ret_13w in its low third (<= 2.3812) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its lower half (<= 0.0033653)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "w_ret_13w:L3",
+              "f": "w_ret_13w",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 2.3811967372894287,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:LO",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.0033653026912361383,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [
+        {
+          "rule": "w_ret_13w:L3 & d_cmf20_rmean50:H3 & soul_p_ret:LO",
+          "text": "w_ret_13w in its low third (<= 2.3812) AND d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its lower half (<= 0.0033653)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "w_ret_13w:L3",
+              "f": "w_ret_13w",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 2.3811967372894287,
+              "value": null
+            },
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:LO",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.0033653026912361383,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_cmf20_rmean50:H3 & soul_p_mfe:LO & ctx_state_ema50_slope_atr:L3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_mfe in its lower half (<= 0.0583733) AND ctx_state_ema50_slope_atr in its low third (<= -0.0572457)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_mfe:LO",
+              "f": "soul_p_mfe",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.05837333761155605,
+              "value": null
+            },
+            {
+              "id": "ctx_state_ema50_slope_atr:L3",
+              "f": "ctx_state_ema50_slope_atr",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": -0.05724570307747797,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_cmf20_rmean50:H3 & d_upside_vol_ratio:L3 & soul_p_sl:H3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND d_upside_vol_ratio in its low third (<= 1.10921) AND soul_p_sl in its high third (> 0.41309)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "d_upside_vol_ratio:L3",
+              "f": "d_upside_vol_ratio",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 1.1092101335525513,
+              "value": null
+            },
+            {
+              "id": "soul_p_sl:H3",
+              "f": "soul_p_sl",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.4130900502204895,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "soul_p_tp:LO & soul_p_mfe:H3 & soul_m_tp_se:L3",
+          "text": "soul_p_tp in its lower half (<= 0.297692) AND soul_p_mfe in its high third (> 0.0636354) AND soul_m_tp_se in its low third (<= 0.0260595)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "soul_p_tp:LO",
+              "f": "soul_p_tp",
+              "kind": "lvl",
+              "code": "LO",
+              "lo": -Infinity,
+              "hi": 0.2976918965578079,
+              "value": null
+            },
+            {
+              "id": "soul_p_mfe:H3",
+              "f": "soul_p_mfe",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.06363535672426224,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_m_tp_se:L3",
+              "f": "soul_m_tp_se",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.026059484109282494,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_cmf20_rmean50:H3 & soul_p_ret:L3 & ctx_state_ema50_slope_atr:L3",
+          "text": "d_cmf20_rmean50 in its high third (> 0.0440514) AND soul_p_ret in its low third (<= 0.00182336) AND ctx_state_ema50_slope_atr in its low third (<= -0.0572457)",
+          "verdict": "NOT CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_cmf20_rmean50:H3",
+              "f": "d_cmf20_rmean50",
+              "kind": "lvl",
+              "code": "H3",
+              "lo": 0.0440513826906681,
+              "hi": Infinity,
+              "value": null
+            },
+            {
+              "id": "soul_p_ret:L3",
+              "f": "soul_p_ret",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.0018233625451102853,
+              "value": null
+            },
+            {
+              "id": "ctx_state_ema50_slope_atr:L3",
+              "f": "ctx_state_ema50_slope_atr",
+              "kind": "snap_lvl",
+              "code": null,
+              "lo": -Infinity,
+              "hi": -0.05724570307747797,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "union": {
+        "stocks": {
+          "n": 623,
+          "mean": -0.25782984300983963,
+          "lo": -1.2875547530173799,
+          "hi": 0.6735062676124283,
+          "p": 0.30468220688291614,
+          "verdict": "NOT SHOWN",
+          "net": 2.2670956123158743
+        }
+      },
+      "judged": 9,
+      "confirmed": 0
+    },
+    "picks trigger d5_close": {
+      "top": [
+        {
+          "rule": "d_donch_pos_20:L3 & d_body_ratio_rmean20:dndn & x_z_d_donch_pos_20:HI",
+          "text": "d_donch_pos_20 in its low third (<= 0.216092) AND d_body_ratio_rmean20 fell twice (the session before and that session) AND x_z_d_donch_pos_20 in its upper half (> -0.290994)",
+          "verdict": "CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_donch_pos_20:L3",
+              "f": "d_donch_pos_20",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.21609196066856384,
+              "value": null
+            },
+            {
+              "id": "d_body_ratio_rmean20:dndn",
+              "f": "d_body_ratio_rmean20",
+              "kind": "mv",
+              "code": "dndn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_z_d_donch_pos_20:HI",
+              "f": "x_z_d_donch_pos_20",
+              "kind": "lvl",
+              "code": "HI",
+              "lo": -0.29099416732788086,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        },
+        {
+          "rule": "d_donch_pos_20:L3 & d_body_ratio_rmean50:dndn & x_z_d_donch_pos_20:HI",
+          "text": "d_donch_pos_20 in its low third (<= 0.216092) AND d_body_ratio_rmean50 fell twice (the session before and that session) AND x_z_d_donch_pos_20 in its upper half (> -0.290994)",
+          "verdict": "CONFIRMED",
+          "conditions": [
+            {
+              "id": "d_donch_pos_20:L3",
+              "f": "d_donch_pos_20",
+              "kind": "lvl",
+              "code": "L3",
+              "lo": -Infinity,
+              "hi": 0.21609196066856384,
+              "value": null
+            },
+            {
+              "id": "d_body_ratio_rmean50:dndn",
+              "f": "d_body_ratio_rmean50",
+              "kind": "mv",
+              "code": "dndn",
+              "lo": null,
+              "hi": null,
+              "value": null
+            },
+            {
+              "id": "x_z_d_donch_pos_20:HI",
+              "f": "x_z_d_donch_pos_20",
+              "kind": "lvl",
+              "code": "HI",
+              "lo": -0.29099416732788086,
+              "hi": Infinity,
+              "value": null
+            }
+          ]
+        }
+      ],
+      "soul": [],
+      "union": {
+        "stocks": {
+          "n": 292,
+          "mean": 4.704823786452665,
+          "lo": 3.1071323185253665,
+          "hi": 5.891110289169447,
+          "p": 1.5105119432456183e-11,
+          "verdict": "HOLDS",
+          "net": 0.9205237627731614
+        }
+      },
+      "judged": 2,
+      "confirmed": 2
+    }
+  },
+  "thresholds": [
+    "market 21 rules, p <= 0.0024",
+    "picks 49 rules, p <= 0.001"
+  ],
+  "sha256": "d72cb4beabf46b1ce4324e9197f5d22fa2ae128e80429e4c5277db7a9635d7c2"
+}

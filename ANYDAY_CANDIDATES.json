@@ -1,0 +1,609 @@
+{
+ "tool": "anydaylab v1.0.2",
+ "made": "2026-11-22T10:23:35",
+ "declaration_sha256": "8f73a261a2d7167a4d9a0efe3386c38c6c6169f91cf9c30cd438c552793b5858",
+ "entry_rule": "conditions are read at the open of watch day k (k = 1..5 after the pick); a feature's value is its value at the previous completed session (D0 = the signal day); <feature>_change = that value minus the session before; gap_pct = the day's open vs the previous close, %; pc_vs_d1 = the previous close vs the D1 open, % (False on D1); pc_vs_d1_atr = the same in units of s_atr14 (ATR14 / close at the pick); every condition must hold; entry at the FIRST open where all hold; a setup enters a pick at most once",
+ "twins": [
+  {
+   "id": "S1-tw13",
+   "conds": [
+    [
+     "d_wq_16_change",
+     ">",
+     0.0
+    ],
+    [
+     "pc_vs_d1_atr",
+     "<",
+     -1.0
+    ],
+    [
+     "dw_ret_13w",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  },
+  {
+   "id": "S2-tw13",
+   "conds": [
+    [
+     "d_mdi14_diff5_change",
+     ">",
+     0.0
+    ],
+    [
+     "gap_pct",
+     "<",
+     0.0
+    ],
+    [
+     "dw_ret_13w",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "TIE"
+  },
+  {
+   "id": "S3-tw13",
+   "conds": [
+    [
+     "d_wq_40_change",
+     ">",
+     0.0
+    ],
+    [
+     "pc_vs_d1",
+     "<",
+     -3.0
+    ],
+    [
+     "dw_ret_13w",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  },
+  {
+   "id": "C1-tw13",
+   "conds": [
+    [
+     "d_mdi14_change",
+     ">",
+     0.0
+    ],
+    [
+     "pc_vs_d1",
+     "<",
+     -2.0
+    ],
+    [
+     "dw_ret_13w",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  },
+  {
+   "id": "C2-tw13",
+   "conds": [
+    [
+     "d_ema20_angle_deg_change",
+     "<",
+     0.0
+    ],
+    [
+     "pc_vs_d1",
+     "<",
+     -3.0
+    ],
+    [
+     "dw_ret_13w",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  },
+  {
+   "id": "C3-tw13",
+   "conds": [
+    [
+     "d_bb_bw_20_change",
+     ">",
+     0.0
+    ],
+    [
+     "d_ema20_angle_deg_change",
+     "<",
+     0.0
+    ],
+    [
+     "d_wq_44_change",
+     ">",
+     0.0
+    ],
+    [
+     "dw_ret_13w",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  },
+  {
+   "id": "S1-tw5",
+   "conds": [
+    [
+     "d_wq_16_change",
+     ">",
+     0.0
+    ],
+    [
+     "pc_vs_d1_atr",
+     "<",
+     -1.0
+    ],
+    [
+     "d_ret_5s",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  },
+  {
+   "id": "S2-tw5",
+   "conds": [
+    [
+     "d_mdi14_diff5_change",
+     ">",
+     0.0
+    ],
+    [
+     "gap_pct",
+     "<",
+     0.0
+    ],
+    [
+     "d_ret_5s",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "TIE"
+  },
+  {
+   "id": "S3-tw5",
+   "conds": [
+    [
+     "d_wq_40_change",
+     ">",
+     0.0
+    ],
+    [
+     "pc_vs_d1",
+     "<",
+     -3.0
+    ],
+    [
+     "d_ret_5s",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  },
+  {
+   "id": "C1-tw5",
+   "conds": [
+    [
+     "d_mdi14_change",
+     ">",
+     0.0
+    ],
+    [
+     "pc_vs_d1",
+     "<",
+     -2.0
+    ],
+    [
+     "d_ret_5s",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  },
+  {
+   "id": "C2-tw5",
+   "conds": [
+    [
+     "d_ema20_angle_deg_change",
+     "<",
+     0.0
+    ],
+    [
+     "pc_vs_d1",
+     "<",
+     -3.0
+    ],
+    [
+     "d_ret_5s",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  },
+  {
+   "id": "C3-tw5",
+   "conds": [
+    [
+     "d_bb_bw_20_change",
+     ">",
+     0.0
+    ],
+    [
+     "d_ema20_angle_deg_change",
+     "<",
+     0.0
+    ],
+    [
+     "d_wq_44_change",
+     ">",
+     0.0
+    ],
+    [
+     "d_ret_5s",
+     "<",
+     0.0
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "WORSE"
+  }
+ ],
+ "found": [
+  {
+   "id": "",
+   "conds": [
+    [
+     "d_dist_from_20h",
+     "<=",
+     -3.1166579723358154
+    ],
+    [
+     "d_mdi14_rrank20",
+     "<=",
+     0.3499999940395355
+    ],
+    [
+     "soul_m_self_n_change",
+     ">",
+     0.0
+    ]
+   ],
+   "primary_exit": "fresh",
+   "verdict": "TIE",
+   "found_on": "half A, every price before 2024-01-01",
+   "half_b": {
+    "n": 87,
+    "mean": 6.004650184714652,
+    "lo": 0.7176824590302484,
+    "hi": 9.806511046053112,
+    "diff": 4.836756832369144,
+    "diff_lo": -0.23096141722771027,
+    "diff_hi": 8.273176978222299,
+    "p": 0.013758528657146548,
+    "month_start_share": 1.0
+   },
+   "after_split_every_stock": {
+    "n": 133,
+    "mean": 1.1973369080440495,
+    "lo": -2.8903982680689553,
+    "hi": 5.1698491247549985,
+    "diff": -0.10481563279564021,
+    "diff_lo": -3.9869622461722214,
+    "diff_hi": 3.6333179725110196
+   }
+  },
+  {
+   "id": "",
+   "conds": [
+    [
+     "d_atr_pct",
+     ">",
+     5.222745259602864
+    ],
+    [
+     "mkt_d_rsi14",
+     ">",
+     62.449337005615234
+    ],
+    [
+     "soul_m_self_n_change",
+     ">",
+     0.0
+    ]
+   ],
+   "primary_exit": "fresh",
+   "verdict": "TIE",
+   "found_on": "half A, every price before 2024-01-01",
+   "half_b": {
+    "n": 101,
+    "mean": 4.814269670892733,
+    "lo": 1.4123001338577508,
+    "hi": 9.973729322427769,
+    "diff": 3.646376318547224,
+    "diff_lo": 0.11199277903772785,
+    "diff_hi": 8.871259361517412,
+    "p": 0.05490213607319407,
+    "month_start_share": 0.9801980198019802
+   },
+   "after_split_every_stock": {
+    "n": 194,
+    "mean": 0.4303193571087943,
+    "lo": -2.7557434528980416,
+    "hi": 3.97612127524242,
+    "diff": -0.8718331837308954,
+    "diff_lo": -4.094995433898589,
+    "diff_hi": 2.802570299907001
+   }
+  },
+  {
+   "id": "F1",
+   "conds": [
+    [
+     "mkt_d_drawdown_252",
+     "<=",
+     -0.061547163873910904
+    ],
+    [
+     "niftyrealty_ret_1d",
+     ">",
+     0.008503401651978493
+    ],
+    [
+     "soul_m_self_n_change",
+     ">",
+     0.0
+    ]
+   ],
+   "primary_exit": "fresh",
+   "verdict": "BETTER",
+   "found_on": "half A, every price before 2024-01-01",
+   "half_b": {
+    "n": 201,
+    "mean": 5.952186422697829,
+    "lo": 3.4305413549520414,
+    "hi": 9.475642069696036,
+    "diff": 4.78429307035232,
+    "diff_lo": 1.8381597325135626,
+    "diff_hi": 8.36346806585522,
+    "p": 0.0024564814494309204,
+    "month_start_share": 0.9850746268656716
+   },
+   "after_split_every_stock": {
+    "n": 465,
+    "mean": 3.970741603355331,
+    "lo": 0.45280621868800036,
+    "hi": 7.610008069332926,
+    "diff": 2.6685890625156414,
+    "diff_lo": -0.6741618960176349,
+    "diff_hi": 6.154229369052048
+   }
+  },
+  {
+   "id": "",
+   "conds": [
+    [
+     "x_rank_d_ema20_angle_deg",
+     "<=",
+     0.15724045534928638
+    ],
+    [
+     "nifty500_ret_1d",
+     "<=",
+     -0.0016893156571313739
+    ],
+    [
+     "niftyfinservice_ret_1d",
+     ">",
+     0.005556695628911257
+    ]
+   ],
+   "primary_exit": "fresh",
+   "verdict": "TIE",
+   "found_on": "half A, every price before 2024-01-01",
+   "half_b": {
+    "n": 123,
+    "mean": 6.28199661999559,
+    "lo": 0.9360395284209344,
+    "hi": 10.222834548554763,
+    "diff": 5.114103267650082,
+    "diff_lo": -0.17281029077131946,
+    "diff_hi": 9.231587837688489,
+    "p": 0.01664294110274313,
+    "month_start_share": 0.0
+   },
+   "after_split_every_stock": {
+    "n": 83,
+    "mean": 3.528026368798367,
+    "lo": -0.5218009306489737,
+    "hi": 4.620688969711268,
+    "diff": 2.2258738279586776,
+    "diff_lo": -2.1674458963690757,
+    "diff_hi": 3.7022304014228564
+   }
+  },
+  {
+   "id": "",
+   "conds": [
+    [
+     "d_donch_pos_20",
+     "<=",
+     0.2923100392023722
+    ],
+    [
+     "d_mdi14_rrank10",
+     "<=",
+     0.30000001192092896
+    ],
+    [
+     "soul_m_self_n_change",
+     ">",
+     0.0
+    ]
+   ],
+   "primary_exit": "fresh",
+   "verdict": "TIE",
+   "found_on": "half A, every price before 2024-01-01",
+   "half_b": {
+    "n": 119,
+    "mean": 4.243186708346621,
+    "lo": -1.17457445087237,
+    "hi": 8.825459383039423,
+    "diff": 3.0752933560011124,
+    "diff_lo": -2.1408334787819685,
+    "diff_hi": 7.231817113725258,
+    "p": 0.10381619571041553,
+    "month_start_share": 1.0
+   },
+   "after_split_every_stock": {
+    "n": 216,
+    "mean": 2.2137999988038666,
+    "lo": -0.6457025519646004,
+    "hi": 4.947194028600574,
+    "diff": 0.9116474579641769,
+    "diff_lo": -1.9423138603465955,
+    "diff_hi": 3.6185942173689147
+   }
+  }
+ ],
+ "split_decision": {
+  "verdict": "DEAD",
+  "window": [
+   "2024-01-01",
+   "2026-09-22"
+  ],
+  "found_weekly": [
+   "F1"
+  ],
+  "conditions": {
+   "lower_all": false,
+   "ret_ok": false,
+   "interval_above_0": false,
+   "a_year_frozen": 125.81944741023217,
+   "a_year_found_weekly": 119.65605855370191
+  },
+  "cut_points_mean_of_5_start_days": -0.056708104020563255,
+  "cut_paired_reruns": {
+   "median": 0.0,
+   "lo": -0.2701532132917329,
+   "hi": 2.5452292965777055,
+   "share_above_0": 0.485,
+   "reruns": 200
+  },
+  "cut_day_block_bootstrap_shown": {
+   "points": -0.057549417459691554,
+   "lo": -1.2639101029566724,
+   "hi": 2.771163273751386,
+   "share_above_0": 0.413
+  }
+ },
+ "stratlab": [
+  {
+   "id": "ST1",
+   "conds": [
+    [
+     "d_donch_pos_20",
+     "<=",
+     0.21609196066856384
+    ],
+    [
+     "d_body_ratio_rmean20_change",
+     "<",
+     0.0
+    ],
+    [
+     "d_body_ratio_rmean20_change_prev",
+     "<",
+     0.0
+    ],
+    [
+     "x_z_d_donch_pos_20",
+     ">",
+     -0.29099416732788086
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "TIE",
+   "stratlab_hidden": {
+    "n": 206,
+    "days": 123,
+    "mean": 1.0458404085216093,
+    "lo": -0.4520421042156659,
+    "hi": 2.3943569330168653,
+    "diff": 0.13887610585298005,
+    "diff_lo": -1.3092311678523048,
+    "diff_hi": 1.449085426855697,
+    "p": 0.42131979294684435
+   }
+  },
+  {
+   "id": "ST2",
+   "conds": [
+    [
+     "d_donch_pos_20",
+     "<=",
+     0.21609196066856384
+    ],
+    [
+     "d_body_ratio_rmean50_change",
+     "<",
+     0.0
+    ],
+    [
+     "d_body_ratio_rmean50_change_prev",
+     "<",
+     0.0
+    ],
+    [
+     "x_z_d_donch_pos_20",
+     ">",
+     -0.29099416732788086
+    ]
+   ],
+   "primary_exit": "original_d5",
+   "verdict": "TIE",
+   "stratlab_hidden": {
+    "n": 199,
+    "days": 112,
+    "mean": 0.896659502492303,
+    "lo": -0.4278816372368266,
+    "hi": 2.489093017351549,
+    "diff": -0.01030480017632629,
+    "diff_lo": -1.3081935600445862,
+    "diff_hi": 1.482504068013229,
+    "p": 0.5057791378999122
+   }
+  }
+ ],
+ "sha256": "130e6e8212154455f9b72a83e59199d1499ea37f2f6d5bae9253fca26c4567cd"
+}

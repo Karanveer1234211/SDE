@@ -1,28 +1,28 @@
 id,family,field,op,value,words
 d_rsi7:up,F|d_rsi7,d_rsi7_change,>,0.0,d_rsi7 rose
 d_rsi7:dn,F|d_rsi7,d_rsi7_change,<,0.0,d_rsi7 fell
-d_rsi7:L3,F|d_rsi7,d_rsi7,<=,35.05624516805013,d_rsi7 in its low third (<= 35.0562)
-d_rsi7:H3,F|d_rsi7,d_rsi7,>,57.54379145304362,d_rsi7 in its high third (> 57.5438)
+d_rsi7:L3,F|d_rsi7,d_rsi7,<=,39.20629119873046,d_rsi7 in its low third (<= 39.2063)
+d_rsi7:H3,F|d_rsi7,d_rsi7,>,59.44096374511719,d_rsi7 in its high third (> 59.441)
 d_rsi14:up,F|d_rsi14,d_rsi14_change,>,0.0,d_rsi14 rose
 d_rsi14:dn,F|d_rsi14,d_rsi14_change,<,0.0,d_rsi14 fell
-d_rsi14:L3,F|d_rsi14,d_rsi14,<=,42.60898081461588,d_rsi14 in its low third (<= 42.609)
-d_rsi14:H3,F|d_rsi14,d_rsi14,>,58.343144734700516,d_rsi14 in its high third (> 58.3431)
+d_rsi14:L3,F|d_rsi14,d_rsi14,<=,45.91946029663086,d_rsi14 in its low third (<= 45.9195)
+d_rsi14:H3,F|d_rsi14,d_rsi14,>,59.38623301188151,d_rsi14 in its high third (> 59.3862)
 d_cmf20:up,F|d_cmf20,d_cmf20_change,>,0.0,d_cmf20 rose
 d_cmf20:dn,F|d_cmf20,d_cmf20_change,<,0.0,d_cmf20 fell
-d_cmf20:L3,F|d_cmf20,d_cmf20,<=,-0.16307456791400918,d_cmf20 in its low third (<= -0.163075)
-d_cmf20:H3,F|d_cmf20,d_cmf20,>,0.04470950861771899,d_cmf20 in its high third (> 0.0447095)
+d_cmf20:L3,F|d_cmf20,d_cmf20,<=,-0.1555261313915253,d_cmf20 in its low third (<= -0.155526)
+d_cmf20:H3,F|d_cmf20,d_cmf20,>,0.03732493643959363,d_cmf20 in its high third (> 0.0373249)
 d_adx14:up,F|d_adx14,d_adx14_change,>,0.0,d_adx14 rose
 d_adx14:dn,F|d_adx14,d_adx14_change,<,0.0,d_adx14 fell
-d_adx14:L3,F|d_adx14,d_adx14,<=,25.089780807495117,d_adx14 in its low third (<= 25.0898)
-d_adx14:H3,F|d_adx14,d_adx14,>,36.505584716796875,d_adx14 in its high third (> 36.5056)
+d_adx14:L3,F|d_adx14,d_adx14,<=,24.45009422302246,d_adx14 in its low third (<= 24.4501)
+d_adx14:H3,F|d_adx14,d_adx14,>,35.715126037597656,d_adx14 in its high third (> 35.7151)
 d_pdi14:up,F|d_pdi14,d_pdi14_change,>,0.0,d_pdi14 rose
 d_pdi14:dn,F|d_pdi14,d_pdi14_change,<,0.0,d_pdi14 fell
-d_pdi14:L3,F|d_pdi14,d_pdi14,<=,17.14398129781087,d_pdi14 in its low third (<= 17.144)
-d_pdi14:H3,F|d_pdi14,d_pdi14,>,24.97871971130371,d_pdi14 in its high third (> 24.9787)
+d_pdi14:L3,F|d_pdi14,d_pdi14,<=,18.09906578063965,d_pdi14 in its low third (<= 18.0991)
+d_pdi14:H3,F|d_pdi14,d_pdi14,>,25.346527099609375,d_pdi14 in its high third (> 25.3465)
 d_mdi14:up,F|d_mdi14,d_mdi14_change,>,0.0,d_mdi14 rose
 d_mdi14:dn,F|d_mdi14,d_mdi14_change,<,0.0,d_mdi14 fell
-d_mdi14:L3,F|d_mdi14,d_mdi14,<=,15.57919152577718,d_mdi14 in its low third (<= 15.5792)
-d_mdi14:H3,F|d_mdi14,d_mdi14,>,25.307915369669594,d_mdi14 in its high third (> 25.3079)
+d_mdi14:L3,F|d_mdi14,d_mdi14,<=,14.6825532913208,d_mdi14 in its low third (<= 14.6826)
+d_mdi14:H3,F|d_mdi14,d_mdi14,>,23.05235226949056,d_mdi14 in its high third (> 23.0524)
 d_inside_day:up,F|d_inside_day,d_inside_day_change,>,0.0,d_inside_day rose
 d_inside_day:dn,F|d_inside_day,d_inside_day_change,<,0.0,d_inside_day fell
 d_inside_day:L3,F|d_inside_day,d_inside_day,<=,0.0,d_inside_day in its low third (<= 0)
@@ -41,72 +41,72 @@ d_rsi7_gt_rsi14:L3,F|d_rsi7_gt_rsi14,d_rsi7_gt_rsi14,<=,0.0,d_rsi7_gt_rsi14 in i
 d_rsi7_gt_rsi14:H3,F|d_rsi7_gt_rsi14,d_rsi7_gt_rsi14,>,1.0,d_rsi7_gt_rsi14 in its high third (> 1)
 d_ema20_angle_deg:up,F|d_ema20_angle_deg,d_ema20_angle_deg_change,>,0.0,d_ema20_angle_deg rose
 d_ema20_angle_deg:dn,F|d_ema20_angle_deg,d_ema20_angle_deg_change,<,0.0,d_ema20_angle_deg fell
-d_ema20_angle_deg:L3,F|d_ema20_angle_deg,d_ema20_angle_deg,<=,-0.2425381193558379,d_ema20_angle_deg in its low third (<= -0.242538)
-d_ema20_angle_deg:H3,F|d_ema20_angle_deg,d_ema20_angle_deg,>,0.12850800156593317,d_ema20_angle_deg in its high third (> 0.128508)
+d_ema20_angle_deg:L3,F|d_ema20_angle_deg,d_ema20_angle_deg,<=,-0.11866351217031484,d_ema20_angle_deg in its low third (<= -0.118664)
+d_ema20_angle_deg:H3,F|d_ema20_angle_deg,d_ema20_angle_deg,>,0.13264583051204676,d_ema20_angle_deg in its high third (> 0.132646)
 d_atr_ratio_14_30:up,F|d_atr_ratio_14_30,d_atr_ratio_14_30_change,>,0.0,d_atr_ratio_14_30 rose
 d_atr_ratio_14_30:dn,F|d_atr_ratio_14_30,d_atr_ratio_14_30_change,<,0.0,d_atr_ratio_14_30 fell
-d_atr_ratio_14_30:L3,F|d_atr_ratio_14_30,d_atr_ratio_14_30,<=,0.9676756262779236,d_atr_ratio_14_30 in its low third (<= 0.967676)
-d_atr_ratio_14_30:H3,F|d_atr_ratio_14_30,d_atr_ratio_14_30,>,1.0559283097585042,d_atr_ratio_14_30 in its high third (> 1.05593)
+d_atr_ratio_14_30:L3,F|d_atr_ratio_14_30,d_atr_ratio_14_30,<=,0.9651838143666586,d_atr_ratio_14_30 in its low third (<= 0.965184)
+d_atr_ratio_14_30:H3,F|d_atr_ratio_14_30,d_atr_ratio_14_30,>,1.0494588216145833,d_atr_ratio_14_30 in its high third (> 1.04946)
 d_cpr_width_pct:up,F|d_cpr_width_pct,d_cpr_width_pct_change,>,0.0,d_cpr_width_pct rose
 d_cpr_width_pct:dn,F|d_cpr_width_pct,d_cpr_width_pct_change,<,0.0,d_cpr_width_pct fell
-d_cpr_width_pct:L3,F|d_cpr_width_pct,d_cpr_width_pct,<=,-0.668463150660197,d_cpr_width_pct in its low third (<= -0.668463)
-d_cpr_width_pct:H3,F|d_cpr_width_pct,d_cpr_width_pct,>,-0.01569798899193649,d_cpr_width_pct in its high third (> -0.015698)
+d_cpr_width_pct:L3,F|d_cpr_width_pct,d_cpr_width_pct,<=,-0.5698538025220236,d_cpr_width_pct in its low third (<= -0.569854)
+d_cpr_width_pct:H3,F|d_cpr_width_pct,d_cpr_width_pct,>,0.0,d_cpr_width_pct in its high third (> 0)
 d_oli:up,F|d_oli,d_oli_change,>,0.0,d_oli rose
 d_oli:dn,F|d_oli,d_oli_change,<,0.0,d_oli fell
-d_oli:L3,F|d_oli,d_oli,<=,0.46305935581525165,d_oli in its low third (<= 0.463059)
-d_oli:H3,F|d_oli,d_oli,>,0.8062583804130551,d_oli in its high third (> 0.806258)
+d_oli:L3,F|d_oli,d_oli,<=,0.4285714328289032,d_oli in its low third (<= 0.428571)
+d_oli:H3,F|d_oli,d_oli,>,0.7836065292358398,d_oli in its high third (> 0.783607)
 d_range_to_atr14:up,F|d_range_to_atr14,d_range_to_atr14_change,>,0.0,d_range_to_atr14 rose
 d_range_to_atr14:dn,F|d_range_to_atr14,d_range_to_atr14_change,<,0.0,d_range_to_atr14 fell
-d_range_to_atr14:L3,F|d_range_to_atr14,d_range_to_atr14,<=,0.7022613684336344,d_range_to_atr14 in its low third (<= 0.702261)
-d_range_to_atr14:H3,F|d_range_to_atr14,d_range_to_atr14,>,0.9935735662778219,d_range_to_atr14 in its high third (> 0.993574)
+d_range_to_atr14:L3,F|d_range_to_atr14,d_range_to_atr14,<=,0.6929378509521483,d_range_to_atr14 in its low third (<= 0.692938)
+d_range_to_atr14:H3,F|d_range_to_atr14,d_range_to_atr14,>,0.9876756072044373,d_range_to_atr14 in its high third (> 0.987676)
 d_obv_slope:up,F|d_obv_slope,d_obv_slope_change,>,0.0,d_obv_slope rose
 d_obv_slope:dn,F|d_obv_slope,d_obv_slope_change,<,0.0,d_obv_slope fell
-d_obv_slope:L3,F|d_obv_slope,d_obv_slope,<=,-546018.6666666666,d_obv_slope in its low third (<= -546019)
-d_obv_slope:H3,F|d_obv_slope,d_obv_slope,>,26388.333333333296,d_obv_slope in its high third (> 26388.3)
+d_obv_slope:L3,F|d_obv_slope,d_obv_slope,<=,-371580.33333333343,d_obv_slope in its low third (<= -371580)
+d_obv_slope:H3,F|d_obv_slope,d_obv_slope,>,59489.66666666664,d_obv_slope in its high third (> 59489.7)
 d_bb_pctb_20:up,F|d_bb_pctb_20,d_bb_pctb_20_change,>,0.0,d_bb_pctb_20 rose
 d_bb_pctb_20:dn,F|d_bb_pctb_20,d_bb_pctb_20_change,<,0.0,d_bb_pctb_20 fell
-d_bb_pctb_20:L3,F|d_bb_pctb_20,d_bb_pctb_20,<=,0.2386379738648732,d_bb_pctb_20 in its low third (<= 0.238638)
-d_bb_pctb_20:H3,F|d_bb_pctb_20,d_bb_pctb_20,>,0.6798705061276753,d_bb_pctb_20 in its high third (> 0.679871)
+d_bb_pctb_20:L3,F|d_bb_pctb_20,d_bb_pctb_20,<=,0.2958796322345733,d_bb_pctb_20 in its low third (<= 0.29588)
+d_bb_pctb_20:H3,F|d_bb_pctb_20,d_bb_pctb_20,>,0.7144498626391093,d_bb_pctb_20 in its high third (> 0.71445)
 d_bb_bw_20:up,F|d_bb_bw_20,d_bb_bw_20_change,>,0.0,d_bb_bw_20 rose
 d_bb_bw_20:dn,F|d_bb_bw_20,d_bb_bw_20_change,<,0.0,d_bb_bw_20 fell
-d_bb_bw_20:L3,F|d_bb_bw_20,d_bb_bw_20,<=,0.14417462050914764,d_bb_bw_20 in its low third (<= 0.144175)
-d_bb_bw_20:H3,F|d_bb_bw_20,d_bb_bw_20,>,0.28575538595517475,d_bb_bw_20 in its high third (> 0.285755)
+d_bb_bw_20:L3,F|d_bb_bw_20,d_bb_bw_20,<=,0.11876201629638672,d_bb_bw_20 in its low third (<= 0.118762)
+d_bb_bw_20:H3,F|d_bb_bw_20,d_bb_bw_20,>,0.2591301004091899,d_bb_bw_20 in its high third (> 0.25913)
 d_vol_yz_20:up,F|d_vol_yz_20,d_vol_yz_20_change,>,0.0,d_vol_yz_20 rose
 d_vol_yz_20:dn,F|d_vol_yz_20,d_vol_yz_20_change,<,0.0,d_vol_yz_20 fell
-d_vol_yz_20:L3,F|d_vol_yz_20,d_vol_yz_20,<=,0.027190870915850002,d_vol_yz_20 in its low third (<= 0.0271909)
-d_vol_yz_20:H3,F|d_vol_yz_20,d_vol_yz_20,>,0.037605800976355866,d_vol_yz_20 in its high third (> 0.0376058)
+d_vol_yz_20:L3,F|d_vol_yz_20,d_vol_yz_20,<=,0.025395039469003677,d_vol_yz_20 in its low third (<= 0.025395)
+d_vol_yz_20:H3,F|d_vol_yz_20,d_vol_yz_20,>,0.03714270144701004,d_vol_yz_20 in its high third (> 0.0371427)
 d_vol_yz_50:up,F|d_vol_yz_50,d_vol_yz_50_change,>,0.0,d_vol_yz_50 rose
 d_vol_yz_50:dn,F|d_vol_yz_50,d_vol_yz_50_change,<,0.0,d_vol_yz_50 fell
-d_vol_yz_50:L3,F|d_vol_yz_50,d_vol_yz_50,<=,0.029278041794896126,d_vol_yz_50 in its low third (<= 0.029278)
-d_vol_yz_50:H3,F|d_vol_yz_50,d_vol_yz_50,>,0.03840117280681928,d_vol_yz_50 in its high third (> 0.0384012)
+d_vol_yz_50:L3,F|d_vol_yz_50,d_vol_yz_50,<=,0.028016308322548866,d_vol_yz_50 in its low third (<= 0.0280163)
+d_vol_yz_50:H3,F|d_vol_yz_50,d_vol_yz_50,>,0.039048628260691956,d_vol_yz_50 in its high third (> 0.0390486)
 d_donch_pos_20:up,F|d_donch_pos_20,d_donch_pos_20_change,>,0.0,d_donch_pos_20 rose
 d_donch_pos_20:dn,F|d_donch_pos_20,d_donch_pos_20_change,<,0.0,d_donch_pos_20 fell
-d_donch_pos_20:L3,F|d_donch_pos_20,d_donch_pos_20,<=,0.22535624106725052,d_donch_pos_20 in its low third (<= 0.225356)
-d_donch_pos_20:H3,F|d_donch_pos_20,d_donch_pos_20,>,0.6762991150220234,d_donch_pos_20 in its high third (> 0.676299)
+d_donch_pos_20:L3,F|d_donch_pos_20,d_donch_pos_20,<=,0.2923100392023722,d_donch_pos_20 in its low third (<= 0.29231)
+d_donch_pos_20:H3,F|d_donch_pos_20,d_donch_pos_20,>,0.6914328336715698,d_donch_pos_20 in its high third (> 0.691433)
 d_donch_pos_50:up,F|d_donch_pos_50,d_donch_pos_50_change,>,0.0,d_donch_pos_50 rose
 d_donch_pos_50:dn,F|d_donch_pos_50,d_donch_pos_50_change,<,0.0,d_donch_pos_50 fell
-d_donch_pos_50:L3,F|d_donch_pos_50,d_donch_pos_50,<=,0.3328480025132497,d_donch_pos_50 in its low third (<= 0.332848)
-d_donch_pos_50:H3,F|d_donch_pos_50,d_donch_pos_50,>,0.765501856803894,d_donch_pos_50 in its high third (> 0.765502)
+d_donch_pos_50:L3,F|d_donch_pos_50,d_donch_pos_50,<=,0.4405353566010793,d_donch_pos_50 in its low third (<= 0.440535)
+d_donch_pos_50:H3,F|d_donch_pos_50,d_donch_pos_50,>,0.7844598889350891,d_donch_pos_50 in its high third (> 0.78446)
 d_days_since_boh_20:up,F|d_days_since_boh_20,d_days_since_boh_20_change,>,0.0,d_days_since_boh_20 rose
 d_days_since_boh_20:dn,F|d_days_since_boh_20,d_days_since_boh_20_change,<,0.0,d_days_since_boh_20 fell
-d_days_since_boh_20:L3,F|d_days_since_boh_20,d_days_since_boh_20,<=,6.0,d_days_since_boh_20 in its low third (<= 6)
-d_days_since_boh_20:H3,F|d_days_since_boh_20,d_days_since_boh_20,>,22.0,d_days_since_boh_20 in its high third (> 22)
+d_days_since_boh_20:L3,F|d_days_since_boh_20,d_days_since_boh_20,<=,5.0,d_days_since_boh_20 in its low third (<= 5)
+d_days_since_boh_20:H3,F|d_days_since_boh_20,d_days_since_boh_20,>,20.0,d_days_since_boh_20 in its high third (> 20)
 d_days_since_bol_20:up,F|d_days_since_bol_20,d_days_since_bol_20_change,>,0.0,d_days_since_bol_20 rose
 d_days_since_bol_20:dn,F|d_days_since_bol_20,d_days_since_bol_20_change,<,0.0,d_days_since_bol_20 fell
-d_days_since_bol_20:L3,F|d_days_since_bol_20,d_days_since_bol_20,<=,5.0,d_days_since_bol_20 in its low third (<= 5)
-d_days_since_bol_20:H3,F|d_days_since_bol_20,d_days_since_bol_20,>,37.0,d_days_since_bol_20 in its high third (> 37)
+d_days_since_bol_20:L3,F|d_days_since_bol_20,d_days_since_bol_20,<=,8.0,d_days_since_bol_20 in its low third (<= 8)
+d_days_since_bol_20:H3,F|d_days_since_bol_20,d_days_since_bol_20,>,44.0,d_days_since_bol_20 in its high third (> 44)
 d_dvol_z20:up,F|d_dvol_z20,d_dvol_z20_change,>,0.0,d_dvol_z20 rose
 d_dvol_z20:dn,F|d_dvol_z20,d_dvol_z20_change,<,0.0,d_dvol_z20 fell
-d_dvol_z20:L3,F|d_dvol_z20,d_dvol_z20,<=,-0.509711484114329,d_dvol_z20 in its low third (<= -0.509711)
-d_dvol_z20:H3,F|d_dvol_z20,d_dvol_z20,>,-0.001416444972467932,d_dvol_z20 in its high third (> -0.00141644)
+d_dvol_z20:L3,F|d_dvol_z20,d_dvol_z20,<=,-0.5363189975420634,d_dvol_z20 in its low third (<= -0.536319)
+d_dvol_z20:H3,F|d_dvol_z20,d_dvol_z20,>,0.001589650016588425,d_dvol_z20 in its high third (> 0.00158965)
 d_dvol_z50:up,F|d_dvol_z50,d_dvol_z50_change,>,0.0,d_dvol_z50 rose
 d_dvol_z50:dn,F|d_dvol_z50,d_dvol_z50_change,<,0.0,d_dvol_z50 fell
-d_dvol_z50:L3,F|d_dvol_z50,d_dvol_z50,<=,-0.4398706257343292,d_dvol_z50 in its low third (<= -0.439871)
-d_dvol_z50:H3,F|d_dvol_z50,d_dvol_z50,>,-0.044406904528538384,d_dvol_z50 in its high third (> -0.0444069)
+d_dvol_z50:L3,F|d_dvol_z50,d_dvol_z50,<=,-0.4734270175298055,d_dvol_z50 in its low third (<= -0.473427)
+d_dvol_z50:H3,F|d_dvol_z50,d_dvol_z50,>,-0.06167545542120936,d_dvol_z50 in its high third (> -0.0616755)
 d_dvol_z252:up,F|d_dvol_z252,d_dvol_z252_change,>,0.0,d_dvol_z252 rose
 d_dvol_z252:dn,F|d_dvol_z252,d_dvol_z252_change,<,0.0,d_dvol_z252 fell
-d_dvol_z252:L3,F|d_dvol_z252,d_dvol_z252,<=,-0.2616221408049266,d_dvol_z252 in its low third (<= -0.261622)
-d_dvol_z252:H3,F|d_dvol_z252,d_dvol_z252,>,0.13513828814029694,d_dvol_z252 in its high third (> 0.135138)
+d_dvol_z252:L3,F|d_dvol_z252,d_dvol_z252,<=,-0.26903992891311646,d_dvol_z252 in its low third (<= -0.26904)
+d_dvol_z252:H3,F|d_dvol_z252,d_dvol_z252,>,0.15867708126703897,d_dvol_z252 in its high third (> 0.158677)
 d_vol_surge_20:up,F|d_vol_surge_20,d_vol_surge_20_change,>,0.0,d_vol_surge_20 rose
 d_vol_surge_20:dn,F|d_vol_surge_20,d_vol_surge_20_change,<,0.0,d_vol_surge_20 fell
 d_vol_surge_20:L3,F|d_vol_surge_20,d_vol_surge_20,<=,0.0,d_vol_surge_20 in its low third (<= 0)
@@ -117,64 +117,64 @@ d_vol_surge_50:L3,F|d_vol_surge_50,d_vol_surge_50,<=,0.0,d_vol_surge_50 in its l
 d_vol_surge_50:H3,F|d_vol_surge_50,d_vol_surge_50,>,0.0,d_vol_surge_50 in its high third (> 0)
 d_atr_pct:up,F|d_atr_pct,d_atr_pct_change,>,0.0,d_atr_pct rose
 d_atr_pct:dn,F|d_atr_pct,d_atr_pct_change,<,0.0,d_atr_pct fell
-d_atr_pct:L3,F|d_atr_pct,d_atr_pct,<=,3.9727515379587808,d_atr_pct in its low third (<= 3.97275)
-d_atr_pct:H3,F|d_atr_pct,d_atr_pct,>,5.3437819480896,d_atr_pct in its high third (> 5.34378)
+d_atr_pct:L3,F|d_atr_pct,d_atr_pct,<=,3.6680590311686196,d_atr_pct in its low third (<= 3.66806)
+d_atr_pct:H3,F|d_atr_pct,d_atr_pct,>,5.222745259602864,d_atr_pct in its high third (> 5.22275)
 d_range_pct:up,F|d_range_pct,d_range_pct_change,>,0.0,d_range_pct rose
 d_range_pct:dn,F|d_range_pct,d_range_pct_change,<,0.0,d_range_pct fell
-d_range_pct:L3,F|d_range_pct,d_range_pct,<=,2.8037383556365967,d_range_pct in its low third (<= 2.80374)
-d_range_pct:H3,F|d_range_pct,d_range_pct,>,4.915755271911621,d_range_pct in its high third (> 4.91576)
+d_range_pct:L3,F|d_range_pct,d_range_pct,<=,2.5578680833180742,d_range_pct in its low third (<= 2.55787)
+d_range_pct:H3,F|d_range_pct,d_range_pct,>,4.705806255340576,d_range_pct in its high third (> 4.70581)
 d_gap_pct:up,F|d_gap_pct,d_gap_pct_change,>,0.0,d_gap_pct rose
 d_gap_pct:dn,F|d_gap_pct,d_gap_pct_change,<,0.0,d_gap_pct fell
 d_gap_pct:L3,F|d_gap_pct,d_gap_pct,<=,0.0,d_gap_pct in its low third (<= 0)
-d_gap_pct:H3,F|d_gap_pct,d_gap_pct,>,0.5141486525535582,d_gap_pct in its high third (> 0.514149)
+d_gap_pct:H3,F|d_gap_pct,d_gap_pct,>,0.5515923897425333,d_gap_pct in its high third (> 0.551592)
 d_rsi14_z252:up,F|d_rsi14_z252,d_rsi14_z252_change,>,0.0,d_rsi14_z252 rose
 d_rsi14_z252:dn,F|d_rsi14_z252,d_rsi14_z252_change,<,0.0,d_rsi14_z252 fell
-d_rsi14_z252:L3,F|d_rsi14_z252,d_rsi14_z252,<=,-0.8137740691502889,d_rsi14_z252 in its low third (<= -0.813774)
-d_rsi14_z252:H3,F|d_rsi14_z252,d_rsi14_z252,>,0.37870781620343524,d_rsi14_z252 in its high third (> 0.378708)
+d_rsi14_z252:L3,F|d_rsi14_z252,d_rsi14_z252,<=,-0.59910649061203,d_rsi14_z252 in its low third (<= -0.599106)
+d_rsi14_z252:H3,F|d_rsi14_z252,d_rsi14_z252,>,0.4386459489663442,d_rsi14_z252 in its high third (> 0.438646)
 d_atr_pct_z252:up,F|d_atr_pct_z252,d_atr_pct_z252_change,>,0.0,d_atr_pct_z252 rose
 d_atr_pct_z252:dn,F|d_atr_pct_z252,d_atr_pct_z252_change,<,0.0,d_atr_pct_z252 fell
-d_atr_pct_z252:L3,F|d_atr_pct_z252,d_atr_pct_z252,<=,-0.5429698427518209,d_atr_pct_z252 in its low third (<= -0.54297)
-d_atr_pct_z252:H3,F|d_atr_pct_z252,d_atr_pct_z252,>,0.6782652934392291,d_atr_pct_z252 in its high third (> 0.678265)
+d_atr_pct_z252:L3,F|d_atr_pct_z252,d_atr_pct_z252,<=,-0.7460074027379354,d_atr_pct_z252 in its low third (<= -0.746007)
+d_atr_pct_z252:H3,F|d_atr_pct_z252,d_atr_pct_z252,>,0.2605410516262053,d_atr_pct_z252 in its high third (> 0.260541)
 d_vol_z252:up,F|d_vol_z252,d_vol_z252_change,>,0.0,d_vol_z252 rose
 d_vol_z252:dn,F|d_vol_z252,d_vol_z252_change,<,0.0,d_vol_z252 fell
-d_vol_z252:L3,F|d_vol_z252,d_vol_z252,<=,-0.32592559854189557,d_vol_z252 in its low third (<= -0.325926)
-d_vol_z252:H3,F|d_vol_z252,d_vol_z252,>,0.049295164644718045,d_vol_z252 in its high third (> 0.0492952)
+d_vol_z252:L3,F|d_vol_z252,d_vol_z252,<=,-0.34995731711387634,d_vol_z252 in its low third (<= -0.349957)
+d_vol_z252:H3,F|d_vol_z252,d_vol_z252,>,0.03922129049897193,d_vol_z252 in its high third (> 0.0392213)
 d_ema20_angle_z252:up,F|d_ema20_angle_z252,d_ema20_angle_z252_change,>,0.0,d_ema20_angle_z252 rose
 d_ema20_angle_z252:dn,F|d_ema20_angle_z252,d_ema20_angle_z252_change,<,0.0,d_ema20_angle_z252 fell
-d_ema20_angle_z252:L3,F|d_ema20_angle_z252,d_ema20_angle_z252,<=,-0.8084882895151775,d_ema20_angle_z252 in its low third (<= -0.808488)
-d_ema20_angle_z252:H3,F|d_ema20_angle_z252,d_ema20_angle_z252,>,0.17139513790607447,d_ema20_angle_z252 in its high third (> 0.171395)
+d_ema20_angle_z252:L3,F|d_ema20_angle_z252,d_ema20_angle_z252,<=,-0.5970622301101685,d_ema20_angle_z252 in its low third (<= -0.597062)
+d_ema20_angle_z252:H3,F|d_ema20_angle_z252,d_ema20_angle_z252,>,0.20290808379650105,d_ema20_angle_z252 in its high third (> 0.202908)
 d_rsi14_obv_x:up,F|d_rsi14_obv_x,d_rsi14_obv_x_change,>,0.0,d_rsi14_obv_x rose
 d_rsi14_obv_x:dn,F|d_rsi14_obv_x,d_rsi14_obv_x_change,<,0.0,d_rsi14_obv_x fell
-d_rsi14_obv_x:L3,F|d_rsi14_obv_x,d_rsi14_obv_x,<=,-21776485.333333336,d_rsi14_obv_x in its low third (<= -2.17765e+07)
-d_rsi14_obv_x:H3,F|d_rsi14_obv_x,d_rsi14_obv_x,>,1272178.458333332,d_rsi14_obv_x in its high third (> 1.27218e+06)
+d_rsi14_obv_x:L3,F|d_rsi14_obv_x,d_rsi14_obv_x,<=,-15868393.666666666,d_rsi14_obv_x in its low third (<= -1.58684e+07)
+d_rsi14_obv_x:H3,F|d_rsi14_obv_x,d_rsi14_obv_x,>,3066792.2499999995,d_rsi14_obv_x in its high third (> 3.06679e+06)
 d_rsi7_obv_x:up,F|d_rsi7_obv_x,d_rsi7_obv_x_change,>,0.0,d_rsi7_obv_x rose
 d_rsi7_obv_x:dn,F|d_rsi7_obv_x,d_rsi7_obv_x_change,<,0.0,d_rsi7_obv_x fell
-d_rsi7_obv_x:L3,F|d_rsi7_obv_x,d_rsi7_obv_x,<=,-16777792.666666668,d_rsi7_obv_x in its low third (<= -1.67778e+07)
-d_rsi7_obv_x:H3,F|d_rsi7_obv_x,d_rsi7_obv_x,>,1210778.3333333319,d_rsi7_obv_x in its high third (> 1.21078e+06)
+d_rsi7_obv_x:L3,F|d_rsi7_obv_x,d_rsi7_obv_x,<=,-12177443.000000004,d_rsi7_obv_x in its low third (<= -1.21774e+07)
+d_rsi7_obv_x:H3,F|d_rsi7_obv_x,d_rsi7_obv_x,>,2996781.833333333,d_rsi7_obv_x in its high third (> 2.99678e+06)
 d_ret_5d_roll_std:up,F|d_ret_5d_roll_std,d_ret_5d_roll_std_change,>,0.0,d_ret_5d_roll_std rose
 d_ret_5d_roll_std:dn,F|d_ret_5d_roll_std,d_ret_5d_roll_std_change,<,0.0,d_ret_5d_roll_std fell
-d_ret_5d_roll_std:L3,F|d_ret_5d_roll_std,d_ret_5d_roll_std,<=,5.2854545911153155,d_ret_5d_roll_std in its low third (<= 5.28545)
-d_ret_5d_roll_std:H3,F|d_ret_5d_roll_std,d_ret_5d_roll_std,>,8.008356412251791,d_ret_5d_roll_std in its high third (> 8.00836)
+d_ret_5d_roll_std:L3,F|d_ret_5d_roll_std,d_ret_5d_roll_std,<=,4.975028991699219,d_ret_5d_roll_std in its low third (<= 4.97503)
+d_ret_5d_roll_std:H3,F|d_ret_5d_roll_std,d_ret_5d_roll_std,>,7.945453484853108,d_ret_5d_roll_std in its high third (> 7.94545)
 d_close_roll_slope_20:up,F|d_close_roll_slope_20,d_close_roll_slope_20_change,>,0.0,d_close_roll_slope_20 rose
 d_close_roll_slope_20:dn,F|d_close_roll_slope_20,d_close_roll_slope_20_change,<,0.0,d_close_roll_slope_20 fell
-d_close_roll_slope_20:L3,F|d_close_roll_slope_20,d_close_roll_slope_20,<=,-0.3339223066965746,d_close_roll_slope_20 in its low third (<= -0.333922)
-d_close_roll_slope_20:H3,F|d_close_roll_slope_20,d_close_roll_slope_20,>,0.5293734272321062,d_close_roll_slope_20 in its high third (> 0.529373)
+d_close_roll_slope_20:L3,F|d_close_roll_slope_20,d_close_roll_slope_20,<=,-0.18284211059411368,d_close_roll_slope_20 in its low third (<= -0.182842)
+d_close_roll_slope_20:H3,F|d_close_roll_slope_20,d_close_roll_slope_20,>,0.590914805730184,d_close_roll_slope_20 in its high third (> 0.590915)
 d_close_roll_slope_50:up,F|d_close_roll_slope_50,d_close_roll_slope_50_change,>,0.0,d_close_roll_slope_50 rose
 d_close_roll_slope_50:dn,F|d_close_roll_slope_50,d_close_roll_slope_50_change,<,0.0,d_close_roll_slope_50 fell
-d_close_roll_slope_50:L3,F|d_close_roll_slope_50,d_close_roll_slope_50,<=,-0.01688771570722265,d_close_roll_slope_50 in its low third (<= -0.0168877)
-d_close_roll_slope_50:H3,F|d_close_roll_slope_50,d_close_roll_slope_50,>,0.7966850797335305,d_close_roll_slope_50 in its high third (> 0.796685)
+d_close_roll_slope_50:L3,F|d_close_roll_slope_50,d_close_roll_slope_50,<=,0.03738215441505113,d_close_roll_slope_50 in its low third (<= 0.0373822)
+d_close_roll_slope_50:H3,F|d_close_roll_slope_50,d_close_roll_slope_50,>,0.9765874544779459,d_close_roll_slope_50 in its high third (> 0.976587)
 d_body_ratio:up,F|d_body_ratio,d_body_ratio_change,>,0.0,d_body_ratio rose
 d_body_ratio:dn,F|d_body_ratio,d_body_ratio_change,<,0.0,d_body_ratio fell
-d_body_ratio:L3,F|d_body_ratio,d_body_ratio,<=,-0.5,d_body_ratio in its low third (<= -0.5)
-d_body_ratio:H3,F|d_body_ratio,d_body_ratio,>,-0.007792312651872709,d_body_ratio in its high third (> -0.00779231)
+d_body_ratio:L3,F|d_body_ratio,d_body_ratio,<=,-0.47139304876327515,d_body_ratio in its low third (<= -0.471393)
+d_body_ratio:H3,F|d_body_ratio,d_body_ratio,>,0.015217390842735767,d_body_ratio in its high third (> 0.0152174)
 d_wick_skew:up,F|d_wick_skew,d_wick_skew_change,>,0.0,d_wick_skew rose
 d_wick_skew:dn,F|d_wick_skew,d_wick_skew_change,<,0.0,d_wick_skew fell
-d_wick_skew:L3,F|d_wick_skew,d_wick_skew,<=,-0.11692069967587791,d_wick_skew in its low third (<= -0.116921)
-d_wick_skew:H3,F|d_wick_skew,d_wick_skew,>,0.13509587943553916,d_wick_skew in its high third (> 0.135096)
+d_wick_skew:L3,F|d_wick_skew,d_wick_skew,<=,-0.11764705926179886,d_wick_skew in its low third (<= -0.117647)
+d_wick_skew:H3,F|d_wick_skew,d_wick_skew,>,0.14054054021835327,d_wick_skew in its high third (> 0.140541)
 d_hh_run:up,F|d_hh_run,d_hh_run_change,>,0.0,d_hh_run rose
 d_hh_run:dn,F|d_hh_run,d_hh_run_change,<,0.0,d_hh_run fell
 d_hh_run:L3,F|d_hh_run,d_hh_run,<=,0.0,d_hh_run in its low third (<= 0)
-d_hh_run:H3,F|d_hh_run,d_hh_run,>,0.0,d_hh_run in its high third (> 0)
+d_hh_run:H3,F|d_hh_run,d_hh_run,>,1.0,d_hh_run in its high third (> 1)
 d_hl_run:up,F|d_hl_run,d_hl_run_change,>,0.0,d_hl_run rose
 d_hl_run:dn,F|d_hl_run,d_hl_run_change,<,0.0,d_hl_run fell
 d_hl_run:L3,F|d_hl_run,d_hl_run,<=,0.0,d_hl_run in its low third (<= 0)
@@ -186,227 +186,219 @@ d_lh_run:H3,F|d_lh_run,d_lh_run,>,2.0,d_lh_run in its high third (> 2)
 d_ll_run:up,F|d_ll_run,d_ll_run_change,>,0.0,d_ll_run rose
 d_ll_run:dn,F|d_ll_run,d_ll_run_change,<,0.0,d_ll_run fell
 d_ll_run:L3,F|d_ll_run,d_ll_run,<=,0.0,d_ll_run in its low third (<= 0)
-d_ll_run:H3,F|d_ll_run,d_ll_run,>,2.0,d_ll_run in its high third (> 2)
+d_ll_run:H3,F|d_ll_run,d_ll_run,>,1.0,d_ll_run in its high third (> 1)
 d_nr_expand:up,F|d_nr_expand,d_nr_expand_change,>,0.0,d_nr_expand rose
 d_nr_expand:dn,F|d_nr_expand,d_nr_expand_change,<,0.0,d_nr_expand fell
 d_nr_expand:L3,F|d_nr_expand,d_nr_expand,<=,0.0,d_nr_expand in its low third (<= 0)
 d_nr_expand:H3,F|d_nr_expand,d_nr_expand,>,1.0,d_nr_expand in its high third (> 1)
 d_compress_state:up,F|d_compress_state,d_compress_state_change,>,0.0,d_compress_state rose
 d_compress_state:dn,F|d_compress_state,d_compress_state_change,<,0.0,d_compress_state fell
-d_compress_state:L3,F|d_compress_state,d_compress_state,<=,0.3199999928474426,d_compress_state in its low third (<= 0.32)
-d_compress_state:H3,F|d_compress_state,d_compress_state,>,0.7200000286102295,d_compress_state in its high third (> 0.72)
+d_compress_state:L3,F|d_compress_state,d_compress_state,<=,0.25999999046325684,d_compress_state in its low third (<= 0.26)
+d_compress_state:H3,F|d_compress_state,d_compress_state,>,0.6600000262260437,d_compress_state in its high third (> 0.66)
 d_dist_from_20h:up,F|d_dist_from_20h,d_dist_from_20h_change,>,0.0,d_dist_from_20h rose
 d_dist_from_20h:dn,F|d_dist_from_20h,d_dist_from_20h_change,<,0.0,d_dist_from_20h fell
-d_dist_from_20h:L3,F|d_dist_from_20h,d_dist_from_20h,<=,-3.594515959421794,d_dist_from_20h in its low third (<= -3.59452)
-d_dist_from_20h:H3,F|d_dist_from_20h,d_dist_from_20h,>,-1.4203553199768066,d_dist_from_20h in its high third (> -1.42036)
+d_dist_from_20h:L3,F|d_dist_from_20h,d_dist_from_20h,<=,-3.1166579723358154,d_dist_from_20h in its low third (<= -3.11666)
+d_dist_from_20h:H3,F|d_dist_from_20h,d_dist_from_20h,>,-1.2966769536336265,d_dist_from_20h in its high third (> -1.29668)
 d_dist_from_20l:up,F|d_dist_from_20l,d_dist_from_20l_change,>,0.0,d_dist_from_20l rose
 d_dist_from_20l:dn,F|d_dist_from_20l,d_dist_from_20l_change,<,0.0,d_dist_from_20l fell
-d_dist_from_20l:L3,F|d_dist_from_20l,d_dist_from_20l,<=,0.9891239205996194,d_dist_from_20l in its low third (<= 0.989124)
-d_dist_from_20l:H3,F|d_dist_from_20l,d_dist_from_20l,>,2.9912578264872227,d_dist_from_20l in its high third (> 2.99126)
+d_dist_from_20l:L3,F|d_dist_from_20l,d_dist_from_20l,<=,1.1613234678904214,d_dist_from_20l in its low third (<= 1.16132)
+d_dist_from_20l:H3,F|d_dist_from_20l,d_dist_from_20l,>,2.963394959767659,d_dist_from_20l in its high third (> 2.96339)
 d_dist_from_52wh:up,F|d_dist_from_52wh,d_dist_from_52wh_change,>,0.0,d_dist_from_52wh rose
 d_dist_from_52wh:dn,F|d_dist_from_52wh,d_dist_from_52wh_change,<,0.0,d_dist_from_52wh fell
-d_dist_from_52wh:L3,F|d_dist_from_52wh,d_dist_from_52wh,<=,-7.735685030619304,d_dist_from_52wh in its low third (<= -7.73569)
-d_dist_from_52wh:H3,F|d_dist_from_52wh,d_dist_from_52wh,>,-2.1059672832489014,d_dist_from_52wh in its high third (> -2.10597)
+d_dist_from_52wh:L3,F|d_dist_from_52wh,d_dist_from_52wh,<=,-6.31627893447876,d_dist_from_52wh in its low third (<= -6.31628)
+d_dist_from_52wh:H3,F|d_dist_from_52wh,d_dist_from_52wh,>,-1.8741561969121296,d_dist_from_52wh in its high third (> -1.87416)
 d_slope_stability:up,F|d_slope_stability,d_slope_stability_change,>,0.0,d_slope_stability rose
 d_slope_stability:dn,F|d_slope_stability,d_slope_stability_change,<,0.0,d_slope_stability fell
-d_slope_stability:L3,F|d_slope_stability,d_slope_stability,<=,1.2760025660196939,d_slope_stability in its low third (<= 1.276)
-d_slope_stability:H3,F|d_slope_stability,d_slope_stability,>,5.060381730397542,d_slope_stability in its high third (> 5.06038)
+d_slope_stability:L3,F|d_slope_stability,d_slope_stability,<=,1.1750233570734658,d_slope_stability in its low third (<= 1.17502)
+d_slope_stability:H3,F|d_slope_stability,d_slope_stability,>,4.879669984181721,d_slope_stability in its high third (> 4.87967)
 d_wq_3:up,F|d_wq_3,d_wq_3_change,>,0.0,d_wq_3 rose
 d_wq_3:dn,F|d_wq_3,d_wq_3_change,<,0.0,d_wq_3 fell
-d_wq_3:L3,F|d_wq_3,d_wq_3,<=,-0.20140906671682995,d_wq_3 in its low third (<= -0.201409)
-d_wq_3:H3,F|d_wq_3,d_wq_3,>,0.23774549861748995,d_wq_3 in its high third (> 0.237745)
+d_wq_3:L3,F|d_wq_3,d_wq_3,<=,-0.2334258953730266,d_wq_3 in its low third (<= -0.233426)
+d_wq_3:H3,F|d_wq_3,d_wq_3,>,0.18696846067905423,d_wq_3 in its high third (> 0.186968)
 d_wq_6:up,F|d_wq_6,d_wq_6_change,>,0.0,d_wq_6 rose
 d_wq_6:dn,F|d_wq_6,d_wq_6_change,<,0.0,d_wq_6 fell
-d_wq_6:L3,F|d_wq_6,d_wq_6,<=,-0.1222342426578204,d_wq_6 in its low third (<= -0.122234)
-d_wq_6:H3,F|d_wq_6,d_wq_6,>,0.2966766456762949,d_wq_6 in its high third (> 0.296677)
+d_wq_6:L3,F|d_wq_6,d_wq_6,<=,-0.1549071272214254,d_wq_6 in its low third (<= -0.154907)
+d_wq_6:H3,F|d_wq_6,d_wq_6,>,0.26031914353370667,d_wq_6 in its high third (> 0.260319)
 d_wq_12:up,F|d_wq_12,d_wq_12_change,>,0.0,d_wq_12 rose
 d_wq_12:dn,F|d_wq_12,d_wq_12_change,<,0.0,d_wq_12 fell
-d_wq_12:L3,F|d_wq_12,d_wq_12,<=,-0.8500000238418579,d_wq_12 in its low third (<= -0.85)
-d_wq_12:H3,F|d_wq_12,d_wq_12,>,1.5099999904632568,d_wq_12 in its high third (> 1.51)
+d_wq_12:L3,F|d_wq_12,d_wq_12,<=,-1.0499999523162842,d_wq_12 in its low third (<= -1.05)
+d_wq_12:H3,F|d_wq_12,d_wq_12,>,1.25,d_wq_12 in its high third (> 1.25)
 d_wq_13:up,F|d_wq_13,d_wq_13_change,>,0.0,d_wq_13 rose
 d_wq_13:dn,F|d_wq_13,d_wq_13_change,<,0.0,d_wq_13 fell
-d_wq_13:L3,F|d_wq_13,d_wq_13,<=,-0.4378288785616557,d_wq_13 in its low third (<= -0.437829)
-d_wq_13:H3,F|d_wq_13,d_wq_13,>,-0.28976017236709595,d_wq_13 in its high third (> -0.28976)
+d_wq_13:L3,F|d_wq_13,d_wq_13,<=,-0.45703505476315814,d_wq_13 in its low third (<= -0.457035)
+d_wq_13:H3,F|d_wq_13,d_wq_13,>,-0.30575156211853033,d_wq_13 in its high third (> -0.305752)
 d_wq_16:up,F|d_wq_16,d_wq_16_change,>,0.0,d_wq_16 rose
 d_wq_16:dn,F|d_wq_16,d_wq_16_change,<,0.0,d_wq_16 fell
-d_wq_16:L3,F|d_wq_16,d_wq_16,<=,-0.3801050583521525,d_wq_16 in its low third (<= -0.380105)
-d_wq_16:H3,F|d_wq_16,d_wq_16,>,-0.23513584832350415,d_wq_16 in its high third (> -0.235136)
+d_wq_16:L3,F|d_wq_16,d_wq_16,<=,-0.40345599253972375,d_wq_16 in its low third (<= -0.403456)
+d_wq_16:H3,F|d_wq_16,d_wq_16,>,-0.25179044405619305,d_wq_16 in its high third (> -0.25179)
 d_wq_19:up,F|d_wq_19,d_wq_19_change,>,0.0,d_wq_19 rose
 d_wq_19:dn,F|d_wq_19,d_wq_19_change,<,0.0,d_wq_19 fell
-d_wq_19:L3,F|d_wq_19,d_wq_19,<=,-1.0875858863194785,d_wq_19 in its low third (<= -1.08759)
-d_wq_19:H3,F|d_wq_19,d_wq_19,>,1.6909091472625732,d_wq_19 in its high third (> 1.69091)
+d_wq_19:L3,F|d_wq_19,d_wq_19,<=,-1.368130962053935,d_wq_19 in its low third (<= -1.36813)
+d_wq_19:H3,F|d_wq_19,d_wq_19,>,1.7212718327840169,d_wq_19 in its high third (> 1.72127)
 d_wq_20:up,F|d_wq_20,d_wq_20_change,>,0.0,d_wq_20 rose
 d_wq_20:dn,F|d_wq_20,d_wq_20_change,<,0.0,d_wq_20 fell
-d_wq_20:L3,F|d_wq_20,d_wq_20,<=,-0.11639979978402457,d_wq_20 in its low third (<= -0.1164)
-d_wq_20:H3,F|d_wq_20,d_wq_20,>,-0.014046914875507369,d_wq_20 in its high third (> -0.0140469)
+d_wq_20:L3,F|d_wq_20,d_wq_20,<=,-0.1456408550341924,d_wq_20 in its low third (<= -0.145641)
+d_wq_20:H3,F|d_wq_20,d_wq_20,>,-0.01875468964378039,d_wq_20 in its high third (> -0.0187547)
 d_wq_23:up,F|d_wq_23,d_wq_23_change,>,0.0,d_wq_23 rose
 d_wq_23:dn,F|d_wq_23,d_wq_23_change,<,0.0,d_wq_23 fell
 d_wq_23:L3,F|d_wq_23,d_wq_23,<=,0.0,d_wq_23 in its low third (<= 0)
 d_wq_23:H3,F|d_wq_23,d_wq_23,>,0.0,d_wq_23 in its high third (> 0)
 d_wq_26:up,F|d_wq_26,d_wq_26_change,>,0.0,d_wq_26 rose
 d_wq_26:dn,F|d_wq_26,d_wq_26_change,<,0.0,d_wq_26 fell
-d_wq_26:L3,F|d_wq_26,d_wq_26,<=,-0.7484552264213562,d_wq_26 in its low third (<= -0.748455)
-d_wq_26:H3,F|d_wq_26,d_wq_26,>,-0.3537356754144036,d_wq_26 in its high third (> -0.353736)
+d_wq_26:L3,F|d_wq_26,d_wq_26,<=,-0.7637625932693481,d_wq_26 in its low third (<= -0.763763)
+d_wq_26:H3,F|d_wq_26,d_wq_26,>,-0.4075043400128686,d_wq_26 in its high third (> -0.407504)
 d_wq_29:up,F|d_wq_29,d_wq_29_change,>,0.0,d_wq_29 rose
 d_wq_29:dn,F|d_wq_29,d_wq_29_change,<,0.0,d_wq_29 fell
-d_wq_29:L3,F|d_wq_29,d_wq_29,<=,0.4106678565343221,d_wq_29 in its low third (<= 0.410668)
-d_wq_29:H3,F|d_wq_29,d_wq_29,>,0.8697919448216755,d_wq_29 in its high third (> 0.869792)
+d_wq_29:L3,F|d_wq_29,d_wq_29,<=,0.37319819132486975,d_wq_29 in its low third (<= 0.373198)
+d_wq_29:H3,F|d_wq_29,d_wq_29,>,0.8170841932296753,d_wq_29 in its high third (> 0.817084)
 d_wq_33:up,F|d_wq_33,d_wq_33_change,>,0.0,d_wq_33 rose
 d_wq_33:dn,F|d_wq_33,d_wq_33_change,<,0.0,d_wq_33 fell
-d_wq_33:L3,F|d_wq_33,d_wq_33,<=,0.431633174419403,d_wq_33 in its low third (<= 0.431633)
-d_wq_33:H3,F|d_wq_33,d_wq_33,>,0.7514189879099528,d_wq_33 in its high third (> 0.751419)
+d_wq_33:L3,F|d_wq_33,d_wq_33,<=,0.4094168345133464,d_wq_33 in its low third (<= 0.409417)
+d_wq_33:H3,F|d_wq_33,d_wq_33,>,0.7175713578859965,d_wq_33 in its high third (> 0.717571)
 d_wq_35:up,F|d_wq_35,d_wq_35_change,>,0.0,d_wq_35 rose
 d_wq_35:dn,F|d_wq_35,d_wq_35_change,<,0.0,d_wq_35 fell
-d_wq_35:L3,F|d_wq_35,d_wq_35,<=,0.041748046875,d_wq_35 in its low third (<= 0.041748)
-d_wq_35:H3,F|d_wq_35,d_wq_35,>,0.1904296875,d_wq_35 in its high third (> 0.19043)
+d_wq_35:L3,F|d_wq_35,d_wq_35,<=,0.032958984375,d_wq_35 in its low third (<= 0.032959)
+d_wq_35:H3,F|d_wq_35,d_wq_35,>,0.15234375,d_wq_35 in its high third (> 0.152344)
 d_wq_38:up,F|d_wq_38,d_wq_38_change,>,0.0,d_wq_38 rose
 d_wq_38:dn,F|d_wq_38,d_wq_38_change,<,0.0,d_wq_38 fell
-d_wq_38:L3,F|d_wq_38,d_wq_38,<=,-0.2722165783246358,d_wq_38 in its low third (<= -0.272217)
-d_wq_38:H3,F|d_wq_38,d_wq_38,>,-0.043881696959336636,d_wq_38 in its high third (> -0.0438817)
+d_wq_38:L3,F|d_wq_38,d_wq_38,<=,-0.30756472547849023,d_wq_38 in its low third (<= -0.307565)
+d_wq_38:H3,F|d_wq_38,d_wq_38,>,-0.061596076935529744,d_wq_38 in its high third (> -0.0615961)
 d_wq_40:up,F|d_wq_40,d_wq_40_change,>,0.0,d_wq_40 rose
 d_wq_40:dn,F|d_wq_40,d_wq_40_change,<,0.0,d_wq_40 fell
-d_wq_40:L3,F|d_wq_40,d_wq_40,<=,-0.2473333775997162,d_wq_40 in its low third (<= -0.247333)
-d_wq_40:H3,F|d_wq_40,d_wq_40,>,0.01768805955847099,d_wq_40 in its high third (> 0.0176881)
+d_wq_40:L3,F|d_wq_40,d_wq_40,<=,-0.25565089782079065,d_wq_40 in its low third (<= -0.255651)
+d_wq_40:H3,F|d_wq_40,d_wq_40,>,-0.0016515724128112756,d_wq_40 in its high third (> -0.00165157)
 d_wq_41:up,F|d_wq_41,d_wq_41_change,>,0.0,d_wq_41 rose
 d_wq_41:dn,F|d_wq_41,d_wq_41_change,<,0.0,d_wq_41 fell
-d_wq_41:L3,F|d_wq_41,d_wq_41,<=,0.0,d_wq_41 in its low third (<= 0)
-d_wq_41:H3,F|d_wq_41,d_wq_41,>,0.6096598505973815,d_wq_41 in its high third (> 0.60966)
+d_wq_41:L3,F|d_wq_41,d_wq_41,<=,-0.010032814616958301,d_wq_41 in its low third (<= -0.0100328)
+d_wq_41:H3,F|d_wq_41,d_wq_41,>,0.4940703213214872,d_wq_41 in its high third (> 0.49407)
 d_wq_44:up,F|d_wq_44,d_wq_44_change,>,0.0,d_wq_44 rose
 d_wq_44:dn,F|d_wq_44,d_wq_44_change,<,0.0,d_wq_44 fell
-d_wq_44:L3,F|d_wq_44,d_wq_44,<=,-0.47189947962760925,d_wq_44 in its low third (<= -0.471899)
-d_wq_44:H3,F|d_wq_44,d_wq_44,>,0.17056512832641602,d_wq_44 in its high third (> 0.170565)
+d_wq_44:L3,F|d_wq_44,d_wq_44,<=,-0.5226997335751852,d_wq_44 in its low third (<= -0.5227)
+d_wq_44:H3,F|d_wq_44,d_wq_44,>,0.09195768088102303,d_wq_44 in its high third (> 0.0919577)
 d_slope_stability_rmean50:up,F|d_slope_stability_rmean50,d_slope_stability_rmean50_change,>,0.0,d_slope_stability_rmean50 rose
 d_slope_stability_rmean50:dn,F|d_slope_stability_rmean50,d_slope_stability_rmean50_change,<,0.0,d_slope_stability_rmean50 fell
-d_slope_stability_rmean50:L3,F|d_slope_stability_rmean50,d_slope_stability_rmean50,<=,1.412271976470947,d_slope_stability_rmean50 in its low third (<= 1.41227)
-d_slope_stability_rmean50:H3,F|d_slope_stability_rmean50,d_slope_stability_rmean50,>,5.087154070536295,d_slope_stability_rmean50 in its high third (> 5.08715)
+d_slope_stability_rmean50:L3,F|d_slope_stability_rmean50,d_slope_stability_rmean50,<=,1.3927792708079019,d_slope_stability_rmean50 in its low third (<= 1.39278)
+d_slope_stability_rmean50:H3,F|d_slope_stability_rmean50,d_slope_stability_rmean50,>,5.084427674611408,d_slope_stability_rmean50 in its high third (> 5.08443)
 d_slope_stability_rstd10:up,F|d_slope_stability_rstd10,d_slope_stability_rstd10_change,>,0.0,d_slope_stability_rstd10 rose
 d_slope_stability_rstd10:dn,F|d_slope_stability_rstd10,d_slope_stability_rstd10_change,<,0.0,d_slope_stability_rstd10 fell
-d_slope_stability_rstd10:L3,F|d_slope_stability_rstd10,d_slope_stability_rstd10,<=,0.11689771960179007,d_slope_stability_rstd10 in its low third (<= 0.116898)
-d_slope_stability_rstd10:H3,F|d_slope_stability_rstd10,d_slope_stability_rstd10,>,0.5285074313481648,d_slope_stability_rstd10 in its high third (> 0.528507)
+d_slope_stability_rstd10:L3,F|d_slope_stability_rstd10,d_slope_stability_rstd10,<=,0.11435093730688095,d_slope_stability_rstd10 in its low third (<= 0.114351)
+d_slope_stability_rstd10:H3,F|d_slope_stability_rstd10,d_slope_stability_rstd10,>,0.5105068683624268,d_slope_stability_rstd10 in its high third (> 0.510507)
 d_slope_stability_rstd20:up,F|d_slope_stability_rstd20,d_slope_stability_rstd20_change,>,0.0,d_slope_stability_rstd20 rose
 d_slope_stability_rstd20:dn,F|d_slope_stability_rstd20,d_slope_stability_rstd20_change,<,0.0,d_slope_stability_rstd20 fell
-d_slope_stability_rstd20:L3,F|d_slope_stability_rstd20,d_slope_stability_rstd20,<=,0.21291510760784146,d_slope_stability_rstd20 in its low third (<= 0.212915)
-d_slope_stability_rstd20:H3,F|d_slope_stability_rstd20,d_slope_stability_rstd20,>,0.9032266736030578,d_slope_stability_rstd20 in its high third (> 0.903227)
+d_slope_stability_rstd20:L3,F|d_slope_stability_rstd20,d_slope_stability_rstd20,<=,0.20448536674181617,d_slope_stability_rstd20 in its low third (<= 0.204485)
+d_slope_stability_rstd20:H3,F|d_slope_stability_rstd20,d_slope_stability_rstd20,>,0.8679208358128865,d_slope_stability_rstd20 in its high third (> 0.867921)
 d_body_ratio_rmean50:up,F|d_body_ratio_rmean50,d_body_ratio_rmean50_change,>,0.0,d_body_ratio_rmean50 rose
 d_body_ratio_rmean50:dn,F|d_body_ratio_rmean50,d_body_ratio_rmean50_change,<,0.0,d_body_ratio_rmean50 fell
-d_body_ratio_rmean50:L3,F|d_body_ratio_rmean50,d_body_ratio_rmean50,<=,-0.1155845249692599,d_body_ratio_rmean50 in its low third (<= -0.115585)
-d_body_ratio_rmean50:H3,F|d_body_ratio_rmean50,d_body_ratio_rmean50,>,-0.023481873174508415,d_body_ratio_rmean50 in its high third (> -0.0234819)
+d_body_ratio_rmean50:L3,F|d_body_ratio_rmean50,d_body_ratio_rmean50,<=,-0.10637730856736502,d_body_ratio_rmean50 in its low third (<= -0.106377)
+d_body_ratio_rmean50:H3,F|d_body_ratio_rmean50,d_body_ratio_rmean50,>,-0.02037562926610311,d_body_ratio_rmean50 in its high third (> -0.0203756)
 d_body_ratio_rmean20:up,F|d_body_ratio_rmean20,d_body_ratio_rmean20_change,>,0.0,d_body_ratio_rmean20 rose
 d_body_ratio_rmean20:dn,F|d_body_ratio_rmean20,d_body_ratio_rmean20_change,<,0.0,d_body_ratio_rmean20 fell
-d_body_ratio_rmean20:L3,F|d_body_ratio_rmean20,d_body_ratio_rmean20,<=,-0.15323103964328766,d_body_ratio_rmean20 in its low third (<= -0.153231)
-d_body_ratio_rmean20:H3,F|d_body_ratio_rmean20,d_body_ratio_rmean20,>,-0.026617785915732384,d_body_ratio_rmean20 in its high third (> -0.0266178)
+d_body_ratio_rmean20:L3,F|d_body_ratio_rmean20,d_body_ratio_rmean20,<=,-0.14643024901549023,d_body_ratio_rmean20 in its low third (<= -0.14643)
+d_body_ratio_rmean20:H3,F|d_body_ratio_rmean20,d_body_ratio_rmean20,>,-0.02456323678294818,d_body_ratio_rmean20 in its high third (> -0.0245632)
 d_close_roll_slope_20_rstd20:up,F|d_close_roll_slope_20_rstd20,d_close_roll_slope_20_rstd20_change,>,0.0,d_close_roll_slope_20_rstd20 rose
 d_close_roll_slope_20_rstd20:dn,F|d_close_roll_slope_20_rstd20,d_close_roll_slope_20_rstd20_change,<,0.0,d_close_roll_slope_20_rstd20 fell
-d_close_roll_slope_20_rstd20:L3,F|d_close_roll_slope_20_rstd20,d_close_roll_slope_20_rstd20,<=,0.36491140723228443,d_close_roll_slope_20_rstd20 in its low third (<= 0.364911)
-d_close_roll_slope_20_rstd20:H3,F|d_close_roll_slope_20_rstd20,d_close_roll_slope_20_rstd20,>,1.527920842170715,d_close_roll_slope_20_rstd20 in its high third (> 1.52792)
+d_close_roll_slope_20_rstd20:L3,F|d_close_roll_slope_20_rstd20,d_close_roll_slope_20_rstd20,<=,0.3498017688592275,d_close_roll_slope_20_rstd20 in its low third (<= 0.349802)
+d_close_roll_slope_20_rstd20:H3,F|d_close_roll_slope_20_rstd20,d_close_roll_slope_20_rstd20,>,1.4685037930806468,d_close_roll_slope_20_rstd20 in its high third (> 1.4685)
 d_close_roll_slope_20_rstd10:up,F|d_close_roll_slope_20_rstd10,d_close_roll_slope_20_rstd10_change,>,0.0,d_close_roll_slope_20_rstd10 rose
 d_close_roll_slope_20_rstd10:dn,F|d_close_roll_slope_20_rstd10,d_close_roll_slope_20_rstd10_change,<,0.0,d_close_roll_slope_20_rstd10 fell
-d_close_roll_slope_20_rstd10:L3,F|d_close_roll_slope_20_rstd10,d_close_roll_slope_20_rstd10,<=,0.2020158270994822,d_close_roll_slope_20_rstd10 in its low third (<= 0.202016)
-d_close_roll_slope_20_rstd10:H3,F|d_close_roll_slope_20_rstd10,d_close_roll_slope_20_rstd10,>,0.9227445522944132,d_close_roll_slope_20_rstd10 in its high third (> 0.922745)
+d_close_roll_slope_20_rstd10:L3,F|d_close_roll_slope_20_rstd10,d_close_roll_slope_20_rstd10,<=,0.1967152307430903,d_close_roll_slope_20_rstd10 in its low third (<= 0.196715)
+d_close_roll_slope_20_rstd10:H3,F|d_close_roll_slope_20_rstd10,d_close_roll_slope_20_rstd10,>,0.8617681662241617,d_close_roll_slope_20_rstd10 in its high third (> 0.861768)
 d_mdi14_diff1:up,F|d_mdi14_diff1,d_mdi14_diff1_change,>,0.0,d_mdi14_diff1 rose
 d_mdi14_diff1:dn,F|d_mdi14_diff1,d_mdi14_diff1_change,<,0.0,d_mdi14_diff1 fell
-d_mdi14_diff1:L3,F|d_mdi14_diff1,d_mdi14_diff1,<=,-0.7427103916803997,d_mdi14_diff1 in its low third (<= -0.74271)
-d_mdi14_diff1:H3,F|d_mdi14_diff1,d_mdi14_diff1,>,1.243057250976562,d_mdi14_diff1 in its high third (> 1.24306)
+d_mdi14_diff1:L3,F|d_mdi14_diff1,d_mdi14_diff1,<=,-0.7724152604738872,d_mdi14_diff1 in its low third (<= -0.772415)
+d_mdi14_diff1:H3,F|d_mdi14_diff1,d_mdi14_diff1,>,0.8975991408030192,d_mdi14_diff1 in its high third (> 0.897599)
 d_mdi14_diff5:up,F|d_mdi14_diff5,d_mdi14_diff5_change,>,0.0,d_mdi14_diff5 rose
 d_mdi14_diff5:dn,F|d_mdi14_diff5,d_mdi14_diff5_change,<,0.0,d_mdi14_diff5 fell
-d_mdi14_diff5:L3,F|d_mdi14_diff5,d_mdi14_diff5,<=,-1.1182449658711753,d_mdi14_diff5 in its low third (<= -1.11824)
-d_mdi14_diff5:H3,F|d_mdi14_diff5,d_mdi14_diff5,>,4.212238470713295,d_mdi14_diff5 in its high third (> 4.21224)
+d_mdi14_diff5:L3,F|d_mdi14_diff5,d_mdi14_diff5,<=,-1.4688959121704104,d_mdi14_diff5 in its low third (<= -1.4689)
+d_mdi14_diff5:H3,F|d_mdi14_diff5,d_mdi14_diff5,>,3.5126175880432124,d_mdi14_diff5 in its high third (> 3.51262)
 d_mdi14_rrank10:up,F|d_mdi14_rrank10,d_mdi14_rrank10_change,>,0.0,d_mdi14_rrank10 rose
 d_mdi14_rrank10:dn,F|d_mdi14_rrank10,d_mdi14_rrank10_change,<,0.0,d_mdi14_rrank10 fell
-d_mdi14_rrank10:L3,F|d_mdi14_rrank10,d_mdi14_rrank10,<=,0.4000000059604645,d_mdi14_rrank10 in its low third (<= 0.4)
+d_mdi14_rrank10:L3,F|d_mdi14_rrank10,d_mdi14_rrank10,<=,0.30000001192092896,d_mdi14_rrank10 in its low third (<= 0.3)
 d_mdi14_rrank10:H3,F|d_mdi14_rrank10,d_mdi14_rrank10,>,0.8999999761581421,d_mdi14_rrank10 in its high third (> 0.9)
 d_mdi14_rrank20:up,F|d_mdi14_rrank20,d_mdi14_rrank20_change,>,0.0,d_mdi14_rrank20 rose
 d_mdi14_rrank20:dn,F|d_mdi14_rrank20,d_mdi14_rrank20_change,<,0.0,d_mdi14_rrank20 fell
-d_mdi14_rrank20:L3,F|d_mdi14_rrank20,d_mdi14_rrank20,<=,0.4000000059604645,d_mdi14_rrank20 in its low third (<= 0.4)
-d_mdi14_rrank20:H3,F|d_mdi14_rrank20,d_mdi14_rrank20,>,0.8999999761581421,d_mdi14_rrank20 in its high third (> 0.9)
+d_mdi14_rrank20:L3,F|d_mdi14_rrank20,d_mdi14_rrank20,<=,0.3499999940395355,d_mdi14_rrank20 in its low third (<= 0.35)
+d_mdi14_rrank20:H3,F|d_mdi14_rrank20,d_mdi14_rrank20,>,0.8500000238418579,d_mdi14_rrank20 in its high third (> 0.85)
 d_donch_pos_50_rmean50:up,F|d_donch_pos_50_rmean50,d_donch_pos_50_rmean50_change,>,0.0,d_donch_pos_50_rmean50 rose
 d_donch_pos_50_rmean50:dn,F|d_donch_pos_50_rmean50,d_donch_pos_50_rmean50_change,<,0.0,d_donch_pos_50_rmean50 fell
-d_donch_pos_50_rmean50:L3,F|d_donch_pos_50_rmean50,d_donch_pos_50_rmean50,<=,0.503817598025004,d_donch_pos_50_rmean50 in its low third (<= 0.503818)
-d_donch_pos_50_rmean50:H3,F|d_donch_pos_50_rmean50,d_donch_pos_50_rmean50,>,0.7758917609850564,d_donch_pos_50_rmean50 in its high third (> 0.775892)
+d_donch_pos_50_rmean50:L3,F|d_donch_pos_50_rmean50,d_donch_pos_50_rmean50,<=,0.5748161474863688,d_donch_pos_50_rmean50 in its low third (<= 0.574816)
+d_donch_pos_50_rmean50:H3,F|d_donch_pos_50_rmean50,d_donch_pos_50_rmean50,>,0.7933173576990763,d_donch_pos_50_rmean50 in its high third (> 0.793317)
 d_donch_pos_50_lag5:up,F|d_donch_pos_50_lag5,d_donch_pos_50_lag5_change,>,0.0,d_donch_pos_50_lag5 rose
 d_donch_pos_50_lag5:dn,F|d_donch_pos_50_lag5,d_donch_pos_50_lag5_change,<,0.0,d_donch_pos_50_lag5 fell
-d_donch_pos_50_lag5:L3,F|d_donch_pos_50_lag5,d_donch_pos_50_lag5,<=,0.43551114201545715,d_donch_pos_50_lag5 in its low third (<= 0.435511)
-d_donch_pos_50_lag5:H3,F|d_donch_pos_50_lag5,d_donch_pos_50_lag5,>,0.8139006495475769,d_donch_pos_50_lag5 in its high third (> 0.813901)
+d_donch_pos_50_lag5:L3,F|d_donch_pos_50_lag5,d_donch_pos_50_lag5,<=,0.5191783706347147,d_donch_pos_50_lag5 in its low third (<= 0.519178)
+d_donch_pos_50_lag5:H3,F|d_donch_pos_50_lag5,d_donch_pos_50_lag5,>,0.8150975306828816,d_donch_pos_50_lag5 in its high third (> 0.815098)
 d_donch_pos_20_rmean50:up,F|d_donch_pos_20_rmean50,d_donch_pos_20_rmean50_change,>,0.0,d_donch_pos_20_rmean50 rose
 d_donch_pos_20_rmean50:dn,F|d_donch_pos_20_rmean50,d_donch_pos_20_rmean50_change,<,0.0,d_donch_pos_20_rmean50 fell
-d_donch_pos_20_rmean50:L3,F|d_donch_pos_20_rmean50,d_donch_pos_20_rmean50,<=,0.47935220599174494,d_donch_pos_20_rmean50 in its low third (<= 0.479352)
-d_donch_pos_20_rmean50:H3,F|d_donch_pos_20_rmean50,d_donch_pos_20_rmean50,>,0.6785338719685873,d_donch_pos_20_rmean50 in its high third (> 0.678534)
+d_donch_pos_20_rmean50:L3,F|d_donch_pos_20_rmean50,d_donch_pos_20_rmean50,<=,0.5173568526903788,d_donch_pos_20_rmean50 in its low third (<= 0.517357)
+d_donch_pos_20_rmean50:H3,F|d_donch_pos_20_rmean50,d_donch_pos_20_rmean50,>,0.6923425992329916,d_donch_pos_20_rmean50 in its high third (> 0.692343)
 d_donch_pos_20_lag5:up,F|d_donch_pos_20_lag5,d_donch_pos_20_lag5_change,>,0.0,d_donch_pos_20_lag5 rose
 d_donch_pos_20_lag5:dn,F|d_donch_pos_20_lag5,d_donch_pos_20_lag5_change,<,0.0,d_donch_pos_20_lag5 fell
-d_donch_pos_20_lag5:L3,F|d_donch_pos_20_lag5,d_donch_pos_20_lag5,<=,0.33548874656359345,d_donch_pos_20_lag5 in its low third (<= 0.335489)
-d_donch_pos_20_lag5:H3,F|d_donch_pos_20_lag5,d_donch_pos_20_lag5,>,0.7465874950091044,d_donch_pos_20_lag5 in its high third (> 0.746587)
+d_donch_pos_20_lag5:L3,F|d_donch_pos_20_lag5,d_donch_pos_20_lag5,<=,0.374238520860672,d_donch_pos_20_lag5 in its low third (<= 0.374239)
+d_donch_pos_20_lag5:H3,F|d_donch_pos_20_lag5,d_donch_pos_20_lag5,>,0.7415105700492859,d_donch_pos_20_lag5 in its high third (> 0.741511)
 d_cmf20_rmean50:up,F|d_cmf20_rmean50,d_cmf20_rmean50_change,>,0.0,d_cmf20_rmean50 rose
 d_cmf20_rmean50:dn,F|d_cmf20_rmean50,d_cmf20_rmean50_change,<,0.0,d_cmf20_rmean50 fell
-d_cmf20_rmean50:L3,F|d_cmf20_rmean50,d_cmf20_rmean50,<=,-0.08073775718609492,d_cmf20_rmean50 in its low third (<= -0.0807378)
-d_cmf20_rmean50:H3,F|d_cmf20_rmean50,d_cmf20_rmean50,>,0.045140779266754784,d_cmf20_rmean50 in its high third (> 0.0451408)
-dow_2:up,F|dow_2,dow_2_change,>,0.0,dow_2 rose
-dow_2:dn,F|dow_2,dow_2_change,<,0.0,dow_2 fell
-dow_2:L3,F|dow_2,dow_2,<=,0.0,dow_2 in its low third (<= 0)
-dow_2:H3,F|dow_2,dow_2,>,0.0,dow_2 in its high third (> 0)
-dow_6:up,F|dow_6,dow_6_change,>,0.0,dow_6 rose
-dow_6:dn,F|dow_6,dow_6_change,<,0.0,dow_6 fell
-dow_6:L3,F|dow_6,dow_6,<=,0.0,dow_6 in its low third (<= 0)
-dow_6:H3,F|dow_6,dow_6,>,0.0,dow_6 in its high third (> 0)
+d_cmf20_rmean50:L3,F|d_cmf20_rmean50,d_cmf20_rmean50,<=,-0.06942982226610184,d_cmf20_rmean50 in its low third (<= -0.0694298)
+d_cmf20_rmean50:H3,F|d_cmf20_rmean50,d_cmf20_rmean50,>,0.04590287059545517,d_cmf20_rmean50 in its high third (> 0.0459029)
 d_dist_from_52wl:up,F|d_dist_from_52wl,d_dist_from_52wl_change,>,0.0,d_dist_from_52wl rose
 d_dist_from_52wl:dn,F|d_dist_from_52wl,d_dist_from_52wl_change,<,0.0,d_dist_from_52wl fell
-d_dist_from_52wl:L3,F|d_dist_from_52wl,d_dist_from_52wl,<=,8.025382041931152,d_dist_from_52wl in its low third (<= 8.02538)
-d_dist_from_52wl:H3,F|d_dist_from_52wl,d_dist_from_52wl,>,13.37334664662679,d_dist_from_52wl in its high third (> 13.3733)
+d_dist_from_52wl:L3,F|d_dist_from_52wl,d_dist_from_52wl,<=,9.457880655924479,d_dist_from_52wl in its low third (<= 9.45788)
+d_dist_from_52wl:H3,F|d_dist_from_52wl,d_dist_from_52wl,>,14.372906684875488,d_dist_from_52wl in its high third (> 14.3729)
 d_pos_in_52w_range:up,F|d_pos_in_52w_range,d_pos_in_52w_range_change,>,0.0,d_pos_in_52w_range rose
 d_pos_in_52w_range:dn,F|d_pos_in_52w_range,d_pos_in_52w_range_change,<,0.0,d_pos_in_52w_range fell
-d_pos_in_52w_range:L3,F|d_pos_in_52w_range,d_pos_in_52w_range,<=,0.5266815423965454,d_pos_in_52w_range in its low third (<= 0.526682)
-d_pos_in_52w_range:H3,F|d_pos_in_52w_range,d_pos_in_52w_range,>,0.8639522790908813,d_pos_in_52w_range in its high third (> 0.863952)
+d_pos_in_52w_range:L3,F|d_pos_in_52w_range,d_pos_in_52w_range,<=,0.6095240314801533,d_pos_in_52w_range in its low third (<= 0.609524)
+d_pos_in_52w_range:H3,F|d_pos_in_52w_range,d_pos_in_52w_range,>,0.8820421298344929,d_pos_in_52w_range in its high third (> 0.882042)
 d_drawdown_252:up,F|d_drawdown_252,d_drawdown_252_change,>,0.0,d_drawdown_252 rose
 d_drawdown_252:dn,F|d_drawdown_252,d_drawdown_252_change,<,0.0,d_drawdown_252 fell
-d_drawdown_252:L3,F|d_drawdown_252,d_drawdown_252,<=,-0.2702275613943736,d_drawdown_252 in its low third (<= -0.270228)
-d_drawdown_252:H3,F|d_drawdown_252,d_drawdown_252,>,-0.049383877466122314,d_drawdown_252 in its high third (> -0.0493839)
+d_drawdown_252:L3,F|d_drawdown_252,d_drawdown_252,<=,-0.21881590286890665,d_drawdown_252 in its low third (<= -0.218816)
+d_drawdown_252:H3,F|d_drawdown_252,d_drawdown_252,>,-0.038576127340396255,d_drawdown_252 in its high third (> -0.0385761)
 d_intraday_ret_pct:up,F|d_intraday_ret_pct,d_intraday_ret_pct_change,>,0.0,d_intraday_ret_pct rose
 d_intraday_ret_pct:dn,F|d_intraday_ret_pct,d_intraday_ret_pct_change,<,0.0,d_intraday_ret_pct fell
-d_intraday_ret_pct:L3,F|d_intraday_ret_pct,d_intraday_ret_pct,<=,-1.7634655237197878,d_intraday_ret_pct in its low third (<= -1.76347)
-d_intraday_ret_pct:H3,F|d_intraday_ret_pct,d_intraday_ret_pct,>,0.0,d_intraday_ret_pct in its high third (> 0)
+d_intraday_ret_pct:L3,F|d_intraday_ret_pct,d_intraday_ret_pct,<=,-1.4571049610773723,d_intraday_ret_pct in its low third (<= -1.4571)
+d_intraday_ret_pct:H3,F|d_intraday_ret_pct,d_intraday_ret_pct,>,0.014385782803097841,d_intraday_ret_pct in its high third (> 0.0143858)
 d_overnight_share:up,F|d_overnight_share,d_overnight_share_change,>,0.0,d_overnight_share rose
 d_overnight_share:dn,F|d_overnight_share,d_overnight_share_change,<,0.0,d_overnight_share fell
 d_overnight_share:L3,F|d_overnight_share,d_overnight_share,<=,0.0,d_overnight_share in its low third (<= 0)
-d_overnight_share:H3,F|d_overnight_share,d_overnight_share,>,0.2625643312931061,d_overnight_share in its high third (> 0.262564)
+d_overnight_share:H3,F|d_overnight_share,d_overnight_share,>,0.2998354732990265,d_overnight_share in its high third (> 0.299835)
 d_amihud_20:up,F|d_amihud_20,d_amihud_20_change,>,0.0,d_amihud_20 rose
 d_amihud_20:dn,F|d_amihud_20,d_amihud_20_change,<,0.0,d_amihud_20 fell
-d_amihud_20:L3,F|d_amihud_20,d_amihud_20,<=,0.0006995137082412839,d_amihud_20 in its low third (<= 0.000699514)
-d_amihud_20:H3,F|d_amihud_20,d_amihud_20,>,0.003478194974983731,d_amihud_20 in its high third (> 0.00347819)
+d_amihud_20:L3,F|d_amihud_20,d_amihud_20,<=,0.0008841392312509316,d_amihud_20 in its low third (<= 0.000884139)
+d_amihud_20:H3,F|d_amihud_20,d_amihud_20,>,0.004172905503461758,d_amihud_20 in its high third (> 0.00417291)
 d_amihud_60:up,F|d_amihud_60,d_amihud_60_change,>,0.0,d_amihud_60 rose
 d_amihud_60:dn,F|d_amihud_60,d_amihud_60_change,<,0.0,d_amihud_60 fell
-d_amihud_60:L3,F|d_amihud_60,d_amihud_60,<=,0.0008087240858003496,d_amihud_60 in its low third (<= 0.000808724)
-d_amihud_60:H3,F|d_amihud_60,d_amihud_60,>,0.004144356741259494,d_amihud_60 in its high third (> 0.00414436)
+d_amihud_60:L3,F|d_amihud_60,d_amihud_60,<=,0.0009974372417976458,d_amihud_60 in its low third (<= 0.000997437)
+d_amihud_60:H3,F|d_amihud_60,d_amihud_60,>,0.005305540127058822,d_amihud_60 in its high third (> 0.00530554)
 d_realvol_20:up,F|d_realvol_20,d_realvol_20_change,>,0.0,d_realvol_20 rose
 d_realvol_20:dn,F|d_realvol_20,d_realvol_20_change,<,0.0,d_realvol_20 fell
-d_realvol_20:L3,F|d_realvol_20,d_realvol_20,<=,34.49402618408203,d_realvol_20 in its low third (<= 34.494)
-d_realvol_20:H3,F|d_realvol_20,d_realvol_20,>,52.309608459472656,d_realvol_20 in its high third (> 52.3096)
+d_realvol_20:L3,F|d_realvol_20,d_realvol_20,<=,30.067432403564453,d_realvol_20 in its low third (<= 30.0674)
+d_realvol_20:H3,F|d_realvol_20,d_realvol_20,>,49.90417607625325,d_realvol_20 in its high third (> 49.9042)
 d_realvol_60:up,F|d_realvol_60,d_realvol_60_change,>,0.0,d_realvol_60 rose
 d_realvol_60:dn,F|d_realvol_60,d_realvol_60_change,<,0.0,d_realvol_60 fell
-d_realvol_60:L3,F|d_realvol_60,d_realvol_60,<=,41.27405548095703,d_realvol_60 in its low third (<= 41.2741)
-d_realvol_60:H3,F|d_realvol_60,d_realvol_60,>,55.53676223754882,d_realvol_60 in its high third (> 55.5368)
+d_realvol_60:L3,F|d_realvol_60,d_realvol_60,<=,38.9281857808431,d_realvol_60 in its low third (<= 38.9282)
+d_realvol_60:H3,F|d_realvol_60,d_realvol_60,>,56.264058430989586,d_realvol_60 in its high third (> 56.2641)
 d_realvol_ratio_20_60:up,F|d_realvol_ratio_20_60,d_realvol_ratio_20_60_change,>,0.0,d_realvol_ratio_20_60 rose
 d_realvol_ratio_20_60:dn,F|d_realvol_ratio_20_60,d_realvol_ratio_20_60_change,<,0.0,d_realvol_ratio_20_60 fell
-d_realvol_ratio_20_60:L3,F|d_realvol_ratio_20_60,d_realvol_ratio_20_60,<=,0.8176867365837097,d_realvol_ratio_20_60 in its low third (<= 0.817687)
-d_realvol_ratio_20_60:H3,F|d_realvol_ratio_20_60,d_realvol_ratio_20_60,>,1.0400339762369792,d_realvol_ratio_20_60 in its high third (> 1.04003)
+d_realvol_ratio_20_60:L3,F|d_realvol_ratio_20_60,d_realvol_ratio_20_60,<=,0.7778929471969604,d_realvol_ratio_20_60 in its low third (<= 0.777893)
+d_realvol_ratio_20_60:H3,F|d_realvol_ratio_20_60,d_realvol_ratio_20_60,>,0.9929309089978535,d_realvol_ratio_20_60 in its high third (> 0.992931)
 d_ret_skew_60:up,F|d_ret_skew_60,d_ret_skew_60_change,>,0.0,d_ret_skew_60 rose
 d_ret_skew_60:dn,F|d_ret_skew_60,d_ret_skew_60_change,<,0.0,d_ret_skew_60 fell
-d_ret_skew_60:L3,F|d_ret_skew_60,d_ret_skew_60,<=,0.18366016447544098,d_ret_skew_60 in its low third (<= 0.18366)
-d_ret_skew_60:H3,F|d_ret_skew_60,d_ret_skew_60,>,0.8671545982360839,d_ret_skew_60 in its high third (> 0.867155)
+d_ret_skew_60:L3,F|d_ret_skew_60,d_ret_skew_60,<=,0.2095165352026621,d_ret_skew_60 in its low third (<= 0.209517)
+d_ret_skew_60:H3,F|d_ret_skew_60,d_ret_skew_60,>,0.882157822450002,d_ret_skew_60 in its high third (> 0.882158)
 d_ret_kurt_60:up,F|d_ret_kurt_60,d_ret_kurt_60_change,>,0.0,d_ret_kurt_60 rose
 d_ret_kurt_60:dn,F|d_ret_kurt_60,d_ret_kurt_60_change,<,0.0,d_ret_kurt_60 fell
-d_ret_kurt_60:L3,F|d_ret_kurt_60,d_ret_kurt_60,<=,0.7232342958450317,d_ret_kurt_60 in its low third (<= 0.723234)
-d_ret_kurt_60:H3,F|d_ret_kurt_60,d_ret_kurt_60,>,2.854663769404093,d_ret_kurt_60 in its high third (> 2.85466)
+d_ret_kurt_60:L3,F|d_ret_kurt_60,d_ret_kurt_60,<=,0.6587269306182861,d_ret_kurt_60 in its low third (<= 0.658727)
+d_ret_kurt_60:H3,F|d_ret_kurt_60,d_ret_kurt_60,>,2.759861787160238,d_ret_kurt_60 in its high third (> 2.75986)
 d_downside_dev_60:up,F|d_downside_dev_60,d_downside_dev_60_change,>,0.0,d_downside_dev_60 rose
 d_downside_dev_60:dn,F|d_downside_dev_60,d_downside_dev_60_change,<,0.0,d_downside_dev_60 fell
-d_downside_dev_60:L3,F|d_downside_dev_60,d_downside_dev_60,<=,23.540541330973305,d_downside_dev_60 in its low third (<= 23.5405)
-d_downside_dev_60:H3,F|d_downside_dev_60,d_downside_dev_60,>,33.15438334147135,d_downside_dev_60 in its high third (> 33.1544)
+d_downside_dev_60:L3,F|d_downside_dev_60,d_downside_dev_60,<=,21.456199645996094,d_downside_dev_60 in its low third (<= 21.4562)
+d_downside_dev_60:H3,F|d_downside_dev_60,d_downside_dev_60,>,31.677787780761715,d_downside_dev_60 in its high third (> 31.6778)
 d_upside_vol_ratio:up,F|d_upside_vol_ratio,d_upside_vol_ratio_change,>,0.0,d_upside_vol_ratio rose
 d_upside_vol_ratio:dn,F|d_upside_vol_ratio,d_upside_vol_ratio_change,<,0.0,d_upside_vol_ratio fell
-d_upside_vol_ratio:L3,F|d_upside_vol_ratio,d_upside_vol_ratio,<=,1.127369205156962,d_upside_vol_ratio in its low third (<= 1.12737)
-d_upside_vol_ratio:H3,F|d_upside_vol_ratio,d_upside_vol_ratio,>,1.6153615315755208,d_upside_vol_ratio in its high third (> 1.61536)
+d_upside_vol_ratio:L3,F|d_upside_vol_ratio,d_upside_vol_ratio,<=,1.1945579449335735,d_upside_vol_ratio in its low third (<= 1.19456)
+d_upside_vol_ratio:H3,F|d_upside_vol_ratio,d_upside_vol_ratio,>,1.659701943397522,d_upside_vol_ratio in its high third (> 1.6597)
 d_days_since_5pct_up:up,F|d_days_since_5pct_up,d_days_since_5pct_up_change,>,0.0,d_days_since_5pct_up rose
 d_days_since_5pct_up:dn,F|d_days_since_5pct_up,d_days_since_5pct_up_change,<,0.0,d_days_since_5pct_up fell
-d_days_since_5pct_up:L3,F|d_days_since_5pct_up,d_days_since_5pct_up,<=,12.0,d_days_since_5pct_up in its low third (<= 12)
-d_days_since_5pct_up:H3,F|d_days_since_5pct_up,d_days_since_5pct_up,>,36.0,d_days_since_5pct_up in its high third (> 36)
+d_days_since_5pct_up:L3,F|d_days_since_5pct_up,d_days_since_5pct_up,<=,14.0,d_days_since_5pct_up in its low third (<= 14)
+d_days_since_5pct_up:H3,F|d_days_since_5pct_up,d_days_since_5pct_up,>,40.0,d_days_since_5pct_up in its high third (> 40)
 d_n_5pct_up_60:up,F|d_n_5pct_up_60,d_n_5pct_up_60_change,>,0.0,d_n_5pct_up_60 rose
 d_n_5pct_up_60:dn,F|d_n_5pct_up_60,d_n_5pct_up_60_change,<,0.0,d_n_5pct_up_60 fell
 d_n_5pct_up_60:L3,F|d_n_5pct_up_60,d_n_5pct_up_60,<=,1.0,d_n_5pct_up_60 in its low third (<= 1)
@@ -414,404 +406,404 @@ d_n_5pct_up_60:H3,F|d_n_5pct_up_60,d_n_5pct_up_60,>,4.0,d_n_5pct_up_60 in its hi
 d_n_5pct_up_252:up,F|d_n_5pct_up_252,d_n_5pct_up_252_change,>,0.0,d_n_5pct_up_252 rose
 d_n_5pct_up_252:dn,F|d_n_5pct_up_252,d_n_5pct_up_252_change,<,0.0,d_n_5pct_up_252 fell
 d_n_5pct_up_252:L3,F|d_n_5pct_up_252,d_n_5pct_up_252,<=,9.0,d_n_5pct_up_252 in its low third (<= 9)
-d_n_5pct_up_252:H3,F|d_n_5pct_up_252,d_n_5pct_up_252,>,17.0,d_n_5pct_up_252 in its high third (> 17)
+d_n_5pct_up_252:H3,F|d_n_5pct_up_252,d_n_5pct_up_252,>,18.0,d_n_5pct_up_252 in its high third (> 18)
 x_turnover_med:up,F|x_turnover_med,x_turnover_med_change,>,0.0,x_turnover_med rose
 x_turnover_med:dn,F|x_turnover_med,x_turnover_med_change,<,0.0,x_turnover_med fell
-x_turnover_med:L3,F|x_turnover_med,x_turnover_med,<=,48971815.99999999,x_turnover_med in its low third (<= 4.89718e+07)
-x_turnover_med:H3,F|x_turnover_med,x_turnover_med,>,228513061.33333322,x_turnover_med in its high third (> 2.28513e+08)
+x_turnover_med:L3,F|x_turnover_med,x_turnover_med,<=,39094576.0,x_turnover_med in its low third (<= 3.90946e+07)
+x_turnover_med:H3,F|x_turnover_med,x_turnover_med,>,175966239.99999997,x_turnover_med in its high third (> 1.75966e+08)
 x_rank_d_range_pct:up,F|x_rank_d_range_pct,x_rank_d_range_pct_change,>,0.0,x_rank_d_range_pct rose
 x_rank_d_range_pct:dn,F|x_rank_d_range_pct,x_rank_d_range_pct_change,<,0.0,x_rank_d_range_pct fell
-x_rank_d_range_pct:L3,F|x_rank_d_range_pct,x_rank_d_range_pct,<=,0.4078035354614258,x_rank_d_range_pct in its low third (<= 0.407804)
-x_rank_d_range_pct:H3,F|x_rank_d_range_pct,x_rank_d_range_pct,>,0.7766450246175131,x_rank_d_range_pct in its high third (> 0.776645)
+x_rank_d_range_pct:L3,F|x_rank_d_range_pct,x_rank_d_range_pct,<=,0.33128737409909564,x_rank_d_range_pct in its low third (<= 0.331287)
+x_rank_d_range_pct:H3,F|x_rank_d_range_pct,x_rank_d_range_pct,>,0.737290600935618,x_rank_d_range_pct in its high third (> 0.737291)
 x_z_d_range_pct:up,F|x_z_d_range_pct,x_z_d_range_pct_change,>,0.0,x_z_d_range_pct rose
 x_z_d_range_pct:dn,F|x_z_d_range_pct,x_z_d_range_pct_change,<,0.0,x_z_d_range_pct fell
-x_z_d_range_pct:L3,F|x_z_d_range_pct,x_z_d_range_pct,<=,-0.3931069870789846,x_z_d_range_pct in its low third (<= -0.393107)
-x_z_d_range_pct:H3,F|x_z_d_range_pct,x_z_d_range_pct,>,0.4779689013957977,x_z_d_range_pct in its high third (> 0.477969)
+x_z_d_range_pct:L3,F|x_z_d_range_pct,x_z_d_range_pct,<=,-0.5223705569903057,x_z_d_range_pct in its low third (<= -0.522371)
+x_z_d_range_pct:H3,F|x_z_d_range_pct,x_z_d_range_pct,>,0.33495198686917615,x_z_d_range_pct in its high third (> 0.334952)
 x_rank_d_atr_pct:up,F|x_rank_d_atr_pct,x_rank_d_atr_pct_change,>,0.0,x_rank_d_atr_pct rose
 x_rank_d_atr_pct:dn,F|x_rank_d_atr_pct,x_rank_d_atr_pct_change,<,0.0,x_rank_d_atr_pct fell
-x_rank_d_atr_pct:L3,F|x_rank_d_atr_pct,x_rank_d_atr_pct,<=,0.5886239012082417,x_rank_d_atr_pct in its low third (<= 0.588624)
-x_rank_d_atr_pct:H3,F|x_rank_d_atr_pct,x_rank_d_atr_pct,>,0.8730350732803345,x_rank_d_atr_pct in its high third (> 0.873035)
+x_rank_d_atr_pct:L3,F|x_rank_d_atr_pct,x_rank_d_atr_pct,<=,0.46972142656644184,x_rank_d_atr_pct in its low third (<= 0.469721)
+x_rank_d_atr_pct:H3,F|x_rank_d_atr_pct,x_rank_d_atr_pct,>,0.8326427340507507,x_rank_d_atr_pct in its high third (> 0.832643)
 x_z_d_atr_pct:up,F|x_z_d_atr_pct,x_z_d_atr_pct_change,>,0.0,x_z_d_atr_pct rose
 x_z_d_atr_pct:dn,F|x_z_d_atr_pct,x_z_d_atr_pct_change,<,0.0,x_z_d_atr_pct fell
-x_z_d_atr_pct:L3,F|x_z_d_atr_pct,x_z_d_atr_pct,<=,0.14420190950234726,x_z_d_atr_pct in its low third (<= 0.144202)
-x_z_d_atr_pct:H3,F|x_z_d_atr_pct,x_z_d_atr_pct,>,1.103867252667744,x_z_d_atr_pct in its high third (> 1.10387)
+x_z_d_atr_pct:L3,F|x_z_d_atr_pct,x_z_d_atr_pct,<=,-0.1430828074614207,x_z_d_atr_pct in its low third (<= -0.143083)
+x_z_d_atr_pct:H3,F|x_z_d_atr_pct,x_z_d_atr_pct,>,0.9007865587870278,x_z_d_atr_pct in its high third (> 0.900787)
 x_rank_d_rsi14:up,F|x_rank_d_rsi14,x_rank_d_rsi14_change,>,0.0,x_rank_d_rsi14 rose
 x_rank_d_rsi14:dn,F|x_rank_d_rsi14,x_rank_d_rsi14_change,<,0.0,x_rank_d_rsi14 fell
-x_rank_d_rsi14:L3,F|x_rank_d_rsi14,x_rank_d_rsi14,<=,0.18307644128799436,x_rank_d_rsi14 in its low third (<= 0.183076)
-x_rank_d_rsi14:H3,F|x_rank_d_rsi14,x_rank_d_rsi14,>,0.6570246815681458,x_rank_d_rsi14 in its high third (> 0.657025)
+x_rank_d_rsi14:L3,F|x_rank_d_rsi14,x_rank_d_rsi14,<=,0.22978568573792774,x_rank_d_rsi14 in its low third (<= 0.229786)
+x_rank_d_rsi14:H3,F|x_rank_d_rsi14,x_rank_d_rsi14,>,0.6744808157285054,x_rank_d_rsi14 in its high third (> 0.674481)
 x_z_d_rsi14:up,F|x_z_d_rsi14,x_z_d_rsi14_change,>,0.0,x_z_d_rsi14 rose
 x_z_d_rsi14:dn,F|x_z_d_rsi14,x_z_d_rsi14_change,<,0.0,x_z_d_rsi14 fell
-x_z_d_rsi14:L3,F|x_z_d_rsi14,x_z_d_rsi14,<=,-0.8901976346969607,x_z_d_rsi14 in its low third (<= -0.890198)
-x_z_d_rsi14:H3,F|x_z_d_rsi14,x_z_d_rsi14,>,0.36026392380396494,x_z_d_rsi14 in its high third (> 0.360264)
+x_z_d_rsi14:L3,F|x_z_d_rsi14,x_z_d_rsi14,<=,-0.7389499743779501,x_z_d_rsi14 in its low third (<= -0.73895)
+x_z_d_rsi14:H3,F|x_z_d_rsi14,x_z_d_rsi14,>,0.4228549400965373,x_z_d_rsi14 in its high third (> 0.422855)
 x_rank_d_adx14:up,F|x_rank_d_adx14,x_rank_d_adx14_change,>,0.0,x_rank_d_adx14 rose
 x_rank_d_adx14:dn,F|x_rank_d_adx14,x_rank_d_adx14_change,<,0.0,x_rank_d_adx14 fell
-x_rank_d_adx14:L3,F|x_rank_d_adx14,x_rank_d_adx14,<=,0.557304322719574,x_rank_d_adx14 in its low third (<= 0.557304)
-x_rank_d_adx14:H3,F|x_rank_d_adx14,x_rank_d_adx14,>,0.8579497138659159,x_rank_d_adx14 in its high third (> 0.85795)
+x_rank_d_adx14:L3,F|x_rank_d_adx14,x_rank_d_adx14,<=,0.5123658776283264,x_rank_d_adx14 in its low third (<= 0.512366)
+x_rank_d_adx14:H3,F|x_rank_d_adx14,x_rank_d_adx14,>,0.824162761370341,x_rank_d_adx14 in its high third (> 0.824163)
 x_z_d_adx14:up,F|x_z_d_adx14,x_z_d_adx14_change,>,0.0,x_z_d_adx14 rose
 x_z_d_adx14:dn,F|x_z_d_adx14,x_z_d_adx14_change,<,0.0,x_z_d_adx14 fell
-x_z_d_adx14:L3,F|x_z_d_adx14,x_z_d_adx14,<=,-0.03859463954965277,x_z_d_adx14 in its low third (<= -0.0385946)
-x_z_d_adx14:H3,F|x_z_d_adx14,x_z_d_adx14,>,1.0807723204294837,x_z_d_adx14 in its high third (> 1.08077)
+x_z_d_adx14:L3,F|x_z_d_adx14,x_z_d_adx14,<=,-0.14762262503306076,x_z_d_adx14 in its low third (<= -0.147623)
+x_z_d_adx14:H3,F|x_z_d_adx14,x_z_d_adx14,>,0.9134642481803893,x_z_d_adx14 in its high third (> 0.913464)
 x_rank_d_dist_from_52wh:up,F|x_rank_d_dist_from_52wh,x_rank_d_dist_from_52wh_change,>,0.0,x_rank_d_dist_from_52wh rose
 x_rank_d_dist_from_52wh:dn,F|x_rank_d_dist_from_52wh,x_rank_d_dist_from_52wh_change,<,0.0,x_rank_d_dist_from_52wh fell
-x_rank_d_dist_from_52wh:L3,F|x_rank_d_dist_from_52wh,x_rank_d_dist_from_52wh,<=,0.4002604782581329,x_rank_d_dist_from_52wh in its low third (<= 0.40026)
-x_rank_d_dist_from_52wh:H3,F|x_rank_d_dist_from_52wh,x_rank_d_dist_from_52wh,>,0.7972456018129984,x_rank_d_dist_from_52wh in its high third (> 0.797246)
+x_rank_d_dist_from_52wh:L3,F|x_rank_d_dist_from_52wh,x_rank_d_dist_from_52wh,<=,0.44644513726234436,x_rank_d_dist_from_52wh in its low third (<= 0.446445)
+x_rank_d_dist_from_52wh:H3,F|x_rank_d_dist_from_52wh,x_rank_d_dist_from_52wh,>,0.8083455761273702,x_rank_d_dist_from_52wh in its high third (> 0.808346)
 x_z_d_dist_from_52wh:up,F|x_z_d_dist_from_52wh,x_z_d_dist_from_52wh_change,>,0.0,x_z_d_dist_from_52wh rose
 x_z_d_dist_from_52wh:dn,F|x_z_d_dist_from_52wh,x_z_d_dist_from_52wh_change,<,0.0,x_z_d_dist_from_52wh fell
-x_z_d_dist_from_52wh:L3,F|x_z_d_dist_from_52wh,x_z_d_dist_from_52wh,<=,0.045876504232485994,x_z_d_dist_from_52wh in its low third (<= 0.0458765)
-x_z_d_dist_from_52wh:H3,F|x_z_d_dist_from_52wh,x_z_d_dist_from_52wh,>,0.6055360237757365,x_z_d_dist_from_52wh in its high third (> 0.605536)
+x_z_d_dist_from_52wh:L3,F|x_z_d_dist_from_52wh,x_z_d_dist_from_52wh,<=,0.15640190740426374,x_z_d_dist_from_52wh in its low third (<= 0.156402)
+x_z_d_dist_from_52wh:H3,F|x_z_d_dist_from_52wh,x_z_d_dist_from_52wh,>,0.6539989709854126,x_z_d_dist_from_52wh in its high third (> 0.653999)
 x_rank_d_dist_from_52wl:up,F|x_rank_d_dist_from_52wl,x_rank_d_dist_from_52wl_change,>,0.0,x_rank_d_dist_from_52wl rose
 x_rank_d_dist_from_52wl:dn,F|x_rank_d_dist_from_52wl,x_rank_d_dist_from_52wl_change,<,0.0,x_rank_d_dist_from_52wl fell
-x_rank_d_dist_from_52wl:L3,F|x_rank_d_dist_from_52wl,x_rank_d_dist_from_52wl,<=,0.441893070936203,x_rank_d_dist_from_52wl in its low third (<= 0.441893)
-x_rank_d_dist_from_52wl:H3,F|x_rank_d_dist_from_52wl,x_rank_d_dist_from_52wl,>,0.8135048151016235,x_rank_d_dist_from_52wl in its high third (> 0.813505)
+x_rank_d_dist_from_52wl:L3,F|x_rank_d_dist_from_52wl,x_rank_d_dist_from_52wl,<=,0.5024860699971517,x_rank_d_dist_from_52wl in its low third (<= 0.502486)
+x_rank_d_dist_from_52wl:H3,F|x_rank_d_dist_from_52wl,x_rank_d_dist_from_52wl,>,0.8382514913876852,x_rank_d_dist_from_52wl in its high third (> 0.838251)
 x_z_d_dist_from_52wl:up,F|x_z_d_dist_from_52wl,x_z_d_dist_from_52wl_change,>,0.0,x_z_d_dist_from_52wl rose
 x_z_d_dist_from_52wl:dn,F|x_z_d_dist_from_52wl,x_z_d_dist_from_52wl_change,<,0.0,x_z_d_dist_from_52wl fell
-x_z_d_dist_from_52wl:L3,F|x_z_d_dist_from_52wl,x_z_d_dist_from_52wl,<=,-0.16352325181166336,x_z_d_dist_from_52wl in its low third (<= -0.163523)
-x_z_d_dist_from_52wl:H3,F|x_z_d_dist_from_52wl,x_z_d_dist_from_52wl,>,0.7406077384948729,x_z_d_dist_from_52wl in its high third (> 0.740608)
+x_z_d_dist_from_52wl:L3,F|x_z_d_dist_from_52wl,x_z_d_dist_from_52wl,<=,-0.04935379450519883,x_z_d_dist_from_52wl in its low third (<= -0.0493538)
+x_z_d_dist_from_52wl:H3,F|x_z_d_dist_from_52wl,x_z_d_dist_from_52wl,>,0.9655638734499612,x_z_d_dist_from_52wl in its high third (> 0.965564)
 x_rank_d_pos_in_52w_range:up,F|x_rank_d_pos_in_52w_range,x_rank_d_pos_in_52w_range_change,>,0.0,x_rank_d_pos_in_52w_range rose
 x_rank_d_pos_in_52w_range:dn,F|x_rank_d_pos_in_52w_range,x_rank_d_pos_in_52w_range_change,<,0.0,x_rank_d_pos_in_52w_range fell
-x_rank_d_pos_in_52w_range:L3,F|x_rank_d_pos_in_52w_range,x_rank_d_pos_in_52w_range,<=,0.42215707898139954,x_rank_d_pos_in_52w_range in its low third (<= 0.422157)
-x_rank_d_pos_in_52w_range:H3,F|x_rank_d_pos_in_52w_range,x_rank_d_pos_in_52w_range,>,0.8137709299723307,x_rank_d_pos_in_52w_range in its high third (> 0.813771)
+x_rank_d_pos_in_52w_range:L3,F|x_rank_d_pos_in_52w_range,x_rank_d_pos_in_52w_range,<=,0.48218283057212824,x_rank_d_pos_in_52w_range in its low third (<= 0.482183)
+x_rank_d_pos_in_52w_range:H3,F|x_rank_d_pos_in_52w_range,x_rank_d_pos_in_52w_range,>,0.8279744982719421,x_rank_d_pos_in_52w_range in its high third (> 0.827974)
 x_z_d_pos_in_52w_range:up,F|x_z_d_pos_in_52w_range,x_z_d_pos_in_52w_range_change,>,0.0,x_z_d_pos_in_52w_range rose
 x_z_d_pos_in_52w_range:dn,F|x_z_d_pos_in_52w_range,x_z_d_pos_in_52w_range_change,<,0.0,x_z_d_pos_in_52w_range fell
-x_z_d_pos_in_52w_range:L3,F|x_z_d_pos_in_52w_range,x_z_d_pos_in_52w_range,<=,-0.16791438062985742,x_z_d_pos_in_52w_range in its low third (<= -0.167914)
-x_z_d_pos_in_52w_range:H3,F|x_z_d_pos_in_52w_range,x_z_d_pos_in_52w_range,>,0.9344784418741862,x_z_d_pos_in_52w_range in its high third (> 0.934478)
+x_z_d_pos_in_52w_range:L3,F|x_z_d_pos_in_52w_range,x_z_d_pos_in_52w_range,<=,0.05372787391146022,x_z_d_pos_in_52w_range in its low third (<= 0.0537279)
+x_z_d_pos_in_52w_range:H3,F|x_z_d_pos_in_52w_range,x_z_d_pos_in_52w_range,>,0.9635915954907734,x_z_d_pos_in_52w_range in its high third (> 0.963592)
 x_rank_d_drawdown_252:up,F|x_rank_d_drawdown_252,x_rank_d_drawdown_252_change,>,0.0,x_rank_d_drawdown_252 rose
 x_rank_d_drawdown_252:dn,F|x_rank_d_drawdown_252,x_rank_d_drawdown_252_change,<,0.0,x_rank_d_drawdown_252 fell
-x_rank_d_drawdown_252:L3,F|x_rank_d_drawdown_252,x_rank_d_drawdown_252,<=,0.2768811186154683,x_rank_d_drawdown_252 in its low third (<= 0.276881)
-x_rank_d_drawdown_252:H3,F|x_rank_d_drawdown_252,x_rank_d_drawdown_252,>,0.7822074095408121,x_rank_d_drawdown_252 in its high third (> 0.782207)
+x_rank_d_drawdown_252:L3,F|x_rank_d_drawdown_252,x_rank_d_drawdown_252,<=,0.37565823396046955,x_rank_d_drawdown_252 in its low third (<= 0.375658)
+x_rank_d_drawdown_252:H3,F|x_rank_d_drawdown_252,x_rank_d_drawdown_252,>,0.8119226892789204,x_rank_d_drawdown_252 in its high third (> 0.811923)
 x_z_d_drawdown_252:up,F|x_z_d_drawdown_252,x_z_d_drawdown_252_change,>,0.0,x_z_d_drawdown_252 rose
 x_z_d_drawdown_252:dn,F|x_z_d_drawdown_252,x_z_d_drawdown_252_change,<,0.0,x_z_d_drawdown_252 fell
-x_z_d_drawdown_252:L3,F|x_z_d_drawdown_252,x_z_d_drawdown_252,<=,-0.5359234015146894,x_z_d_drawdown_252 in its low third (<= -0.535923)
-x_z_d_drawdown_252:H3,F|x_z_d_drawdown_252,x_z_d_drawdown_252,>,0.8273705641428629,x_z_d_drawdown_252 in its high third (> 0.827371)
+x_z_d_drawdown_252:L3,F|x_z_d_drawdown_252,x_z_d_drawdown_252,<=,-0.206986352801323,x_z_d_drawdown_252 in its low third (<= -0.206986)
+x_z_d_drawdown_252:H3,F|x_z_d_drawdown_252,x_z_d_drawdown_252,>,0.8751612305641173,x_z_d_drawdown_252 in its high third (> 0.875161)
 x_rank_d_dvol_z20:up,F|x_rank_d_dvol_z20,x_rank_d_dvol_z20_change,>,0.0,x_rank_d_dvol_z20 rose
 x_rank_d_dvol_z20:dn,F|x_rank_d_dvol_z20,x_rank_d_dvol_z20_change,<,0.0,x_rank_d_dvol_z20 fell
-x_rank_d_dvol_z20:L3,F|x_rank_d_dvol_z20,x_rank_d_dvol_z20,<=,0.3400356968243916,x_rank_d_dvol_z20 in its low third (<= 0.340036)
-x_rank_d_dvol_z20:H3,F|x_rank_d_dvol_z20,x_rank_d_dvol_z20,>,0.6842105388641357,x_rank_d_dvol_z20 in its high third (> 0.684211)
+x_rank_d_dvol_z20:L3,F|x_rank_d_dvol_z20,x_rank_d_dvol_z20,<=,0.3225152293841044,x_rank_d_dvol_z20 in its low third (<= 0.322515)
+x_rank_d_dvol_z20:H3,F|x_rank_d_dvol_z20,x_rank_d_dvol_z20,>,0.6777687470118204,x_rank_d_dvol_z20 in its high third (> 0.677769)
 x_z_d_dvol_z20:up,F|x_z_d_dvol_z20,x_z_d_dvol_z20_change,>,0.0,x_z_d_dvol_z20 rose
 x_z_d_dvol_z20:dn,F|x_z_d_dvol_z20,x_z_d_dvol_z20_change,<,0.0,x_z_d_dvol_z20 fell
-x_z_d_dvol_z20:L3,F|x_z_d_dvol_z20,x_z_d_dvol_z20,<=,-0.49244448542594915,x_z_d_dvol_z20 in its low third (<= -0.492444)
-x_z_d_dvol_z20:H3,F|x_z_d_dvol_z20,x_z_d_dvol_z20,>,0.023375273992617757,x_z_d_dvol_z20 in its high third (> 0.0233753)
+x_z_d_dvol_z20:L3,F|x_z_d_dvol_z20,x_z_d_dvol_z20,<=,-0.5210884014765422,x_z_d_dvol_z20 in its low third (<= -0.521088)
+x_z_d_dvol_z20:H3,F|x_z_d_dvol_z20,x_z_d_dvol_z20,>,0.0111017410332956,x_z_d_dvol_z20 in its high third (> 0.0111017)
 x_rank_d_dvol_z252:up,F|x_rank_d_dvol_z252,x_rank_d_dvol_z252_change,>,0.0,x_rank_d_dvol_z252 rose
 x_rank_d_dvol_z252:dn,F|x_rank_d_dvol_z252,x_rank_d_dvol_z252_change,<,0.0,x_rank_d_dvol_z252 fell
-x_rank_d_dvol_z252:L3,F|x_rank_d_dvol_z252,x_rank_d_dvol_z252,<=,0.41770225763320923,x_rank_d_dvol_z252 in its low third (<= 0.417702)
-x_rank_d_dvol_z252:H3,F|x_rank_d_dvol_z252,x_rank_d_dvol_z252,>,0.742609163125356,x_rank_d_dvol_z252 in its high third (> 0.742609)
+x_rank_d_dvol_z252:L3,F|x_rank_d_dvol_z252,x_rank_d_dvol_z252,<=,0.39261401693026227,x_rank_d_dvol_z252 in its low third (<= 0.392614)
+x_rank_d_dvol_z252:H3,F|x_rank_d_dvol_z252,x_rank_d_dvol_z252,>,0.7282324632008869,x_rank_d_dvol_z252 in its high third (> 0.728232)
 x_z_d_dvol_z252:up,F|x_z_d_dvol_z252,x_z_d_dvol_z252_change,>,0.0,x_z_d_dvol_z252 rose
 x_z_d_dvol_z252:dn,F|x_z_d_dvol_z252,x_z_d_dvol_z252_change,<,0.0,x_z_d_dvol_z252 fell
-x_z_d_dvol_z252:L3,F|x_z_d_dvol_z252,x_z_d_dvol_z252,<=,-0.3268336852391561,x_z_d_dvol_z252 in its low third (<= -0.326834)
-x_z_d_dvol_z252:H3,F|x_z_d_dvol_z252,x_z_d_dvol_z252,>,0.03242649634679155,x_z_d_dvol_z252 in its high third (> 0.0324265)
+x_z_d_dvol_z252:L3,F|x_z_d_dvol_z252,x_z_d_dvol_z252,<=,-0.3701299826304118,x_z_d_dvol_z252 in its low third (<= -0.37013)
+x_z_d_dvol_z252:H3,F|x_z_d_dvol_z252,x_z_d_dvol_z252,>,0.021218904604514394,x_z_d_dvol_z252 in its high third (> 0.0212189)
 x_rank_d_realvol_20:up,F|x_rank_d_realvol_20,x_rank_d_realvol_20_change,>,0.0,x_rank_d_realvol_20 rose
 x_rank_d_realvol_20:dn,F|x_rank_d_realvol_20,x_rank_d_realvol_20_change,<,0.0,x_rank_d_realvol_20 fell
-x_rank_d_realvol_20:L3,F|x_rank_d_realvol_20,x_rank_d_realvol_20,<=,0.44605609774589533,x_rank_d_realvol_20 in its low third (<= 0.446056)
-x_rank_d_realvol_20:H3,F|x_rank_d_realvol_20,x_rank_d_realvol_20,>,0.807722250620524,x_rank_d_realvol_20 in its high third (> 0.807722)
+x_rank_d_realvol_20:L3,F|x_rank_d_realvol_20,x_rank_d_realvol_20,<=,0.32234521706898994,x_rank_d_realvol_20 in its low third (<= 0.322345)
+x_rank_d_realvol_20:H3,F|x_rank_d_realvol_20,x_rank_d_realvol_20,>,0.7491289377212524,x_rank_d_realvol_20 in its high third (> 0.749129)
 x_z_d_realvol_20:up,F|x_z_d_realvol_20,x_z_d_realvol_20_change,>,0.0,x_z_d_realvol_20 rose
 x_z_d_realvol_20:dn,F|x_z_d_realvol_20,x_z_d_realvol_20_change,<,0.0,x_z_d_realvol_20 fell
-x_z_d_realvol_20:L3,F|x_z_d_realvol_20,x_z_d_realvol_20,<=,-0.2753376066684724,x_z_d_realvol_20 in its low third (<= -0.275338)
-x_z_d_realvol_20:H3,F|x_z_d_realvol_20,x_z_d_realvol_20,>,0.6913603941599523,x_z_d_realvol_20 in its high third (> 0.69136)
+x_z_d_realvol_20:L3,F|x_z_d_realvol_20,x_z_d_realvol_20,<=,-0.5367517669995627,x_z_d_realvol_20 in its low third (<= -0.536752)
+x_z_d_realvol_20:H3,F|x_z_d_realvol_20,x_z_d_realvol_20,>,0.4688386221726735,x_z_d_realvol_20 in its high third (> 0.468839)
 x_rank_d_realvol_ratio_20_60:up,F|x_rank_d_realvol_ratio_20_60,x_rank_d_realvol_ratio_20_60_change,>,0.0,x_rank_d_realvol_ratio_20_60 rose
 x_rank_d_realvol_ratio_20_60:dn,F|x_rank_d_realvol_ratio_20_60,x_rank_d_realvol_ratio_20_60_change,<,0.0,x_rank_d_realvol_ratio_20_60 fell
-x_rank_d_realvol_ratio_20_60:L3,F|x_rank_d_realvol_ratio_20_60,x_rank_d_realvol_ratio_20_60,<=,0.2776538729667663,x_rank_d_realvol_ratio_20_60 in its low third (<= 0.277654)
-x_rank_d_realvol_ratio_20_60:H3,F|x_rank_d_realvol_ratio_20_60,x_rank_d_realvol_ratio_20_60,>,0.6293794512748718,x_rank_d_realvol_ratio_20_60 in its high third (> 0.629379)
+x_rank_d_realvol_ratio_20_60:L3,F|x_rank_d_realvol_ratio_20_60,x_rank_d_realvol_ratio_20_60,<=,0.23400695125261942,x_rank_d_realvol_ratio_20_60 in its low third (<= 0.234007)
+x_rank_d_realvol_ratio_20_60:H3,F|x_rank_d_realvol_ratio_20_60,x_rank_d_realvol_ratio_20_60,>,0.5702788432439169,x_rank_d_realvol_ratio_20_60 in its high third (> 0.570279)
 x_z_d_realvol_ratio_20_60:up,F|x_z_d_realvol_ratio_20_60,x_z_d_realvol_ratio_20_60_change,>,0.0,x_z_d_realvol_ratio_20_60 rose
 x_z_d_realvol_ratio_20_60:dn,F|x_z_d_realvol_ratio_20_60,x_z_d_realvol_ratio_20_60_change,<,0.0,x_z_d_realvol_ratio_20_60 fell
-x_z_d_realvol_ratio_20_60:L3,F|x_z_d_realvol_ratio_20_60,x_z_d_realvol_ratio_20_60,<=,-0.6059829394022624,x_z_d_realvol_ratio_20_60 in its low third (<= -0.605983)
-x_z_d_realvol_ratio_20_60:H3,F|x_z_d_realvol_ratio_20_60,x_z_d_realvol_ratio_20_60,>,0.31175574660301203,x_z_d_realvol_ratio_20_60 in its high third (> 0.311756)
+x_z_d_realvol_ratio_20_60:L3,F|x_z_d_realvol_ratio_20_60,x_z_d_realvol_ratio_20_60,<=,-0.7463465332984924,x_z_d_realvol_ratio_20_60 in its low third (<= -0.746347)
+x_z_d_realvol_ratio_20_60:H3,F|x_z_d_realvol_ratio_20_60,x_z_d_realvol_ratio_20_60,>,0.15537390112876878,x_z_d_realvol_ratio_20_60 in its high third (> 0.155374)
 x_rank_d_amihud_20:up,F|x_rank_d_amihud_20,x_rank_d_amihud_20_change,>,0.0,x_rank_d_amihud_20 rose
 x_rank_d_amihud_20:dn,F|x_rank_d_amihud_20,x_rank_d_amihud_20_change,<,0.0,x_rank_d_amihud_20 fell
-x_rank_d_amihud_20:L3,F|x_rank_d_amihud_20,x_rank_d_amihud_20,<=,0.35155932108561194,x_rank_d_amihud_20 in its low third (<= 0.351559)
-x_rank_d_amihud_20:H3,F|x_rank_d_amihud_20,x_rank_d_amihud_20,>,0.6852754155794779,x_rank_d_amihud_20 in its high third (> 0.685275)
+x_rank_d_amihud_20:L3,F|x_rank_d_amihud_20,x_rank_d_amihud_20,<=,0.36004898945490516,x_rank_d_amihud_20 in its low third (<= 0.360049)
+x_rank_d_amihud_20:H3,F|x_rank_d_amihud_20,x_rank_d_amihud_20,>,0.6971556345621744,x_rank_d_amihud_20 in its high third (> 0.697156)
 x_z_d_amihud_20:up,F|x_z_d_amihud_20,x_z_d_amihud_20_change,>,0.0,x_z_d_amihud_20 rose
 x_z_d_amihud_20:dn,F|x_z_d_amihud_20,x_z_d_amihud_20_change,<,0.0,x_z_d_amihud_20 fell
-x_z_d_amihud_20:L3,F|x_z_d_amihud_20,x_z_d_amihud_20,<=,-0.4803600609302521,x_z_d_amihud_20 in its low third (<= -0.48036)
-x_z_d_amihud_20:H3,F|x_z_d_amihud_20,x_z_d_amihud_20,>,-0.008111412947376589,x_z_d_amihud_20 in its high third (> -0.00811141)
+x_z_d_amihud_20:L3,F|x_z_d_amihud_20,x_z_d_amihud_20,<=,-0.5083136955897013,x_z_d_amihud_20 in its low third (<= -0.508314)
+x_z_d_amihud_20:H3,F|x_z_d_amihud_20,x_z_d_amihud_20,>,0.03596654161810868,x_z_d_amihud_20 in its high third (> 0.0359665)
 x_rank_d_gap_pct:up,F|x_rank_d_gap_pct,x_rank_d_gap_pct_change,>,0.0,x_rank_d_gap_pct rose
 x_rank_d_gap_pct:dn,F|x_rank_d_gap_pct,x_rank_d_gap_pct_change,<,0.0,x_rank_d_gap_pct fell
-x_rank_d_gap_pct:L3,F|x_rank_d_gap_pct,x_rank_d_gap_pct,<=,0.28253378470738727,x_rank_d_gap_pct in its low third (<= 0.282534)
-x_rank_d_gap_pct:H3,F|x_rank_d_gap_pct,x_rank_d_gap_pct,>,0.6490773955980935,x_rank_d_gap_pct in its high third (> 0.649077)
+x_rank_d_gap_pct:L3,F|x_rank_d_gap_pct,x_rank_d_gap_pct,<=,0.26955010493596393,x_rank_d_gap_pct in its low third (<= 0.26955)
+x_rank_d_gap_pct:H3,F|x_rank_d_gap_pct,x_rank_d_gap_pct,>,0.6356345216433207,x_rank_d_gap_pct in its high third (> 0.635635)
 x_z_d_gap_pct:up,F|x_z_d_gap_pct,x_z_d_gap_pct_change,>,0.0,x_z_d_gap_pct rose
 x_z_d_gap_pct:dn,F|x_z_d_gap_pct,x_z_d_gap_pct_change,<,0.0,x_z_d_gap_pct fell
-x_z_d_gap_pct:L3,F|x_z_d_gap_pct,x_z_d_gap_pct,<=,-0.3681314289569855,x_z_d_gap_pct in its low third (<= -0.368131)
-x_z_d_gap_pct:H3,F|x_z_d_gap_pct,x_z_d_gap_pct,>,0.16466133296489707,x_z_d_gap_pct in its high third (> 0.164661)
+x_z_d_gap_pct:L3,F|x_z_d_gap_pct,x_z_d_gap_pct,<=,-0.397165447473526,x_z_d_gap_pct in its low third (<= -0.397165)
+x_z_d_gap_pct:H3,F|x_z_d_gap_pct,x_z_d_gap_pct,>,0.13751370708147678,x_z_d_gap_pct in its high third (> 0.137514)
 x_rank_d_intraday_ret_pct:up,F|x_rank_d_intraday_ret_pct,x_rank_d_intraday_ret_pct_change,>,0.0,x_rank_d_intraday_ret_pct rose
 x_rank_d_intraday_ret_pct:dn,F|x_rank_d_intraday_ret_pct,x_rank_d_intraday_ret_pct_change,<,0.0,x_rank_d_intraday_ret_pct fell
-x_rank_d_intraday_ret_pct:L3,F|x_rank_d_intraday_ret_pct,x_rank_d_intraday_ret_pct,<=,0.19546245038509366,x_rank_d_intraday_ret_pct in its low third (<= 0.195462)
-x_rank_d_intraday_ret_pct:H3,F|x_rank_d_intraday_ret_pct,x_rank_d_intraday_ret_pct,>,0.5444574157396951,x_rank_d_intraday_ret_pct in its high third (> 0.544457)
+x_rank_d_intraday_ret_pct:L3,F|x_rank_d_intraday_ret_pct,x_rank_d_intraday_ret_pct,<=,0.2461827298005422,x_rank_d_intraday_ret_pct in its low third (<= 0.246183)
+x_rank_d_intraday_ret_pct:H3,F|x_rank_d_intraday_ret_pct,x_rank_d_intraday_ret_pct,>,0.5853728850682576,x_rank_d_intraday_ret_pct in its high third (> 0.585373)
 x_z_d_intraday_ret_pct:up,F|x_z_d_intraday_ret_pct,x_z_d_intraday_ret_pct_change,>,0.0,x_z_d_intraday_ret_pct rose
 x_z_d_intraday_ret_pct:dn,F|x_z_d_intraday_ret_pct,x_z_d_intraday_ret_pct_change,<,0.0,x_z_d_intraday_ret_pct fell
-x_z_d_intraday_ret_pct:L3,F|x_z_d_intraday_ret_pct,x_z_d_intraday_ret_pct,<=,-0.6967243353525797,x_z_d_intraday_ret_pct in its low third (<= -0.696724)
-x_z_d_intraday_ret_pct:H3,F|x_z_d_intraday_ret_pct,x_z_d_intraday_ret_pct,>,-0.02573255387445291,x_z_d_intraday_ret_pct in its high third (> -0.0257326)
+x_z_d_intraday_ret_pct:L3,F|x_z_d_intraday_ret_pct,x_z_d_intraday_ret_pct,<=,-0.5780864953994751,x_z_d_intraday_ret_pct in its low third (<= -0.578086)
+x_z_d_intraday_ret_pct:H3,F|x_z_d_intraday_ret_pct,x_z_d_intraday_ret_pct,>,0.041808307170867885,x_z_d_intraday_ret_pct in its high third (> 0.0418083)
 x_rank_d_ret_skew_60:up,F|x_rank_d_ret_skew_60,x_rank_d_ret_skew_60_change,>,0.0,x_rank_d_ret_skew_60 rose
 x_rank_d_ret_skew_60:dn,F|x_rank_d_ret_skew_60,x_rank_d_ret_skew_60_change,<,0.0,x_rank_d_ret_skew_60 fell
-x_rank_d_ret_skew_60:L3,F|x_rank_d_ret_skew_60,x_rank_d_ret_skew_60,<=,0.34909090399742126,x_rank_d_ret_skew_60 in its low third (<= 0.349091)
-x_rank_d_ret_skew_60:H3,F|x_rank_d_ret_skew_60,x_rank_d_ret_skew_60,>,0.7035954197247822,x_rank_d_ret_skew_60 in its high third (> 0.703595)
+x_rank_d_ret_skew_60:L3,F|x_rank_d_ret_skew_60,x_rank_d_ret_skew_60,<=,0.359938512245814,x_rank_d_ret_skew_60 in its low third (<= 0.359939)
+x_rank_d_ret_skew_60:H3,F|x_rank_d_ret_skew_60,x_rank_d_ret_skew_60,>,0.7039551536242166,x_rank_d_ret_skew_60 in its high third (> 0.703955)
 x_z_d_ret_skew_60:up,F|x_z_d_ret_skew_60,x_z_d_ret_skew_60_change,>,0.0,x_z_d_ret_skew_60 rose
 x_z_d_ret_skew_60:dn,F|x_z_d_ret_skew_60,x_z_d_ret_skew_60_change,<,0.0,x_z_d_ret_skew_60 fell
-x_z_d_ret_skew_60:L3,F|x_z_d_ret_skew_60,x_z_d_ret_skew_60,<=,-0.364882359902064,x_z_d_ret_skew_60 in its low third (<= -0.364882)
-x_z_d_ret_skew_60:H3,F|x_z_d_ret_skew_60,x_z_d_ret_skew_60,>,0.37351154287656124,x_z_d_ret_skew_60 in its high third (> 0.373512)
+x_z_d_ret_skew_60:L3,F|x_z_d_ret_skew_60,x_z_d_ret_skew_60,<=,-0.3544450402259828,x_z_d_ret_skew_60 in its low third (<= -0.354445)
+x_z_d_ret_skew_60:H3,F|x_z_d_ret_skew_60,x_z_d_ret_skew_60,>,0.38767465949058505,x_z_d_ret_skew_60 in its high third (> 0.387675)
 x_rank_d_downside_dev_60:up,F|x_rank_d_downside_dev_60,x_rank_d_downside_dev_60_change,>,0.0,x_rank_d_downside_dev_60 rose
 x_rank_d_downside_dev_60:dn,F|x_rank_d_downside_dev_60,x_rank_d_downside_dev_60_change,<,0.0,x_rank_d_downside_dev_60 fell
-x_rank_d_downside_dev_60:L3,F|x_rank_d_downside_dev_60,x_rank_d_downside_dev_60,<=,0.4722731113433838,x_rank_d_downside_dev_60 in its low third (<= 0.472273)
-x_rank_d_downside_dev_60:H3,F|x_rank_d_downside_dev_60,x_rank_d_downside_dev_60,>,0.8329578042030334,x_rank_d_downside_dev_60 in its high third (> 0.832958)
+x_rank_d_downside_dev_60:L3,F|x_rank_d_downside_dev_60,x_rank_d_downside_dev_60,<=,0.3681449393431346,x_rank_d_downside_dev_60 in its low third (<= 0.368145)
+x_rank_d_downside_dev_60:H3,F|x_rank_d_downside_dev_60,x_rank_d_downside_dev_60,>,0.7787550489107767,x_rank_d_downside_dev_60 in its high third (> 0.778755)
 x_z_d_downside_dev_60:up,F|x_z_d_downside_dev_60,x_z_d_downside_dev_60_change,>,0.0,x_z_d_downside_dev_60 rose
 x_z_d_downside_dev_60:dn,F|x_z_d_downside_dev_60,x_z_d_downside_dev_60_change,<,0.0,x_z_d_downside_dev_60 fell
-x_z_d_downside_dev_60:L3,F|x_z_d_downside_dev_60,x_z_d_downside_dev_60,<=,-0.14972373843193065,x_z_d_downside_dev_60 in its low third (<= -0.149724)
-x_z_d_downside_dev_60:H3,F|x_z_d_downside_dev_60,x_z_d_downside_dev_60,>,0.8537436922391254,x_z_d_downside_dev_60 in its high third (> 0.853744)
+x_z_d_downside_dev_60:L3,F|x_z_d_downside_dev_60,x_z_d_downside_dev_60,<=,-0.39662927389144903,x_z_d_downside_dev_60 in its low third (<= -0.396629)
+x_z_d_downside_dev_60:H3,F|x_z_d_downside_dev_60,x_z_d_downside_dev_60,>,0.6584512988726297,x_z_d_downside_dev_60 in its high third (> 0.658451)
 x_rank_d_bb_pctb_20:up,F|x_rank_d_bb_pctb_20,x_rank_d_bb_pctb_20_change,>,0.0,x_rank_d_bb_pctb_20 rose
 x_rank_d_bb_pctb_20:dn,F|x_rank_d_bb_pctb_20,x_rank_d_bb_pctb_20_change,<,0.0,x_rank_d_bb_pctb_20 fell
-x_rank_d_bb_pctb_20:L3,F|x_rank_d_bb_pctb_20,x_rank_d_bb_pctb_20,<=,0.20023840665817255,x_rank_d_bb_pctb_20 in its low third (<= 0.200238)
-x_rank_d_bb_pctb_20:H3,F|x_rank_d_bb_pctb_20,x_rank_d_bb_pctb_20,>,0.5885178049405415,x_rank_d_bb_pctb_20 in its high third (> 0.588518)
+x_rank_d_bb_pctb_20:L3,F|x_rank_d_bb_pctb_20,x_rank_d_bb_pctb_20,<=,0.21603462596734366,x_rank_d_bb_pctb_20 in its low third (<= 0.216035)
+x_rank_d_bb_pctb_20:H3,F|x_rank_d_bb_pctb_20,x_rank_d_bb_pctb_20,>,0.6068603197733561,x_rank_d_bb_pctb_20 in its high third (> 0.60686)
 x_z_d_bb_pctb_20:up,F|x_z_d_bb_pctb_20,x_z_d_bb_pctb_20_change,>,0.0,x_z_d_bb_pctb_20 rose
 x_z_d_bb_pctb_20:dn,F|x_z_d_bb_pctb_20,x_z_d_bb_pctb_20_change,<,0.0,x_z_d_bb_pctb_20 fell
-x_z_d_bb_pctb_20:L3,F|x_z_d_bb_pctb_20,x_z_d_bb_pctb_20,<=,-0.8398680885632833,x_z_d_bb_pctb_20 in its low third (<= -0.839868)
-x_z_d_bb_pctb_20:H3,F|x_z_d_bb_pctb_20,x_z_d_bb_pctb_20,>,0.2622085313002267,x_z_d_bb_pctb_20 in its high third (> 0.262209)
+x_z_d_bb_pctb_20:L3,F|x_z_d_bb_pctb_20,x_z_d_bb_pctb_20,<=,-0.7899010380109154,x_z_d_bb_pctb_20 in its low third (<= -0.789901)
+x_z_d_bb_pctb_20:H3,F|x_z_d_bb_pctb_20,x_z_d_bb_pctb_20,>,0.31727985541025794,x_z_d_bb_pctb_20 in its high third (> 0.31728)
 x_rank_d_donch_pos_20:up,F|x_rank_d_donch_pos_20,x_rank_d_donch_pos_20_change,>,0.0,x_rank_d_donch_pos_20 rose
 x_rank_d_donch_pos_20:dn,F|x_rank_d_donch_pos_20,x_rank_d_donch_pos_20_change,<,0.0,x_rank_d_donch_pos_20 fell
-x_rank_d_donch_pos_20:L3,F|x_rank_d_donch_pos_20,x_rank_d_donch_pos_20,<=,0.1875253766775131,x_rank_d_donch_pos_20 in its low third (<= 0.187525)
-x_rank_d_donch_pos_20:H3,F|x_rank_d_donch_pos_20,x_rank_d_donch_pos_20,>,0.6211324334144592,x_rank_d_donch_pos_20 in its high third (> 0.621132)
+x_rank_d_donch_pos_20:L3,F|x_rank_d_donch_pos_20,x_rank_d_donch_pos_20,<=,0.21384698152542114,x_rank_d_donch_pos_20 in its low third (<= 0.213847)
+x_rank_d_donch_pos_20:H3,F|x_rank_d_donch_pos_20,x_rank_d_donch_pos_20,>,0.6404061913490295,x_rank_d_donch_pos_20 in its high third (> 0.640406)
 x_z_d_donch_pos_20:up,F|x_z_d_donch_pos_20,x_z_d_donch_pos_20_change,>,0.0,x_z_d_donch_pos_20 rose
 x_z_d_donch_pos_20:dn,F|x_z_d_donch_pos_20,x_z_d_donch_pos_20_change,<,0.0,x_z_d_donch_pos_20 fell
-x_z_d_donch_pos_20:L3,F|x_z_d_donch_pos_20,x_z_d_donch_pos_20,<=,-0.8862895965576174,x_z_d_donch_pos_20 in its low third (<= -0.88629)
-x_z_d_donch_pos_20:H3,F|x_z_d_donch_pos_20,x_z_d_donch_pos_20,>,0.3415639499823249,x_z_d_donch_pos_20 in its high third (> 0.341564)
+x_z_d_donch_pos_20:L3,F|x_z_d_donch_pos_20,x_z_d_donch_pos_20,<=,-0.8056448300679525,x_z_d_donch_pos_20 in its low third (<= -0.805645)
+x_z_d_donch_pos_20:H3,F|x_z_d_donch_pos_20,x_z_d_donch_pos_20,>,0.39507006605466205,x_z_d_donch_pos_20 in its high third (> 0.39507)
 x_rank_d_ema20_angle_deg:up,F|x_rank_d_ema20_angle_deg,x_rank_d_ema20_angle_deg_change,>,0.0,x_rank_d_ema20_angle_deg rose
 x_rank_d_ema20_angle_deg:dn,F|x_rank_d_ema20_angle_deg,x_rank_d_ema20_angle_deg_change,<,0.0,x_rank_d_ema20_angle_deg fell
-x_rank_d_ema20_angle_deg:L3,F|x_rank_d_ema20_angle_deg,x_rank_d_ema20_angle_deg,<=,0.10248795896768567,x_rank_d_ema20_angle_deg in its low third (<= 0.102488)
-x_rank_d_ema20_angle_deg:H3,F|x_rank_d_ema20_angle_deg,x_rank_d_ema20_angle_deg,>,0.5856945912043253,x_rank_d_ema20_angle_deg in its high third (> 0.585695)
+x_rank_d_ema20_angle_deg:L3,F|x_rank_d_ema20_angle_deg,x_rank_d_ema20_angle_deg,<=,0.15724045534928638,x_rank_d_ema20_angle_deg in its low third (<= 0.15724)
+x_rank_d_ema20_angle_deg:H3,F|x_rank_d_ema20_angle_deg,x_rank_d_ema20_angle_deg,>,0.5833111405372619,x_rank_d_ema20_angle_deg in its high third (> 0.583311)
 x_z_d_ema20_angle_deg:up,F|x_z_d_ema20_angle_deg,x_z_d_ema20_angle_deg_change,>,0.0,x_z_d_ema20_angle_deg rose
 x_z_d_ema20_angle_deg:dn,F|x_z_d_ema20_angle_deg,x_z_d_ema20_angle_deg_change,<,0.0,x_z_d_ema20_angle_deg fell
-x_z_d_ema20_angle_deg:L3,F|x_z_d_ema20_angle_deg,x_z_d_ema20_angle_deg,<=,-1.014850695927938,x_z_d_ema20_angle_deg in its low third (<= -1.01485)
-x_z_d_ema20_angle_deg:H3,F|x_z_d_ema20_angle_deg,x_z_d_ema20_angle_deg,>,0.013119136604169973,x_z_d_ema20_angle_deg in its high third (> 0.0131191)
+x_z_d_ema20_angle_deg:L3,F|x_z_d_ema20_angle_deg,x_z_d_ema20_angle_deg,<=,-0.8214605847994487,x_z_d_ema20_angle_deg in its low third (<= -0.821461)
+x_z_d_ema20_angle_deg:H3,F|x_z_d_ema20_angle_deg,x_z_d_ema20_angle_deg,>,0.006259863730519498,x_z_d_ema20_angle_deg in its high third (> 0.00625986)
 x_universe_size:up,F|x_universe_size,x_universe_size_change,>,0.0,x_universe_size rose
 x_universe_size:dn,F|x_universe_size,x_universe_size_change,<,0.0,x_universe_size fell
-x_universe_size:L3,F|x_universe_size,x_universe_size,<=,812.0,x_universe_size in its low third (<= 812)
-x_universe_size:H3,F|x_universe_size,x_universe_size,>,1051.0,x_universe_size in its high third (> 1051)
+x_universe_size:L3,F|x_universe_size,x_universe_size,<=,727.0,x_universe_size in its low third (<= 727)
+x_universe_size:H3,F|x_universe_size,x_universe_size,>,825.0,x_universe_size in its high third (> 825)
 mkt_d_realvol_20:up,F|mkt_d_realvol_20,mkt_d_realvol_20_change,>,0.0,mkt_d_realvol_20 rose
 mkt_d_realvol_20:dn,F|mkt_d_realvol_20,mkt_d_realvol_20_change,<,0.0,mkt_d_realvol_20 fell
-mkt_d_realvol_20:L3,F|mkt_d_realvol_20,mkt_d_realvol_20,<=,10.52256965637207,mkt_d_realvol_20 in its low third (<= 10.5226)
-mkt_d_realvol_20:H3,F|mkt_d_realvol_20,mkt_d_realvol_20,>,15.158136367797852,mkt_d_realvol_20 in its high third (> 15.1581)
+mkt_d_realvol_20:L3,F|mkt_d_realvol_20,mkt_d_realvol_20,<=,11.211919784545898,mkt_d_realvol_20 in its low third (<= 11.2119)
+mkt_d_realvol_20:H3,F|mkt_d_realvol_20,mkt_d_realvol_20,>,16.45817756652832,mkt_d_realvol_20 in its high third (> 16.4582)
 mkt_d_rsi14:up,F|mkt_d_rsi14,mkt_d_rsi14_change,>,0.0,mkt_d_rsi14 rose
 mkt_d_rsi14:dn,F|mkt_d_rsi14,mkt_d_rsi14_change,<,0.0,mkt_d_rsi14 fell
-mkt_d_rsi14:L3,F|mkt_d_rsi14,mkt_d_rsi14,<=,49.00492858886719,mkt_d_rsi14 in its low third (<= 49.0049)
-mkt_d_rsi14:H3,F|mkt_d_rsi14,mkt_d_rsi14,>,60.72498321533203,mkt_d_rsi14 in its high third (> 60.725)
+mkt_d_rsi14:L3,F|mkt_d_rsi14,mkt_d_rsi14,<=,49.649810791015625,mkt_d_rsi14 in its low third (<= 49.6498)
+mkt_d_rsi14:H3,F|mkt_d_rsi14,mkt_d_rsi14,>,62.449337005615234,mkt_d_rsi14 in its high third (> 62.4493)
 mkt_d_adx14:up,F|mkt_d_adx14,mkt_d_adx14_change,>,0.0,mkt_d_adx14 rose
 mkt_d_adx14:dn,F|mkt_d_adx14,mkt_d_adx14_change,<,0.0,mkt_d_adx14 fell
-mkt_d_adx14:L3,F|mkt_d_adx14,mkt_d_adx14,<=,18.955129623413086,mkt_d_adx14 in its low third (<= 18.9551)
-mkt_d_adx14:H3,F|mkt_d_adx14,mkt_d_adx14,>,25.668970108032227,mkt_d_adx14 in its high third (> 25.669)
+mkt_d_adx14:L3,F|mkt_d_adx14,mkt_d_adx14,<=,20.21297264099121,mkt_d_adx14 in its low third (<= 20.213)
+mkt_d_adx14:H3,F|mkt_d_adx14,mkt_d_adx14,>,27.242961883544922,mkt_d_adx14 in its high third (> 27.243)
 mkt_d_dist_from_52wh:up,F|mkt_d_dist_from_52wh,mkt_d_dist_from_52wh_change,>,0.0,mkt_d_dist_from_52wh rose
 mkt_d_dist_from_52wh:dn,F|mkt_d_dist_from_52wh,mkt_d_dist_from_52wh_change,<,0.0,mkt_d_dist_from_52wh fell
-mkt_d_dist_from_52wh:L3,F|mkt_d_dist_from_52wh,mkt_d_dist_from_52wh,<=,-5.94877290725708,mkt_d_dist_from_52wh in its low third (<= -5.94877)
-mkt_d_dist_from_52wh:H3,F|mkt_d_dist_from_52wh,mkt_d_dist_from_52wh,>,-2.3707079887390137,mkt_d_dist_from_52wh in its high third (> -2.37071)
+mkt_d_dist_from_52wh:L3,F|mkt_d_dist_from_52wh,mkt_d_dist_from_52wh,<=,-5.361928462982178,mkt_d_dist_from_52wh in its low third (<= -5.36193)
+mkt_d_dist_from_52wh:H3,F|mkt_d_dist_from_52wh,mkt_d_dist_from_52wh,>,-2.573216676712036,mkt_d_dist_from_52wh in its high third (> -2.57322)
 mkt_d_drawdown_252:up,F|mkt_d_drawdown_252,mkt_d_drawdown_252_change,>,0.0,mkt_d_drawdown_252 rose
 mkt_d_drawdown_252:dn,F|mkt_d_drawdown_252,mkt_d_drawdown_252_change,<,0.0,mkt_d_drawdown_252 fell
-mkt_d_drawdown_252:L3,F|mkt_d_drawdown_252,mkt_d_drawdown_252,<=,-0.06489672511816025,mkt_d_drawdown_252 in its low third (<= -0.0648967)
-mkt_d_drawdown_252:H3,F|mkt_d_drawdown_252,mkt_d_drawdown_252,>,-0.020659586414694786,mkt_d_drawdown_252 in its high third (> -0.0206596)
+mkt_d_drawdown_252:L3,F|mkt_d_drawdown_252,mkt_d_drawdown_252,<=,-0.061547163873910904,mkt_d_drawdown_252 in its low third (<= -0.0615472)
+mkt_d_drawdown_252:H3,F|mkt_d_drawdown_252,mkt_d_drawdown_252,>,-0.022766798734664917,mkt_d_drawdown_252 in its high third (> -0.0227668)
 x_relvol_20:up,F|x_relvol_20,x_relvol_20_change,>,0.0,x_relvol_20 rose
 x_relvol_20:dn,F|x_relvol_20,x_relvol_20_change,<,0.0,x_relvol_20 fell
-x_relvol_20:L3,F|x_relvol_20,x_relvol_20,<=,2.380996068318685,x_relvol_20 in its low third (<= 2.381)
-x_relvol_20:H3,F|x_relvol_20,x_relvol_20,>,3.887056827545166,x_relvol_20 in its high third (> 3.88706)
+x_relvol_20:L3,F|x_relvol_20,x_relvol_20,<=,2.107459306716919,x_relvol_20 in its low third (<= 2.10746)
+x_relvol_20:H3,F|x_relvol_20,x_relvol_20,>,3.273663282394409,x_relvol_20 in its high third (> 3.27366)
 niftybank_ret_1d:up,F|niftybank_ret_1d,niftybank_ret_1d_change,>,0.0,niftybank_ret_1d rose
 niftybank_ret_1d:dn,F|niftybank_ret_1d,niftybank_ret_1d_change,<,0.0,niftybank_ret_1d fell
-niftybank_ret_1d:L3,F|niftybank_ret_1d,niftybank_ret_1d,<=,-0.0032784505747258663,niftybank_ret_1d in its low third (<= -0.00327845)
-niftybank_ret_1d:H3,F|niftybank_ret_1d,niftybank_ret_1d,>,0.004396764561533928,niftybank_ret_1d in its high third (> 0.00439676)
+niftybank_ret_1d:L3,F|niftybank_ret_1d,niftybank_ret_1d,<=,-0.003422727808356285,niftybank_ret_1d in its low third (<= -0.00342273)
+niftybank_ret_1d:H3,F|niftybank_ret_1d,niftybank_ret_1d,>,0.005400634836405516,niftybank_ret_1d in its high third (> 0.00540063)
 nifty500_ret_1d:up,F|nifty500_ret_1d,nifty500_ret_1d_change,>,0.0,nifty500_ret_1d rose
 nifty500_ret_1d:dn,F|nifty500_ret_1d,nifty500_ret_1d_change,<,0.0,nifty500_ret_1d fell
-nifty500_ret_1d:L3,F|nifty500_ret_1d,nifty500_ret_1d,<=,-0.001985080074518919,nifty500_ret_1d in its low third (<= -0.00198508)
-nifty500_ret_1d:H3,F|nifty500_ret_1d,nifty500_ret_1d,>,0.004540422465652227,nifty500_ret_1d in its high third (> 0.00454042)
+nifty500_ret_1d:L3,F|nifty500_ret_1d,nifty500_ret_1d,<=,-0.0016893156571313739,nifty500_ret_1d in its low third (<= -0.00168932)
+nifty500_ret_1d:H3,F|nifty500_ret_1d,nifty500_ret_1d,>,0.0051040733233094215,nifty500_ret_1d in its high third (> 0.00510407)
 niftymidcap150_ret_1d:up,F|niftymidcap150_ret_1d,niftymidcap150_ret_1d_change,>,0.0,niftymidcap150_ret_1d rose
 niftymidcap150_ret_1d:dn,F|niftymidcap150_ret_1d,niftymidcap150_ret_1d_change,<,0.0,niftymidcap150_ret_1d fell
-niftymidcap150_ret_1d:L3,F|niftymidcap150_ret_1d,niftymidcap150_ret_1d,<=,-0.0017694005509838462,niftymidcap150_ret_1d in its low third (<= -0.0017694)
-niftymidcap150_ret_1d:H3,F|niftymidcap150_ret_1d,niftymidcap150_ret_1d,>,0.005336139351129532,niftymidcap150_ret_1d in its high third (> 0.00533614)
+niftymidcap150_ret_1d:L3,F|niftymidcap150_ret_1d,niftymidcap150_ret_1d,<=,-0.0012178883189335465,niftymidcap150_ret_1d in its low third (<= -0.00121789)
+niftymidcap150_ret_1d:H3,F|niftymidcap150_ret_1d,niftymidcap150_ret_1d,>,0.005965330172330138,niftymidcap150_ret_1d in its high third (> 0.00596533)
 niftysmlcap250_ret_1d:up,F|niftysmlcap250_ret_1d,niftysmlcap250_ret_1d_change,>,0.0,niftysmlcap250_ret_1d rose
 niftysmlcap250_ret_1d:dn,F|niftysmlcap250_ret_1d,niftysmlcap250_ret_1d_change,<,0.0,niftysmlcap250_ret_1d fell
-niftysmlcap250_ret_1d:L3,F|niftysmlcap250_ret_1d,niftysmlcap250_ret_1d,<=,-0.0016712883953005075,niftysmlcap250_ret_1d in its low third (<= -0.00167129)
-niftysmlcap250_ret_1d:H3,F|niftysmlcap250_ret_1d,niftysmlcap250_ret_1d,>,0.0062007661908864975,niftysmlcap250_ret_1d in its high third (> 0.00620077)
+niftysmlcap250_ret_1d:L3,F|niftysmlcap250_ret_1d,niftysmlcap250_ret_1d,<=,-0.0007386363577097654,niftysmlcap250_ret_1d in its low third (<= -0.000738636)
+niftysmlcap250_ret_1d:H3,F|niftysmlcap250_ret_1d,niftysmlcap250_ret_1d,>,0.0066267745569348335,niftysmlcap250_ret_1d in its high third (> 0.00662677)
 indiavix_ret_1d:up,F|indiavix_ret_1d,indiavix_ret_1d_change,>,0.0,indiavix_ret_1d rose
 indiavix_ret_1d:dn,F|indiavix_ret_1d,indiavix_ret_1d_change,<,0.0,indiavix_ret_1d fell
-indiavix_ret_1d:L3,F|indiavix_ret_1d,indiavix_ret_1d,<=,-0.019772615283727646,indiavix_ret_1d in its low third (<= -0.0197726)
-indiavix_ret_1d:H3,F|indiavix_ret_1d,indiavix_ret_1d,>,0.013966480270028114,indiavix_ret_1d in its high third (> 0.0139665)
+indiavix_ret_1d:L3,F|indiavix_ret_1d,indiavix_ret_1d,<=,-0.020447002102931353,indiavix_ret_1d in its low third (<= -0.020447)
+indiavix_ret_1d:H3,F|indiavix_ret_1d,indiavix_ret_1d,>,0.012766849560042145,indiavix_ret_1d in its high third (> 0.0127668)
 niftyauto_ret_1d:up,F|niftyauto_ret_1d,niftyauto_ret_1d_change,>,0.0,niftyauto_ret_1d rose
 niftyauto_ret_1d:dn,F|niftyauto_ret_1d,niftyauto_ret_1d_change,<,0.0,niftyauto_ret_1d fell
-niftyauto_ret_1d:L3,F|niftyauto_ret_1d,niftyauto_ret_1d,<=,-0.003108580596745014,niftyauto_ret_1d in its low third (<= -0.00310858)
-niftyauto_ret_1d:H3,F|niftyauto_ret_1d,niftyauto_ret_1d,>,0.005442968414475511,niftyauto_ret_1d in its high third (> 0.00544297)
+niftyauto_ret_1d:L3,F|niftyauto_ret_1d,niftyauto_ret_1d,<=,-0.0029360882472246885,niftyauto_ret_1d in its low third (<= -0.00293609)
+niftyauto_ret_1d:H3,F|niftyauto_ret_1d,niftyauto_ret_1d,>,0.006024027243256569,niftyauto_ret_1d in its high third (> 0.00602403)
 niftyfmcg_ret_1d:up,F|niftyfmcg_ret_1d,niftyfmcg_ret_1d_change,>,0.0,niftyfmcg_ret_1d rose
 niftyfmcg_ret_1d:dn,F|niftyfmcg_ret_1d,niftyfmcg_ret_1d_change,<,0.0,niftyfmcg_ret_1d fell
-niftyfmcg_ret_1d:L3,F|niftyfmcg_ret_1d,niftyfmcg_ret_1d,<=,-0.0031216435600072145,niftyfmcg_ret_1d in its low third (<= -0.00312164)
-niftyfmcg_ret_1d:H3,F|niftyfmcg_ret_1d,niftyfmcg_ret_1d,>,0.003738911123946309,niftyfmcg_ret_1d in its high third (> 0.00373891)
+niftyfmcg_ret_1d:L3,F|niftyfmcg_ret_1d,niftyfmcg_ret_1d,<=,-0.002578041749075055,niftyfmcg_ret_1d in its low third (<= -0.00257804)
+niftyfmcg_ret_1d:H3,F|niftyfmcg_ret_1d,niftyfmcg_ret_1d,>,0.00424175476655364,niftyfmcg_ret_1d in its high third (> 0.00424175)
 niftyit_ret_1d:up,F|niftyit_ret_1d,niftyit_ret_1d_change,>,0.0,niftyit_ret_1d rose
 niftyit_ret_1d:dn,F|niftyit_ret_1d,niftyit_ret_1d_change,<,0.0,niftyit_ret_1d fell
-niftyit_ret_1d:L3,F|niftyit_ret_1d,niftyit_ret_1d,<=,-0.004212276544421911,niftyit_ret_1d in its low third (<= -0.00421228)
-niftyit_ret_1d:H3,F|niftyit_ret_1d,niftyit_ret_1d,>,0.005499330194046065,niftyit_ret_1d in its high third (> 0.00549933)
+niftyit_ret_1d:L3,F|niftyit_ret_1d,niftyit_ret_1d,<=,-0.00349217071197927,niftyit_ret_1d in its low third (<= -0.00349217)
+niftyit_ret_1d:H3,F|niftyit_ret_1d,niftyit_ret_1d,>,0.0062601142562925816,niftyit_ret_1d in its high third (> 0.00626011)
 niftymetal_ret_1d:up,F|niftymetal_ret_1d,niftymetal_ret_1d_change,>,0.0,niftymetal_ret_1d rose
 niftymetal_ret_1d:dn,F|niftymetal_ret_1d,niftymetal_ret_1d_change,<,0.0,niftymetal_ret_1d fell
-niftymetal_ret_1d:L3,F|niftymetal_ret_1d,niftymetal_ret_1d,<=,-0.0039952658116817474,niftymetal_ret_1d in its low third (<= -0.00399527)
-niftymetal_ret_1d:H3,F|niftymetal_ret_1d,niftymetal_ret_1d,>,0.007518533617258071,niftymetal_ret_1d in its high third (> 0.00751853)
+niftymetal_ret_1d:L3,F|niftymetal_ret_1d,niftymetal_ret_1d,<=,-0.004031726624816656,niftymetal_ret_1d in its low third (<= -0.00403173)
+niftymetal_ret_1d:H3,F|niftymetal_ret_1d,niftymetal_ret_1d,>,0.008254689164459705,niftymetal_ret_1d in its high third (> 0.00825469)
 niftypharma_ret_1d:up,F|niftypharma_ret_1d,niftypharma_ret_1d_change,>,0.0,niftypharma_ret_1d rose
 niftypharma_ret_1d:dn,F|niftypharma_ret_1d,niftypharma_ret_1d_change,<,0.0,niftypharma_ret_1d fell
-niftypharma_ret_1d:L3,F|niftypharma_ret_1d,niftypharma_ret_1d,<=,-0.002776267472654581,niftypharma_ret_1d in its low third (<= -0.00277627)
-niftypharma_ret_1d:H3,F|niftypharma_ret_1d,niftypharma_ret_1d,>,0.004343889188021421,niftypharma_ret_1d in its high third (> 0.00434389)
+niftypharma_ret_1d:L3,F|niftypharma_ret_1d,niftypharma_ret_1d,<=,-0.003118212101981044,niftypharma_ret_1d in its low third (<= -0.00311821)
+niftypharma_ret_1d:H3,F|niftypharma_ret_1d,niftypharma_ret_1d,>,0.004233730025589465,niftypharma_ret_1d in its high third (> 0.00423373)
 niftyrealty_ret_1d:up,F|niftyrealty_ret_1d,niftyrealty_ret_1d_change,>,0.0,niftyrealty_ret_1d rose
 niftyrealty_ret_1d:dn,F|niftyrealty_ret_1d,niftyrealty_ret_1d_change,<,0.0,niftyrealty_ret_1d fell
-niftyrealty_ret_1d:L3,F|niftyrealty_ret_1d,niftyrealty_ret_1d,<=,-0.0053310515359044075,niftyrealty_ret_1d in its low third (<= -0.00533105)
-niftyrealty_ret_1d:H3,F|niftyrealty_ret_1d,niftyrealty_ret_1d,>,0.007772540207952261,niftyrealty_ret_1d in its high third (> 0.00777254)
+niftyrealty_ret_1d:L3,F|niftyrealty_ret_1d,niftyrealty_ret_1d,<=,-0.005357908084988594,niftyrealty_ret_1d in its low third (<= -0.00535791)
+niftyrealty_ret_1d:H3,F|niftyrealty_ret_1d,niftyrealty_ret_1d,>,0.008503401651978493,niftyrealty_ret_1d in its high third (> 0.0085034)
 niftyenergy_ret_1d:up,F|niftyenergy_ret_1d,niftyenergy_ret_1d_change,>,0.0,niftyenergy_ret_1d rose
 niftyenergy_ret_1d:dn,F|niftyenergy_ret_1d,niftyenergy_ret_1d_change,<,0.0,niftyenergy_ret_1d fell
-niftyenergy_ret_1d:L3,F|niftyenergy_ret_1d,niftyenergy_ret_1d,<=,-0.003365515498444438,niftyenergy_ret_1d in its low third (<= -0.00336552)
-niftyenergy_ret_1d:H3,F|niftyenergy_ret_1d,niftyenergy_ret_1d,>,0.005556881427764893,niftyenergy_ret_1d in its high third (> 0.00555688)
+niftyenergy_ret_1d:L3,F|niftyenergy_ret_1d,niftyenergy_ret_1d,<=,-0.0032627161126583815,niftyenergy_ret_1d in its low third (<= -0.00326272)
+niftyenergy_ret_1d:H3,F|niftyenergy_ret_1d,niftyenergy_ret_1d,>,0.00626292685046792,niftyenergy_ret_1d in its high third (> 0.00626293)
 niftypsubank_ret_1d:up,F|niftypsubank_ret_1d,niftypsubank_ret_1d_change,>,0.0,niftypsubank_ret_1d rose
 niftypsubank_ret_1d:dn,F|niftypsubank_ret_1d,niftypsubank_ret_1d_change,<,0.0,niftypsubank_ret_1d fell
-niftypsubank_ret_1d:L3,F|niftypsubank_ret_1d,niftypsubank_ret_1d,<=,-0.004819734487682581,niftypsubank_ret_1d in its low third (<= -0.00481973)
-niftypsubank_ret_1d:H3,F|niftypsubank_ret_1d,niftypsubank_ret_1d,>,0.007108741439878941,niftypsubank_ret_1d in its high third (> 0.00710874)
+niftypsubank_ret_1d:L3,F|niftypsubank_ret_1d,niftypsubank_ret_1d,<=,-0.004918200895190239,niftypsubank_ret_1d in its low third (<= -0.0049182)
+niftypsubank_ret_1d:H3,F|niftypsubank_ret_1d,niftypsubank_ret_1d,>,0.007854187861084938,niftypsubank_ret_1d in its high third (> 0.00785419)
 niftyfinservice_ret_1d:up,F|niftyfinservice_ret_1d,niftyfinservice_ret_1d_change,>,0.0,niftyfinservice_ret_1d rose
 niftyfinservice_ret_1d:dn,F|niftyfinservice_ret_1d,niftyfinservice_ret_1d_change,<,0.0,niftyfinservice_ret_1d fell
-niftyfinservice_ret_1d:L3,F|niftyfinservice_ret_1d,niftyfinservice_ret_1d,<=,-0.003225191729143262,niftyfinservice_ret_1d in its low third (<= -0.00322519)
-niftyfinservice_ret_1d:H3,F|niftyfinservice_ret_1d,niftyfinservice_ret_1d,>,0.004625632272412367,niftyfinservice_ret_1d in its high third (> 0.00462563)
+niftyfinservice_ret_1d:L3,F|niftyfinservice_ret_1d,niftyfinservice_ret_1d,<=,-0.0032860212959349155,niftyfinservice_ret_1d in its low third (<= -0.00328602)
+niftyfinservice_ret_1d:H3,F|niftyfinservice_ret_1d,niftyfinservice_ret_1d,>,0.005556695628911257,niftyfinservice_ret_1d in its high third (> 0.0055567)
 niftymedia_ret_1d:up,F|niftymedia_ret_1d,niftymedia_ret_1d_change,>,0.0,niftymedia_ret_1d rose
 niftymedia_ret_1d:dn,F|niftymedia_ret_1d,niftymedia_ret_1d_change,<,0.0,niftymedia_ret_1d fell
-niftymedia_ret_1d:L3,F|niftymedia_ret_1d,niftymedia_ret_1d,<=,-0.005126690957695246,niftymedia_ret_1d in its low third (<= -0.00512669)
-niftymedia_ret_1d:H3,F|niftymedia_ret_1d,niftymedia_ret_1d,>,0.006328488544871372,niftymedia_ret_1d in its high third (> 0.00632849)
+niftymedia_ret_1d:L3,F|niftymedia_ret_1d,niftymedia_ret_1d,<=,-0.004863973396519822,niftymedia_ret_1d in its low third (<= -0.00486397)
+niftymedia_ret_1d:H3,F|niftymedia_ret_1d,niftymedia_ret_1d,>,0.006796997971832752,niftymedia_ret_1d in its high third (> 0.006797)
 niftyconsumption_ret_1d:up,F|niftyconsumption_ret_1d,niftyconsumption_ret_1d_change,>,0.0,niftyconsumption_ret_1d rose
 niftyconsumption_ret_1d:dn,F|niftyconsumption_ret_1d,niftyconsumption_ret_1d_change,<,0.0,niftyconsumption_ret_1d fell
-niftyconsumption_ret_1d:L3,F|niftyconsumption_ret_1d,niftyconsumption_ret_1d,<=,-0.002069588750600815,niftyconsumption_ret_1d in its low third (<= -0.00206959)
-niftyconsumption_ret_1d:H3,F|niftyconsumption_ret_1d,niftyconsumption_ret_1d,>,0.004157694677511844,niftyconsumption_ret_1d in its high third (> 0.00415769)
+niftyconsumption_ret_1d:L3,F|niftyconsumption_ret_1d,niftyconsumption_ret_1d,<=,-0.001569363521412015,niftyconsumption_ret_1d in its low third (<= -0.00156936)
+niftyconsumption_ret_1d:H3,F|niftyconsumption_ret_1d,niftyconsumption_ret_1d,>,0.004522557836025953,niftyconsumption_ret_1d in its high third (> 0.00452256)
 niftyinfra_ret_1d:up,F|niftyinfra_ret_1d,niftyinfra_ret_1d_change,>,0.0,niftyinfra_ret_1d rose
 niftyinfra_ret_1d:dn,F|niftyinfra_ret_1d,niftyinfra_ret_1d_change,<,0.0,niftyinfra_ret_1d fell
-niftyinfra_ret_1d:L3,F|niftyinfra_ret_1d,niftyinfra_ret_1d,<=,-0.00255262921564281,niftyinfra_ret_1d in its low third (<= -0.00255263)
-niftyinfra_ret_1d:H3,F|niftyinfra_ret_1d,niftyinfra_ret_1d,>,0.005002498626708984,niftyinfra_ret_1d in its high third (> 0.0050025)
+niftyinfra_ret_1d:L3,F|niftyinfra_ret_1d,niftyinfra_ret_1d,<=,-0.0023073554039001465,niftyinfra_ret_1d in its low third (<= -0.00230736)
+niftyinfra_ret_1d:H3,F|niftyinfra_ret_1d,niftyinfra_ret_1d,>,0.00584067590534687,niftyinfra_ret_1d in its high third (> 0.00584068)
 usdinr_ret_1d:up,F|usdinr_ret_1d,usdinr_ret_1d_change,>,0.0,usdinr_ret_1d rose
 usdinr_ret_1d:dn,F|usdinr_ret_1d,usdinr_ret_1d_change,<,0.0,usdinr_ret_1d fell
 usdinr_ret_1d:L3,F|usdinr_ret_1d,usdinr_ret_1d,<=,0.0,usdinr_ret_1d in its low third (<= 0)
-usdinr_ret_1d:H3,F|usdinr_ret_1d,usdinr_ret_1d,>,0.0,usdinr_ret_1d in its high third (> 0)
+usdinr_ret_1d:H3,F|usdinr_ret_1d,usdinr_ret_1d,>,0.0005309181869961321,usdinr_ret_1d in its high third (> 0.000530918)
 crudeoil_ret_1d:up,F|crudeoil_ret_1d,crudeoil_ret_1d_change,>,0.0,crudeoil_ret_1d rose
 crudeoil_ret_1d:dn,F|crudeoil_ret_1d,crudeoil_ret_1d_change,<,0.0,crudeoil_ret_1d fell
-crudeoil_ret_1d:L3,F|crudeoil_ret_1d,crudeoil_ret_1d,<=,-0.006432459224015474,crudeoil_ret_1d in its low third (<= -0.00643246)
-crudeoil_ret_1d:H3,F|crudeoil_ret_1d,crudeoil_ret_1d,>,0.01071337424218654,crudeoil_ret_1d in its high third (> 0.0107134)
+crudeoil_ret_1d:L3,F|crudeoil_ret_1d,crudeoil_ret_1d,<=,-0.00654664495959878,crudeoil_ret_1d in its low third (<= -0.00654664)
+crudeoil_ret_1d:H3,F|crudeoil_ret_1d,crudeoil_ret_1d,>,0.011694994755089283,crudeoil_ret_1d in its high third (> 0.011695)
 gold_ret_1d:up,F|gold_ret_1d,gold_ret_1d_change,>,0.0,gold_ret_1d rose
 gold_ret_1d:dn,F|gold_ret_1d,gold_ret_1d_change,<,0.0,gold_ret_1d fell
-gold_ret_1d:L3,F|gold_ret_1d,gold_ret_1d,<=,-0.0019444675417616963,gold_ret_1d in its low third (<= -0.00194447)
-gold_ret_1d:H3,F|gold_ret_1d,gold_ret_1d,>,0.003839025739580393,gold_ret_1d in its high third (> 0.00383903)
+gold_ret_1d:L3,F|gold_ret_1d,gold_ret_1d,<=,-0.0017995290691033006,gold_ret_1d in its low third (<= -0.00179953)
+gold_ret_1d:H3,F|gold_ret_1d,gold_ret_1d,>,0.0031396299600601196,gold_ret_1d in its high third (> 0.00313963)
 soul_p_tp:up,F|soul_p_tp,soul_p_tp_change,>,0.0,soul_p_tp rose [Soul]
 soul_p_tp:dn,F|soul_p_tp,soul_p_tp_change,<,0.0,soul_p_tp fell [Soul]
-soul_p_tp:L3,F|soul_p_tp,soul_p_tp,<=,0.28339510162671405,soul_p_tp in its low third (<= 0.283395) [Soul]
-soul_p_tp:H3,F|soul_p_tp,soul_p_tp,>,0.31562332312266034,soul_p_tp in its high third (> 0.315623) [Soul]
+soul_p_tp:L3,F|soul_p_tp,soul_p_tp,<=,0.2833532889684041,soul_p_tp in its low third (<= 0.283353) [Soul]
+soul_p_tp:H3,F|soul_p_tp,soul_p_tp,>,0.31553303201993305,soul_p_tp in its high third (> 0.315533) [Soul]
 soul_p_tp_vs_market:up,F|soul_p_tp_vs_market,soul_p_tp_vs_market_change,>,0.0,soul_p_tp_vs_market rose [Soul]
 soul_p_tp_vs_market:dn,F|soul_p_tp_vs_market,soul_p_tp_vs_market_change,<,0.0,soul_p_tp_vs_market fell [Soul]
-soul_p_tp_vs_market:L3,F|soul_p_tp_vs_market,soul_p_tp_vs_market,<=,-0.005354803676406548,soul_p_tp_vs_market in its low third (<= -0.0053548) [Soul]
-soul_p_tp_vs_market:H3,F|soul_p_tp_vs_market,soul_p_tp_vs_market,>,0.022777277355392762,soul_p_tp_vs_market in its high third (> 0.0227773) [Soul]
+soul_p_tp_vs_market:L3,F|soul_p_tp_vs_market,soul_p_tp_vs_market,<=,-0.005250776652246721,soul_p_tp_vs_market in its low third (<= -0.00525078) [Soul]
+soul_p_tp_vs_market:H3,F|soul_p_tp_vs_market,soul_p_tp_vs_market,>,0.023410398513078686,soul_p_tp_vs_market in its high third (> 0.0234104) [Soul]
 soul_p_ret:up,F|soul_p_ret,soul_p_ret_change,>,0.0,soul_p_ret rose [Soul]
 soul_p_ret:dn,F|soul_p_ret,soul_p_ret_change,<,0.0,soul_p_ret fell [Soul]
-soul_p_ret:L3,F|soul_p_ret,soul_p_ret,<=,0.001794387896855672,soul_p_ret in its low third (<= 0.00179439) [Soul]
-soul_p_ret:H3,F|soul_p_ret,soul_p_ret,>,0.005100636122127374,soul_p_ret in its high third (> 0.00510064) [Soul]
+soul_p_ret:L3,F|soul_p_ret,soul_p_ret,<=,0.0019827800182004762,soul_p_ret in its low third (<= 0.00198278) [Soul]
+soul_p_ret:H3,F|soul_p_ret,soul_p_ret,>,0.005180669638017814,soul_p_ret in its high third (> 0.00518067) [Soul]
 soul_p_ret_vs_market:up,F|soul_p_ret_vs_market,soul_p_ret_vs_market_change,>,0.0,soul_p_ret_vs_market rose [Soul]
 soul_p_ret_vs_market:dn,F|soul_p_ret_vs_market,soul_p_ret_vs_market_change,<,0.0,soul_p_ret_vs_market fell [Soul]
-soul_p_ret_vs_market:L3,F|soul_p_ret_vs_market,soul_p_ret_vs_market,<=,-0.0008936319500207901,soul_p_ret_vs_market in its low third (<= -0.000893632) [Soul]
-soul_p_ret_vs_market:H3,F|soul_p_ret_vs_market,soul_p_ret_vs_market,>,0.0020932961100091525,soul_p_ret_vs_market in its high third (> 0.0020933) [Soul]
+soul_p_ret_vs_market:L3,F|soul_p_ret_vs_market,soul_p_ret_vs_market,<=,-0.0009372048273993036,soul_p_ret_vs_market in its low third (<= -0.000937205) [Soul]
+soul_p_ret_vs_market:H3,F|soul_p_ret_vs_market,soul_p_ret_vs_market,>,0.0020552536007016884,soul_p_ret_vs_market in its high third (> 0.00205525) [Soul]
 soul_p_mfe:up,F|soul_p_mfe,soul_p_mfe_change,>,0.0,soul_p_mfe rose [Soul]
 soul_p_mfe:dn,F|soul_p_mfe,soul_p_mfe_change,<,0.0,soul_p_mfe fell [Soul]
-soul_p_mfe:L3,F|soul_p_mfe,soul_p_mfe,<=,0.051876284182071686,soul_p_mfe in its low third (<= 0.0518763) [Soul]
-soul_p_mfe:H3,F|soul_p_mfe,soul_p_mfe,>,0.06456270565589269,soul_p_mfe in its high third (> 0.0645627) [Soul]
+soul_p_mfe:L3,F|soul_p_mfe,soul_p_mfe,<=,0.051552118112643555,soul_p_mfe in its low third (<= 0.0515521) [Soul]
+soul_p_mfe:H3,F|soul_p_mfe,soul_p_mfe,>,0.06596709787845612,soul_p_mfe in its high third (> 0.0659671) [Soul]
 soul_p_mae:up,F|soul_p_mae,soul_p_mae_change,>,0.0,soul_p_mae rose [Soul]
 soul_p_mae:dn,F|soul_p_mae,soul_p_mae_change,<,0.0,soul_p_mae fell [Soul]
-soul_p_mae:L3,F|soul_p_mae,soul_p_mae,<=,-0.04711916918555895,soul_p_mae in its low third (<= -0.0471192) [Soul]
-soul_p_mae:H3,F|soul_p_mae,soul_p_mae,>,-0.04022340476512909,soul_p_mae in its high third (> -0.0402234) [Soul]
+soul_p_mae:L3,F|soul_p_mae,soul_p_mae,<=,-0.04814815272887548,soul_p_mae in its low third (<= -0.0481482) [Soul]
+soul_p_mae:H3,F|soul_p_mae,soul_p_mae,>,-0.039841561267773315,soul_p_mae in its high third (> -0.0398416) [Soul]
 soul_p_sl:up,F|soul_p_sl,soul_p_sl_change,>,0.0,soul_p_sl rose [Soul]
 soul_p_sl:dn,F|soul_p_sl,soul_p_sl_change,<,0.0,soul_p_sl fell [Soul]
-soul_p_sl:L3,F|soul_p_sl,soul_p_sl,<=,0.37920400500297546,soul_p_sl in its low third (<= 0.379204) [Soul]
-soul_p_sl:H3,F|soul_p_sl,soul_p_sl,>,0.4147599438826243,soul_p_sl in its high third (> 0.41476) [Soul]
+soul_p_sl:L3,F|soul_p_sl,soul_p_sl,<=,0.3769155542055766,soul_p_sl in its low third (<= 0.376916) [Soul]
+soul_p_sl:H3,F|soul_p_sl,soul_p_sl,>,0.4095752437909444,soul_p_sl in its high third (> 0.409575) [Soul]
 soul_p_neff:up,F|soul_p_neff,soul_p_neff_change,>,0.0,soul_p_neff rose [Soul]
 soul_p_neff:dn,F|soul_p_neff,soul_p_neff_change,<,0.0,soul_p_neff fell [Soul]
 soul_p_neff:L3,F|soul_p_neff,soul_p_neff,<=,100.0,soul_p_neff in its low third (<= 100) [Soul]
 soul_p_neff:H3,F|soul_p_neff,soul_p_neff,>,100.0,soul_p_neff in its high third (> 100) [Soul]
 soul_m_self_tp:up,F|soul_m_self_tp,soul_m_self_tp_change,>,0.0,soul_m_self_tp rose [Soul]
 soul_m_self_tp:dn,F|soul_m_self_tp,soul_m_self_tp_change,<,0.0,soul_m_self_tp fell [Soul]
-soul_m_self_tp:L3,F|soul_m_self_tp,soul_m_self_tp,<=,0.22068504492441804,soul_m_self_tp in its low third (<= 0.220685) [Soul]
-soul_m_self_tp:H3,F|soul_m_self_tp,soul_m_self_tp,>,0.35084664821624756,soul_m_self_tp in its high third (> 0.350847) [Soul]
+soul_m_self_tp:L3,F|soul_m_self_tp,soul_m_self_tp,<=,0.22836940487225843,soul_m_self_tp in its low third (<= 0.228369) [Soul]
+soul_m_self_tp:H3,F|soul_m_self_tp,soul_m_self_tp,>,0.35403178135554,soul_m_self_tp in its high third (> 0.354032) [Soul]
 soul_m_self_ret:up,F|soul_m_self_ret,soul_m_self_ret_change,>,0.0,soul_m_self_ret rose [Soul]
 soul_m_self_ret:dn,F|soul_m_self_ret,soul_m_self_ret_change,<,0.0,soul_m_self_ret fell [Soul]
-soul_m_self_ret:L3,F|soul_m_self_ret,soul_m_self_ret,<=,-0.0032972702756524108,soul_m_self_ret in its low third (<= -0.00329727) [Soul]
-soul_m_self_ret:H3,F|soul_m_self_ret,soul_m_self_ret,>,0.009731535489360486,soul_m_self_ret in its high third (> 0.00973154) [Soul]
+soul_m_self_ret:L3,F|soul_m_self_ret,soul_m_self_ret,<=,-0.003230478925009571,soul_m_self_ret in its low third (<= -0.00323048) [Soul]
+soul_m_self_ret:H3,F|soul_m_self_ret,soul_m_self_ret,>,0.009336596665283045,soul_m_self_ret in its high third (> 0.0093366) [Soul]
 soul_m_self_mfe:up,F|soul_m_self_mfe,soul_m_self_mfe_change,>,0.0,soul_m_self_mfe rose [Soul]
 soul_m_self_mfe:dn,F|soul_m_self_mfe,soul_m_self_mfe_change,<,0.0,soul_m_self_mfe fell [Soul]
-soul_m_self_mfe:L3,F|soul_m_self_mfe,soul_m_self_mfe,<=,0.046755123883485794,soul_m_self_mfe in its low third (<= 0.0467551) [Soul]
-soul_m_self_mfe:H3,F|soul_m_self_mfe,soul_m_self_mfe,>,0.06860458354155223,soul_m_self_mfe in its high third (> 0.0686046) [Soul]
+soul_m_self_mfe:L3,F|soul_m_self_mfe,soul_m_self_mfe,<=,0.04471933344999949,soul_m_self_mfe in its low third (<= 0.0447193) [Soul]
+soul_m_self_mfe:H3,F|soul_m_self_mfe,soul_m_self_mfe,>,0.06724976748228073,soul_m_self_mfe in its high third (> 0.0672498) [Soul]
 soul_m_self_mae:up,F|soul_m_self_mae,soul_m_self_mae_change,>,0.0,soul_m_self_mae rose [Soul]
 soul_m_self_mae:dn,F|soul_m_self_mae,soul_m_self_mae_change,<,0.0,soul_m_self_mae fell [Soul]
-soul_m_self_mae:L3,F|soul_m_self_mae,soul_m_self_mae,<=,-0.05139203742146493,soul_m_self_mae in its low third (<= -0.051392) [Soul]
-soul_m_self_mae:H3,F|soul_m_self_mae,soul_m_self_mae,>,-0.03496098518371582,soul_m_self_mae in its high third (> -0.034961) [Soul]
+soul_m_self_mae:L3,F|soul_m_self_mae,soul_m_self_mae,<=,-0.050935751448074974,soul_m_self_mae in its low third (<= -0.0509358) [Soul]
+soul_m_self_mae:H3,F|soul_m_self_mae,soul_m_self_mae,>,-0.03333954388896624,soul_m_self_mae in its high third (> -0.0333395) [Soul]
 soul_m_self_sl:up,F|soul_m_self_sl,soul_m_self_sl_change,>,0.0,soul_m_self_sl rose [Soul]
 soul_m_self_sl:dn,F|soul_m_self_sl,soul_m_self_sl_change,<,0.0,soul_m_self_sl fell [Soul]
-soul_m_self_sl:L3,F|soul_m_self_sl,soul_m_self_sl,<=,0.3099963665008545,soul_m_self_sl in its low third (<= 0.309996) [Soul]
-soul_m_self_sl:H3,F|soul_m_self_sl,soul_m_self_sl,>,0.45438148578008014,soul_m_self_sl in its high third (> 0.454381) [Soul]
+soul_m_self_sl:L3,F|soul_m_self_sl,soul_m_self_sl,<=,0.31004875898361206,soul_m_self_sl in its low third (<= 0.310049) [Soul]
+soul_m_self_sl:H3,F|soul_m_self_sl,soul_m_self_sl,>,0.46002691984176636,soul_m_self_sl in its high third (> 0.460027) [Soul]
 soul_m_cross_tp:up,F|soul_m_cross_tp,soul_m_cross_tp_change,>,0.0,soul_m_cross_tp rose [Soul]
 soul_m_cross_tp:dn,F|soul_m_cross_tp,soul_m_cross_tp_change,<,0.0,soul_m_cross_tp fell [Soul]
-soul_m_cross_tp:L3,F|soul_m_cross_tp,soul_m_cross_tp,<=,0.25476757685343426,soul_m_cross_tp in its low third (<= 0.254768) [Soul]
-soul_m_cross_tp:H3,F|soul_m_cross_tp,soul_m_cross_tp,>,0.32503153880437213,soul_m_cross_tp in its high third (> 0.325032) [Soul]
+soul_m_cross_tp:L3,F|soul_m_cross_tp,soul_m_cross_tp,<=,0.25886114438374835,soul_m_cross_tp in its low third (<= 0.258861) [Soul]
+soul_m_cross_tp:H3,F|soul_m_cross_tp,soul_m_cross_tp,>,0.3322564860184987,soul_m_cross_tp in its high third (> 0.332256) [Soul]
 soul_m_cross_ret:up,F|soul_m_cross_ret,soul_m_cross_ret_change,>,0.0,soul_m_cross_ret rose [Soul]
 soul_m_cross_ret:dn,F|soul_m_cross_ret,soul_m_cross_ret_change,<,0.0,soul_m_cross_ret fell [Soul]
-soul_m_cross_ret:L3,F|soul_m_cross_ret,soul_m_cross_ret,<=,0.00046587057295255303,soul_m_cross_ret in its low third (<= 0.000465871) [Soul]
-soul_m_cross_ret:H3,F|soul_m_cross_ret,soul_m_cross_ret,>,0.00647302670404315,soul_m_cross_ret in its high third (> 0.00647303) [Soul]
+soul_m_cross_ret:L3,F|soul_m_cross_ret,soul_m_cross_ret,<=,0.0004573468274126445,soul_m_cross_ret in its low third (<= 0.000457347) [Soul]
+soul_m_cross_ret:H3,F|soul_m_cross_ret,soul_m_cross_ret,>,0.006087845036139091,soul_m_cross_ret in its high third (> 0.00608785) [Soul]
 soul_m_cross_mfe:up,F|soul_m_cross_mfe,soul_m_cross_mfe_change,>,0.0,soul_m_cross_mfe rose [Soul]
 soul_m_cross_mfe:dn,F|soul_m_cross_mfe,soul_m_cross_mfe_change,<,0.0,soul_m_cross_mfe fell [Soul]
-soul_m_cross_mfe:L3,F|soul_m_cross_mfe,soul_m_cross_mfe,<=,0.049981631338596344,soul_m_cross_mfe in its low third (<= 0.0499816) [Soul]
-soul_m_cross_mfe:H3,F|soul_m_cross_mfe,soul_m_cross_mfe,>,0.0650470107793808,soul_m_cross_mfe in its high third (> 0.065047) [Soul]
+soul_m_cross_mfe:L3,F|soul_m_cross_mfe,soul_m_cross_mfe,<=,0.046645080049832664,soul_m_cross_mfe in its low third (<= 0.0466451) [Soul]
+soul_m_cross_mfe:H3,F|soul_m_cross_mfe,soul_m_cross_mfe,>,0.06299258520205815,soul_m_cross_mfe in its high third (> 0.0629926) [Soul]
 soul_m_cross_mae:up,F|soul_m_cross_mae,soul_m_cross_mae_change,>,0.0,soul_m_cross_mae rose [Soul]
 soul_m_cross_mae:dn,F|soul_m_cross_mae,soul_m_cross_mae_change,<,0.0,soul_m_cross_mae fell [Soul]
-soul_m_cross_mae:L3,F|soul_m_cross_mae,soul_m_cross_mae,<=,-0.050459216038386025,soul_m_cross_mae in its low third (<= -0.0504592) [Soul]
-soul_m_cross_mae:H3,F|soul_m_cross_mae,soul_m_cross_mae,>,-0.03871256237228712,soul_m_cross_mae in its high third (> -0.0387126) [Soul]
+soul_m_cross_mae:L3,F|soul_m_cross_mae,soul_m_cross_mae,<=,-0.049434018631776176,soul_m_cross_mae in its low third (<= -0.049434) [Soul]
+soul_m_cross_mae:H3,F|soul_m_cross_mae,soul_m_cross_mae,>,-0.036256175488233566,soul_m_cross_mae in its high third (> -0.0362562) [Soul]
 soul_m_cross_sl:up,F|soul_m_cross_sl,soul_m_cross_sl_change,>,0.0,soul_m_cross_sl rose [Soul]
 soul_m_cross_sl:dn,F|soul_m_cross_sl,soul_m_cross_sl_change,<,0.0,soul_m_cross_sl fell [Soul]
-soul_m_cross_sl:L3,F|soul_m_cross_sl,soul_m_cross_sl,<=,0.3538185159365336,soul_m_cross_sl in its low third (<= 0.353819) [Soul]
-soul_m_cross_sl:H3,F|soul_m_cross_sl,soul_m_cross_sl,>,0.42441055178642273,soul_m_cross_sl in its high third (> 0.424411) [Soul]
+soul_m_cross_sl:L3,F|soul_m_cross_sl,soul_m_cross_sl,<=,0.3599213461081187,soul_m_cross_sl in its low third (<= 0.359921) [Soul]
+soul_m_cross_sl:H3,F|soul_m_cross_sl,soul_m_cross_sl,>,0.43225043018658954,soul_m_cross_sl in its high third (> 0.43225) [Soul]
 soul_m_self_n:up,F|soul_m_self_n,soul_m_self_n_change,>,0.0,soul_m_self_n rose [Soul]
 soul_m_self_n:dn,F|soul_m_self_n,soul_m_self_n_change,<,0.0,soul_m_self_n fell [Soul]
-soul_m_self_n:L3,F|soul_m_self_n,soul_m_self_n,<=,691.6666666666661,soul_m_self_n in its low third (<= 691.667) [Soul]
-soul_m_self_n:H3,F|soul_m_self_n,soul_m_self_n,>,1278.0,soul_m_self_n in its high third (> 1278) [Soul]
+soul_m_self_n:L3,F|soul_m_self_n,soul_m_self_n,<=,646.6666666666665,soul_m_self_n in its low third (<= 646.667) [Soul]
+soul_m_self_n:H3,F|soul_m_self_n,soul_m_self_n,>,1126.0,soul_m_self_n in its high third (> 1126) [Soul]
 soul_m_self_dist:up,F|soul_m_self_dist,soul_m_self_dist_change,>,0.0,soul_m_self_dist rose [Soul]
 soul_m_self_dist:dn,F|soul_m_self_dist,soul_m_self_dist_change,<,0.0,soul_m_self_dist fell [Soul]
-soul_m_self_dist:L3,F|soul_m_self_dist,soul_m_self_dist,<=,0.4901629090309143,soul_m_self_dist in its low third (<= 0.490163) [Soul]
-soul_m_self_dist:H3,F|soul_m_self_dist,soul_m_self_dist,>,0.6075713237126669,soul_m_self_dist in its high third (> 0.607571) [Soul]
+soul_m_self_dist:L3,F|soul_m_self_dist,soul_m_self_dist,<=,0.4955225388209025,soul_m_self_dist in its low third (<= 0.495523) [Soul]
+soul_m_self_dist:H3,F|soul_m_self_dist,soul_m_self_dist,>,0.6141741077105204,soul_m_self_dist in its high third (> 0.614174) [Soul]
 soul_m_cross_dist:up,F|soul_m_cross_dist,soul_m_cross_dist_change,>,0.0,soul_m_cross_dist rose [Soul]
 soul_m_cross_dist:dn,F|soul_m_cross_dist,soul_m_cross_dist_change,<,0.0,soul_m_cross_dist fell [Soul]
-soul_m_cross_dist:L3,F|soul_m_cross_dist,soul_m_cross_dist,<=,0.2778448263804118,soul_m_cross_dist in its low third (<= 0.277845) [Soul]
-soul_m_cross_dist:H3,F|soul_m_cross_dist,soul_m_cross_dist,>,0.3141597509384155,soul_m_cross_dist in its high third (> 0.31416) [Soul]
+soul_m_cross_dist:L3,F|soul_m_cross_dist,soul_m_cross_dist,<=,0.2794812818368276,soul_m_cross_dist in its low third (<= 0.279481) [Soul]
+soul_m_cross_dist:H3,F|soul_m_cross_dist,soul_m_cross_dist,>,0.31531007091204327,soul_m_cross_dist in its high third (> 0.31531) [Soul]
 soul_m_tp:up,F|soul_m_tp,soul_m_tp_change,>,0.0,soul_m_tp rose [Soul]
 soul_m_tp:dn,F|soul_m_tp,soul_m_tp_change,<,0.0,soul_m_tp fell [Soul]
-soul_m_tp:L3,F|soul_m_tp,soul_m_tp,<=,0.22890774408976236,soul_m_tp in its low third (<= 0.228908) [Soul]
-soul_m_tp:H3,F|soul_m_tp,soul_m_tp,>,0.34554707010587055,soul_m_tp in its high third (> 0.345547) [Soul]
+soul_m_tp:L3,F|soul_m_tp,soul_m_tp,<=,0.23437135418256125,soul_m_tp in its low third (<= 0.234371) [Soul]
+soul_m_tp:H3,F|soul_m_tp,soul_m_tp,>,0.3486856321493784,soul_m_tp in its high third (> 0.348686) [Soul]
 soul_m_ret:up,F|soul_m_ret,soul_m_ret_change,>,0.0,soul_m_ret rose [Soul]
 soul_m_ret:dn,F|soul_m_ret,soul_m_ret_change,<,0.0,soul_m_ret fell [Soul]
-soul_m_ret:L3,F|soul_m_ret,soul_m_ret,<=,-0.002632572936515014,soul_m_ret in its low third (<= -0.00263257) [Soul]
-soul_m_ret:H3,F|soul_m_ret,soul_m_ret,>,0.009039553503195444,soul_m_ret in its high third (> 0.00903955) [Soul]
+soul_m_ret:L3,F|soul_m_ret,soul_m_ret,<=,-0.00255522046548625,soul_m_ret in its low third (<= -0.00255522) [Soul]
+soul_m_ret:H3,F|soul_m_ret,soul_m_ret,>,0.008721540992458662,soul_m_ret in its high third (> 0.00872154) [Soul]
 soul_m_mfe:up,F|soul_m_mfe,soul_m_mfe_change,>,0.0,soul_m_mfe rose [Soul]
 soul_m_mfe:dn,F|soul_m_mfe,soul_m_mfe_change,<,0.0,soul_m_mfe fell [Soul]
-soul_m_mfe:L3,F|soul_m_mfe,soul_m_mfe,<=,0.04780074333151181,soul_m_mfe in its low third (<= 0.0478007) [Soul]
-soul_m_mfe:H3,F|soul_m_mfe,soul_m_mfe,>,0.06811664501825969,soul_m_mfe in its high third (> 0.0681166) [Soul]
+soul_m_mfe:L3,F|soul_m_mfe,soul_m_mfe,<=,0.045895110815763474,soul_m_mfe in its low third (<= 0.0458951) [Soul]
+soul_m_mfe:H3,F|soul_m_mfe,soul_m_mfe,>,0.06684895356496175,soul_m_mfe in its high third (> 0.066849) [Soul]
 soul_m_mae:up,F|soul_m_mae,soul_m_mae_change,>,0.0,soul_m_mae rose [Soul]
 soul_m_mae:dn,F|soul_m_mae,soul_m_mae_change,<,0.0,soul_m_mae fell [Soul]
-soul_m_mae:L3,F|soul_m_mae,soul_m_mae,<=,-0.05134569605191549,soul_m_mae in its low third (<= -0.0513457) [Soul]
-soul_m_mae:H3,F|soul_m_mae,soul_m_mae,>,-0.036044412602980934,soul_m_mae in its high third (> -0.0360444) [Soul]
+soul_m_mae:L3,F|soul_m_mae,soul_m_mae,<=,-0.05069484685858091,soul_m_mae in its low third (<= -0.0506948) [Soul]
+soul_m_mae:H3,F|soul_m_mae,soul_m_mae,>,-0.034467646231253944,soul_m_mae in its high third (> -0.0344676) [Soul]
 soul_m_sl:up,F|soul_m_sl,soul_m_sl_change,>,0.0,soul_m_sl rose [Soul]
 soul_m_sl:dn,F|soul_m_sl,soul_m_sl_change,<,0.0,soul_m_sl fell [Soul]
-soul_m_sl:L3,F|soul_m_sl,soul_m_sl,<=,0.3206444978713989,soul_m_sl in its low third (<= 0.320644) [Soul]
-soul_m_sl:H3,F|soul_m_sl,soul_m_sl,>,0.4492220381895701,soul_m_sl in its high third (> 0.449222) [Soul]
+soul_m_sl:L3,F|soul_m_sl,soul_m_sl,<=,0.324147234360377,soul_m_sl in its low third (<= 0.324147) [Soul]
+soul_m_sl:H3,F|soul_m_sl,soul_m_sl,>,0.4535304307937622,soul_m_sl in its high third (> 0.45353) [Soul]
 soul_m_gap_tp:up,F|soul_m_gap_tp,soul_m_gap_tp_change,>,0.0,soul_m_gap_tp rose [Soul]
 soul_m_gap_tp:dn,F|soul_m_gap_tp,soul_m_gap_tp_change,<,0.0,soul_m_gap_tp fell [Soul]
-soul_m_gap_tp:L3,F|soul_m_gap_tp,soul_m_gap_tp,<=,-0.07248407105604808,soul_m_gap_tp in its low third (<= -0.0724841) [Soul]
-soul_m_gap_tp:H3,F|soul_m_gap_tp,soul_m_gap_tp,>,0.06593097249666838,soul_m_gap_tp in its high third (> 0.065931) [Soul]
+soul_m_gap_tp:L3,F|soul_m_gap_tp,soul_m_gap_tp,<=,-0.0723753273487091,soul_m_gap_tp in its low third (<= -0.0723753) [Soul]
+soul_m_gap_tp:H3,F|soul_m_gap_tp,soul_m_gap_tp,>,0.065384437640508,soul_m_gap_tp in its high third (> 0.0653844) [Soul]
 soul_m_gap_ret:up,F|soul_m_gap_ret,soul_m_gap_ret_change,>,0.0,soul_m_gap_ret rose [Soul]
 soul_m_gap_ret:dn,F|soul_m_gap_ret,soul_m_gap_ret_change,<,0.0,soul_m_gap_ret fell [Soul]
-soul_m_gap_ret:L3,F|soul_m_gap_ret,soul_m_gap_ret,<=,-0.007141959077368181,soul_m_gap_ret in its low third (<= -0.00714196) [Soul]
-soul_m_gap_ret:H3,F|soul_m_gap_ret,soul_m_gap_ret,>,0.006864750602593021,soul_m_gap_ret in its high third (> 0.00686475) [Soul]
+soul_m_gap_ret:L3,F|soul_m_gap_ret,soul_m_gap_ret,<=,-0.006616191317637761,soul_m_gap_ret in its low third (<= -0.00661619) [Soul]
+soul_m_gap_ret:H3,F|soul_m_gap_ret,soul_m_gap_ret,>,0.006718559501071771,soul_m_gap_ret in its high third (> 0.00671856) [Soul]
 soul_m_tp_se:up,F|soul_m_tp_se,soul_m_tp_se_change,>,0.0,soul_m_tp_se rose [Soul]
 soul_m_tp_se:dn,F|soul_m_tp_se,soul_m_tp_se_change,<,0.0,soul_m_tp_se fell [Soul]
-soul_m_tp_se:L3,F|soul_m_tp_se,soul_m_tp_se,<=,0.026083392401536305,soul_m_tp_se in its low third (<= 0.0260834) [Soul]
-soul_m_tp_se:H3,F|soul_m_tp_se,soul_m_tp_se,>,0.03683762376507123,soul_m_tp_se in its high third (> 0.0368376) [Soul]
+soul_m_tp_se:L3,F|soul_m_tp_se,soul_m_tp_se,<=,0.027920808643102646,soul_m_tp_se in its low third (<= 0.0279208) [Soul]
+soul_m_tp_se:H3,F|soul_m_tp_se,soul_m_tp_se,>,0.038626335561275475,soul_m_tp_se in its high third (> 0.0386263) [Soul]
 dw_ret_13w:up,F|dw_ret_13w,dw_ret_13w_change,>,0.0,dw_ret_13w rose
 dw_ret_13w:dn,F|dw_ret_13w,dw_ret_13w_change,<,0.0,dw_ret_13w fell
-dw_ret_13w:L3,F|dw_ret_13w,dw_ret_13w,<=,-7.760124142622898,dw_ret_13w in its low third (<= -7.76012)
-dw_ret_13w:H3,F|dw_ret_13w,dw_ret_13w,>,0.84507447715354,dw_ret_13w in its high third (> 0.845074)
+dw_ret_13w:L3,F|dw_ret_13w,dw_ret_13w,<=,-7.1620176356134975,dw_ret_13w in its low third (<= -7.16202)
+dw_ret_13w:H3,F|dw_ret_13w,dw_ret_13w,>,1.3363366364851708,dw_ret_13w in its high third (> 1.33634)
 dw_ret_13w<0,F|dw_ret_13w,dw_ret_13w,<,0.0,the 13-week return (close / close 65 sessions before - 1) is lower than it was 5 sessions before
 d_ret_5s:up,F|d_ret_5s,d_ret_5s_change,>,0.0,d_ret_5s rose
 d_ret_5s:dn,F|d_ret_5s,d_ret_5s_change,<,0.0,d_ret_5s fell
-d_ret_5s:L3,F|d_ret_5s,d_ret_5s,<=,-5.6026647503437275,d_ret_5s in its low third (<= -5.60266)
-d_ret_5s:H3,F|d_ret_5s,d_ret_5s,>,0.7406977131934204,d_ret_5s in its high third (> 0.740698)
+d_ret_5s:L3,F|d_ret_5s,d_ret_5s,<=,-3.886563172277458,d_ret_5s in its low third (<= -3.88656)
+d_ret_5s:H3,F|d_ret_5s,d_ret_5s,>,1.1552170997949354,d_ret_5s in its high third (> 1.15522)
 d_ret_5s<0,F|d_ret_5s,d_ret_5s,<,0.0,the last 5 sessions fell (close / close 5 sessions before - 1 is below 0)
 dip1,P|dip,pc_vs_d1,<,-1.0,the previous close at least 1% under the D1 open
 dip2,P|dip,pc_vs_d1,<,-2.0,the previous close at least 2% under the D1 open
